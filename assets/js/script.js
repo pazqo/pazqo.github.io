@@ -58,3 +58,13 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+const skillBars = document.querySelectorAll(".skills-item data");
+const skillProgressBars = document.querySelectorAll(".skill-progress-fill");
+
+for (let i = 0; i < skillBars.length; i++) {
+  console.log(skillProgressBars[i]);
+  skillBars[i].innerHTML = `${skillBars[i].value}%`;
+  skillProgressBars[i].style.width = `${skillBars[i].value}%`;
+  console.log(skillProgressBars[i]);
+}

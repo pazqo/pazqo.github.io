@@ -30,9 +30,9 @@
   );
   --bg-gradient-jet: linear-gradient(
     to bottom right, 
-    hsla(240, 1%, 18%, 0.251) 0%, 
-    hsla(240, 2%, 11%, 0) 100%
-  ), hsl(240, 2%, 13%);
+    hsla(240, 33%, 18%, 0.251) 0%, 
+    hsla(240, 43%, 11%, 0) 100%
+  ), hsl(240, 43%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
     hsl(45, 100%, 71%) 0%, 
@@ -56,11 +56,11 @@
 
   /* solid */
 
-  --jet: hsl(0, 0%, 22%);
-  --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 7%);
+  --jet: hsl(220, 20%, 22%);
+  --onyx: hsl(220, 10%, 17%);
+  --eerie-black-1: hsl(210, 32%, 13%);
+  --eerie-black-2: hsl(210, 32%, 25%);
+  --smoky-black: hsl(200, 66%, 15%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
@@ -337,7 +337,8 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 40%;
+  border-radius: 50%;
+  vertical-align: middle;
 }
 
 .info-content .name {
@@ -775,6 +776,23 @@ main {
 
 .article-title { margin-bottom: 30px; }
 
+.resume-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.resume-text p { margin-bottom: 15px; }
+
+.resume-text ul {
+  padding-left: 10px;
+}
+
+.resume-text li {
+  list-style: circle;
+  list-style-position: inside;
+}
 
 /**
  * education and experience 
@@ -1231,6 +1249,15 @@ textarea.form-input::-webkit-resizer { display: none; }
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
 
+/*-----------------------------------*\
+  #MISC
+\*-----------------------------------*/
+
+
+
+/*-----------------------------------*\
+  #PUZZLES
+\*-----------------------------------*/
 
 
 
@@ -1346,9 +1373,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 40%; }
+  .avatar-box { border-radius: 50%}
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width: 120px; vertical-align: middle; }
 
   .info-content .name { margin-bottom: 15px; }
 

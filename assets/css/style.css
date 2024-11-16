@@ -928,6 +928,31 @@ main {
   font-style: italic;
 }
 
+/**
+ * tags
+ */
+
+ .tags-title { margin-bottom: 20px; }
+
+ .tag-group-title { color: white; }
+
+ .tag-group {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   padding: 10px;
+   background-color: #000000;
+   border-radius: 8px;
+   margin: 0 auto;
+ } 
+ 
+ .tag-item {
+   background-color: var(--jet);
+   color: white;
+   padding: 5px 10px;
+   border-radius: 15px;
+   display: inline-block;
+ }
 
 
 

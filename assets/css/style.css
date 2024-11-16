@@ -863,7 +863,12 @@ main {
 
 .skills-title { margin-bottom: 20px; }
 
-.skills-list { padding: 20px; }
+.skills-list {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
 
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
@@ -894,6 +899,34 @@ main {
   border-radius: inherit;
 }
 
+/**
+ * language
+ */
+
+.language-title { margin-bottom: 20px; }
+
+.language-list {
+  padding: 20px;
+  max-width: 100%;
+}
+
+.language-item:not(:last-child) { margin-bottom: 15px; }
+
+.language-item {
+  display: flex;
+  color: var(--light-gray);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-300);
+}
+
+.language-item .language {
+  margin-right: 100px;
+  min-width: 10%;
+}
+
+.language-item .proficiency {
+  font-style: italic;
+}
 
 
 

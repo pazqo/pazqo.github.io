@@ -1,8 +1,8 @@
 export const services = [
   {
     icon: '/images/airesearch.svg',
-    title: 'Research Scientist | Giotto.ai',
-    description: 'I recently joined Giotto.ai, a Lausanne-based start-up focused on AI R&D and applications to industry challenges.',
+    title: 'Research Engineer | inait',
+    description: 'Building testing frameworks for timeseries forecasting experiments at inait, a Lausanne-based neuroscience and AI company.',
   },
   {
     icon: '/images/aoc.svg',

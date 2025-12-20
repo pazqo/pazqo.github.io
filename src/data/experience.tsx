@@ -1,12 +1,19 @@
 export const workExperience = [
   {
-    title: 'AI Research Scientist @ Giotto.ai',
-    dateRange: 'Aug 2024 — Ongoing',
+    title: 'Research Engineer @ inait',
+    dateRange: 'Jun 2025 — Ongoing',
     description: (
       <>
-        I joined recently as Research Scientist.<br />
-        We took part in the <a href="https://www.kaggle.com/competitions/arc-prize-2024/overview" className="text-orange-yellow-crayola hover:underline" target="_blank" rel="noopener noreferrer">ARC 2024 Kaggle competition</a> and we ended up 14th place.<br />
-        We are planning to continue the work towards AGI.
+        Building testing frameworks to configure, run, evaluate and generate reports for experiments involving timeseries forecasting.
+      </>
+    ),
+  },
+  {
+    title: 'AI Research Scientist @ Giotto.ai',
+    dateRange: 'Aug 2024 — May 2025',
+    description: (
+      <>
+        We took part in the <a href="https://www.kaggle.com/competitions/arc-prize-2024/overview" className="text-orange-yellow-crayola hover:underline" target="_blank" rel="noopener noreferrer">ARC 2024 Kaggle competition</a> and ended up 14th place.
       </>
     ),
   },

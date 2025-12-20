@@ -10,10 +10,10 @@ export const workExperience = [
   },
   {
     title: 'AI Research Scientist @ Giotto.ai',
-    dateRange: 'Aug 2024 — May 2025',
+    dateRange: 'Aug 2024 — Jan 2025',
     description: (
       <>
-        We took part in the <a href="https://www.kaggle.com/competitions/arc-prize-2024/overview" className="text-orange-yellow-crayola hover:underline" target="_blank" rel="noopener noreferrer">ARC 2024 Kaggle competition</a> and ended up 14th place.
+        We took part in the <a href="https://www.kaggle.com/competitions/arc-prize-2024/overview" className="text-orange-yellow-crayola hover:underline" target="_blank" rel="noopener noreferrer">ARC 2024 Kaggle competition</a> and ended up 11th place 🥇
       </>
     ),
   },

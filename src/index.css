@@ -2,22 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Base styles */
+/* Base styles - Purple AI theme */
 :root {
-  --bg-primary: hsl(200, 66%, 15%);
-  --bg-card: hsl(210, 32%, 25%);
-  --text-primary: hsl(0, 0%, 98%);
-  --text-secondary: hsl(0, 0%, 84%);
-  --accent: hsl(45, 100%, 72%);
+  --bg-primary: hsl(260, 25%, 12%);
+  --bg-card: hsl(260, 20%, 18%);
+  --text-primary: hsl(260, 20%, 95%);
+  --text-secondary: hsl(260, 15%, 75%);
+  --accent: hsl(270, 80%, 65%);
 }
 
 /* Light theme overrides */
 .light {
-  --bg-primary: hsl(210, 20%, 98%);
+  --bg-primary: hsl(260, 20%, 95%);
   --bg-card: hsl(0, 0%, 100%);
-  --text-primary: hsl(220, 20%, 22%);
-  --text-secondary: hsl(220, 10%, 40%);
-  --accent: hsl(45, 100%, 45%);
+  --text-primary: hsl(260, 30%, 20%);
+  --text-secondary: hsl(260, 15%, 45%);
+  --accent: hsl(270, 80%, 55%);
 }
 
 * {
@@ -28,6 +28,7 @@
 
 html {
   font-family: 'Poppins', sans-serif;
+  overflow-y: scroll;
 }
 
 body {
@@ -38,8 +39,8 @@ body {
 
 /* Selection styling */
 ::selection {
-  background: hsl(45, 100%, 72%);
-  color: hsl(200, 66%, 15%);
+  background: hsl(270, 80%, 65%);
+  color: white;
 }
 
 /* Custom scrollbar */
@@ -49,30 +50,21 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: hsl(220, 10%, 17%);
+  background: hsl(260, 25%, 10%);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(45, 100%, 72%);
+  background: hsl(270, 60%, 50%);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(45, 54%, 58%);
-}
-
-/* Light mode scrollbar */
-.light ::-webkit-scrollbar-track {
-  background: hsl(0, 0%, 90%);
-}
-
-.light ::-webkit-scrollbar-thumb {
-  background: hsl(45, 100%, 45%);
+  background: hsl(270, 80%, 65%);
 }
 
 /* Focus styles */
 :focus {
-  outline-color: hsl(45, 100%, 72%);
+  outline-color: hsl(270, 80%, 65%);
 }
 
 /* Link visited color */

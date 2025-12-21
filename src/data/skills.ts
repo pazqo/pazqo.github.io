@@ -14,11 +14,11 @@ export const languages = [
 ]
 
 export const keyQualifications = [
-  'Strong programming skills in Python, working experience in Java, C++, some experience with Scala, Go, Rust',
-  'Strong background in algorithms and data structures',
-  'Proven experience with distributed pipelines, infrastructure, and computing with Docker/Kubernetes',
-  'Excellent interpersonal skills, proven leadership, team attributes',
-  'Extensive knowledge of Search, Information Retrieval, Machine Learning, working experience with Language Models, Multimodal retrieval, RAGs, GenAI',
+  '7+ years designing large-scale distributed systems, with focus on Shopping retrieval and quality infrastructure at Google',
+  'Expertise in large-scale data processing & pipelines (Spark, Dagster) for real-time ingestion, enrichment, and retrieval at scale',
+  'Proficient in backend development (Python, Java/Scala, C++) with strong system design and distributed infrastructure skills',
+  'Hands-on with AI/ML pipelines for query understanding, text comprehension, image segmentation and classification',
+  'Strong cross-functional collaborator, aligning with product, infra, and ML teams to deliver measurable business impact',
 ]
 
 export const interests = {

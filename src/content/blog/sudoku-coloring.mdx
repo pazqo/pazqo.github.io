@@ -1,10 +1,57 @@
 ---
-title: "Sudoky coloring"
+title: "Sudoku coloring"
 date: "2024-12-20"
 description: "A basic trick in modern sudoku."
 tags: ["introduction", "sudoku", "coloring", "thermo"]
 ---
 
+import PuzzleStep from '@/components/sudoku/PuzzleStep'
+import SudokuEmbed from '@/components/sudoku/SudokuEmbed'
+import YouTubeEmbed from '@/components/blog/YouTubeEmbed'
+
 # Modern Sudoku Techniques #1
 
-Bla bla
+This post demonstrates the embeddable components available in blog posts.
+
+## Interactive Puzzle (SudokuPad)
+
+Embed puzzles directly from f-puzzles, SudokuPad, or Penpa:
+
+<SudokuEmbed
+  puzzle="https://f-puzzles.com/?load=N4IgzglgXgpiBcA2ANCALhNAbO8QBYACAYQHstSAnMEVAQwFc0ALKhEABzqgEdTaQlBjjAw07AMpo6AOwAmdSnML4AHvmSEAgjIwBrGRADmzNJoAqzGJQC2/VEcoQ5CANqvgAX2Ref33wGeALrIHv7hfpFeIWFREYExgXFxifFpfqnJSdEhILL6hibi8GhCMKgs1nY2YtZuoFgQMjA08O4gAEoAjMRdAt3EAEz9PQDMI8T4IEFB/iCNza3tHYjEiP2rAKwbkzvjM3MLLW6unaPE26gd5+sHPvNNx22nK739m293DY9LL+d9V3wn1m9yOv06HymVw+2wOsyAA"
+  title="Try this thermo sudoku"
+  height={450}
+/>
+
+## Static Screenshots
+
+For step-by-step explanations, use screenshots:
+
+```jsx
+<PuzzleStep
+  src="/images/puzzles/step1.png"
+  caption="The 9 must go in the bulb"
+  size="md"
+/>
+```
+
+**Sizes:** `sm` (200px), `md` (300px), `lg` (400px), `full`
+
+## YouTube Videos
+
+Embed puzzle solve videos:
+
+```jsx
+<YouTubeEmbed
+  video="https://www.youtube.com/watch?v=VIDEO_ID"
+  title="Simon solves a thermo sudoku"
+  start={120}  // optional: start at 2:00
+/>
+```
+
+{/* Uncomment to embed an actual video:
+<YouTubeEmbed
+  video="yKf9aUIxdb4"
+  title="CTC: Miracle Sudoku"
+/>
+*/}

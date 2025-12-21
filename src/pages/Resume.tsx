@@ -5,7 +5,7 @@ import TimelineItem from '../components/ui/TimelineItem'
 import SkillBar from '../components/ui/SkillBar'
 import TagGroup from '../components/ui/TagGroup'
 import ContentCard from '../components/ui/ContentCard'
-import { workExperience, education, onlineCourses } from '../data/experience'
+import { workExperience, education, onlineCourses, publications, achievements } from '../data/experience'
 import { programmingSkills, languages, keyQualifications, interests } from '../data/skills'
 import { useTheme } from '../context/ThemeContext'
 
@@ -68,6 +68,65 @@ export default function Resume() {
           />
         ))}
       </Timeline>
+
+      {/* Publications */}
+      <section className="mb-8">
+        <SectionTitle>Publications</SectionTitle>
+        <ContentCard>
+          <ul className="space-y-4">
+            {publications.map((pub) => (
+              <li key={pub.title} className={`text-fs-6 ${
+                theme === 'dark' ? 'text-light-gray' : 'text-light-muted'
+              }`}>
+                {pub.url ? (
+                  <a
+                    href={pub.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-orange-yellow-crayola hover:underline"
+                  >
+                    "{pub.title}"
+                  </a>
+                ) : (
+                  <span className={theme === 'dark' ? 'text-white-2' : 'text-light-text'}>
+                    "{pub.title}"
+                  </span>
+                )}
+                <br />
+                <span className="text-fs-7">{pub.venue}, {pub.year}</span>
+              </li>
+            ))}
+          </ul>
+        </ContentCard>
+      </section>
+
+      {/* Achievements */}
+      <section className="mb-8">
+        <SectionTitle>Achievements</SectionTitle>
+        <ContentCard>
+          <ul className="grid md:grid-cols-2 gap-3">
+            {achievements.map((achievement) => (
+              <li key={achievement.text} className={`flex items-start gap-2 text-fs-6 ${
+                theme === 'dark' ? 'text-light-gray' : 'text-light-muted'
+              }`}>
+                <span className="text-lg">{achievement.icon}</span>
+                {achievement.url ? (
+                  <a
+                    href={achievement.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-orange-yellow-crayola hover:underline"
+                  >
+                    {achievement.text}
+                  </a>
+                ) : (
+                  <span>{achievement.text}</span>
+                )}
+              </li>
+            ))}
+          </ul>
+        </ContentCard>
+      </section>
 
       {/* Programming Skills */}
       <section className="mb-8">

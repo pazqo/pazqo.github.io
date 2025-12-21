@@ -9,40 +9,41 @@ const config: Config = {
         poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
-        jet: 'hsl(220, 20%, 22%)',
-        onyx: 'hsl(220, 10%, 17%)',
+        // Purple AI theme - medium-dark with vibrant accents
+        jet: 'hsl(260, 20%, 18%)',           // cards
+        onyx: 'hsl(260, 25%, 12%)',          // background
         'eerie-black': {
-          1: 'hsl(210, 32%, 13%)',
-          2: 'hsl(210, 32%, 25%)',
+          1: 'hsl(260, 20%, 22%)',           // borders
+          2: 'hsl(260, 20%, 24%)',           // hover states
         },
-        'smoky-black': 'hsl(200, 66%, 15%)',
+        'smoky-black': 'hsl(260, 25%, 8%)',  // deeper bg
         'white-1': 'hsl(0, 0%, 100%)',
-        'white-2': 'hsl(0, 0%, 98%)',
-        'orange-yellow-crayola': 'hsl(45, 100%, 72%)',
-        'vegas-gold': 'hsl(45, 54%, 58%)',
-        'light-gray': 'hsl(0, 0%, 84%)',
-        'light-gray-70': 'hsla(0, 0%, 84%, 0.7)',
-        'bittersweet-shimmer': 'hsl(0, 43%, 51%)',
+        'white-2': 'hsl(260, 20%, 95%)',     // main text (light)
+        'orange-yellow-crayola': 'hsl(270, 80%, 65%)', // vibrant purple accent
+        'vegas-gold': 'hsl(280, 70%, 55%)',  // secondary purple
+        'light-gray': 'hsl(260, 15%, 75%)',  // muted text
+        'light-gray-70': 'hsla(260, 15%, 75%, 0.7)',
+        'bittersweet-shimmer': 'hsl(340, 65%, 55%)', // pink-red for contrast
         light: {
-          bg: 'hsl(210, 20%, 98%)',
+          bg: 'hsl(260, 20%, 95%)',
           card: 'hsl(0, 0%, 100%)',
-          text: 'hsl(220, 20%, 22%)',
-          muted: 'hsl(220, 10%, 40%)',
-          accent: 'hsl(45, 100%, 45%)',
+          text: 'hsl(260, 30%, 20%)',
+          muted: 'hsl(260, 15%, 45%)',
+          accent: 'hsl(270, 80%, 55%)',
         },
       },
       backgroundImage: {
-        'gradient-onyx': 'linear-gradient(to bottom right, hsl(240, 1%, 25%) 3%, hsl(0, 0%, 19%) 97%)',
-        'gradient-jet': 'linear-gradient(to bottom right, hsla(240, 33%, 18%, 0.251) 0%, hsla(240, 43%, 11%, 0) 100%), hsl(240, 43%, 13%)',
-        'gradient-yellow': 'linear-gradient(to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%))',
-        'border-gradient-onyx': 'linear-gradient(to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50%)',
+        'gradient-onyx': 'linear-gradient(to bottom right, hsl(260, 20%, 16%) 3%, hsl(260, 25%, 10%) 97%)',
+        'gradient-jet': 'linear-gradient(to bottom right, hsla(270, 30%, 25%, 0.5) 0%, hsla(260, 25%, 15%, 0) 100%), hsl(260, 20%, 18%)',
+        'gradient-yellow': 'linear-gradient(to right, hsl(270, 80%, 65%), hsl(290, 80%, 60%))',
+        'border-gradient-onyx': 'linear-gradient(to bottom right, hsl(270, 40%, 35%) 0%, hsla(260, 20%, 20%, 0) 50%)',
       },
       boxShadow: {
-        'shadow-1': '-4px 8px 24px hsla(0, 0%, 0%, 0.25)',
-        'shadow-2': '0 16px 30px hsla(0, 0%, 0%, 0.25)',
-        'shadow-3': '0 16px 40px hsla(0, 0%, 0%, 0.25)',
-        'shadow-4': '0 25px 50px hsla(0, 0%, 0%, 0.15)',
-        'shadow-5': '0 24px 80px hsla(0, 0%, 0%, 0.25)',
+        'shadow-1': '-4px 8px 24px hsla(260, 50%, 5%, 0.4)',
+        'shadow-2': '0 16px 30px hsla(260, 50%, 5%, 0.4)',
+        'shadow-3': '0 16px 40px hsla(260, 50%, 5%, 0.5)',
+        'shadow-4': '0 25px 50px hsla(260, 50%, 5%, 0.3)',
+        'shadow-5': '0 24px 80px hsla(260, 50%, 5%, 0.4)',
       },
       fontSize: {
         'fs-1': '24px',

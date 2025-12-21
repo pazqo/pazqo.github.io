@@ -8,7 +8,7 @@ export default function Sidebar() {
   const { theme } = useTheme()
 
   return (
-    <aside className={`rounded-20 p-4 md:p-8 shadow-shadow-1 border mb-4 lg:mb-0 lg:sticky lg:top-16 lg:w-72 transition-all duration-500 overflow-hidden ${
+    <aside className={`rounded-20 p-4 md:p-8 shadow-shadow-1 border mb-4 lg:mb-0 lg:sticky lg:top-4 lg:w-72 lg:self-start transition-all duration-500 overflow-hidden ${
       theme === 'dark'
         ? 'bg-eerie-black-2 border-jet'
         : 'bg-light-card border-gray-200'

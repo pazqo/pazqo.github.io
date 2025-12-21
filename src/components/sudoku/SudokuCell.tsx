@@ -6,6 +6,7 @@ interface SudokuCellProps {
   isHighlighted?: boolean
   borderRight: number
   borderBottom: number
+  size?: number
 }
 
 export default function SudokuCell({
@@ -14,14 +15,19 @@ export default function SudokuCell({
   isHighlighted = false,
   borderRight,
   borderBottom,
+  size = 9,
 }: SudokuCellProps) {
   const { theme } = useTheme()
+
+  // Adjust cell size based on grid size
+  const cellSize = size <= 6 ? 'w-10 h-10 md:w-12 md:h-12' : 'w-8 h-8 md:w-10 md:h-10'
+  const fontSize = size <= 6 ? 'text-base md:text-lg' : 'text-sm md:text-base'
 
   return (
     <div
       className={`
-        w-8 h-8 md:w-10 md:h-10 flex items-center justify-center
-        text-sm md:text-base font-medium
+        ${cellSize} flex items-center justify-center
+        ${fontSize} font-medium
         ${theme === 'dark' ? 'bg-eerie-black-2' : 'bg-white'}
         ${isHighlighted
           ? theme === 'dark'

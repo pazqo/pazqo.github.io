@@ -1,0 +1,111 @@
+---
+title: "Golden Era of Sudoku"
+date: "2024-12-23"
+description: "An introduction to Modern Sudoku."
+tags: ["introduction", "sudoku", "variations", "cracking-the-cryptic"]
+---
+
+import PuzzleStep from '@/components/sudoku/PuzzleStep'
+import SudokuEmbed from '@/components/sudoku/SudokuEmbed'
+import YouTubeEmbed from '@/components/blog/YouTubeEmbed'
+
+# Golden Era of Sudoku
+
+2020 was an infamous year for a lot of reasons. I'm not going to mention those, you know. But at the same time, it pushed a lot of people to be more creative and discover more content creators.
+One egregious example (which is completely unrelated to this blog) is [Bo Burnham's Inside](https://en.wikipedia.org/wiki/Bo_Burnham:_Inside).
+
+Another egregious example is [Cracking the Cryptic](https://www.youtube.com/@CrackingTheCryptic), a YouTube channel hosted by Simon Anthony & Mark Goodliffe.
+They are brilliant puzzlers, extremely polite, and free from all the BS you get on most YouTube channels. One video in particular started it all:
+
+<YouTubeEmbed
+  video="yKf9aUIxdb4"
+  title="The Miracle Sudoku"
+/>
+
+Apart from the sudoku itself (we will get back to that later), I think this video jump-started the so-called Golden Era of Sudoku. I'll explain in a moment.
+
+## Super short story of Sudoku
+
+Sudoku is a classic [paper-and-pencil](https://en.wikipedia.org/wiki/Paper-and-pencil_game) game, which traditionally consists of a grid of 9 rows and 9 columns. There are also bold lines that identify 9 3x3 boxes, and _givens_: digits that are already placed and serve as clues for the rest of the solve.
+The task for the solver is to fill each cell with a number from 1 to 9, such that each row and each column contains all different digits (Latin square), and all 3x3 boxes have the same property. The solution must be unique.
+
+It was allegedly invented by Euler around 1750, then published sporadically in the US in 1979 and in Japan in 1984 by Nikoli. The mainstream effect came pretty late, in 2005.
+Everybody was solving Sudoku puzzles in the newspaper. The popularity was astounding. And yet, despite all these years, we had to wait until 2020 for the next big thing.
+
+The [math](https://en.wikipedia.org/wiki/Mathematics_of_Sudoku) behind classic Sudoku is very well understood; there are plenty of algorithms to solve most puzzles (even a [Singapore PM published his own algorithm](https://www.bbc.com/news/technology-32591984)!).
+For example, it is well known that the minimum number of clues must be 17, as no Sudoku with 16 givens can have a unique solution.
+
+As with many things (e.g., Rubik's Cube), once the math is exhausted, enter the speedsolvers, which in my opinion takes away half the fun.
+But at the same time, to avoid stagnation, some basic Sudoku variants were introduced. This was the first step.
+
+## Sudoku Variations
+
+A _Sudoku Variant_ is a Sudoku puzzle where we (usually) get the standard Sudoku rules plus some extra constraint. A pretty famous example is [Killer Sudoku](https://en.wikipedia.org/wiki/Killer_sudoku), where we add _cages_: areas of contiguous cells with a number in the top-left corner.
+This number is the sum of the cells in the cage. We also usually require that all the cells in a cage are different. In such a puzzle, you might remove one or more clues, hence being able to go below the minimum 17. In fact, in the [Wikipedia example](https://en.wikipedia.org/wiki/Killer_sudoku#/media/File:Killersudoku_color.svg) there are no givens.
+But in that very same example, we have plenty of cages that could be removed and still yield a unique solution (you can play one example [here](https://sudokupad.app/fpuzN4IgzglgXgpiBcBOANCALhNAbO8QGkIscAnAAgGUBXAEwHsBrATxFQEMq0ALOkhEAA5soARzqsQJKjjAw0%2FACIQA5pjBkIAOzJsyAYzbKYZMFQC2ZNHUtdjm8wCMY5LTeNWBAWhwAzNPt5NZwA6MiVVNHV6Mk06fxIYARg2f1ddAyNgiWUSCBoEAG0C4ABfZFLysorqqtrKgF1kYrqayrbW0sbm9pbenq6OvsGGpuGx3oGhqf7R6fGR7vnxyZ7V5caQBiJSDNxikD0YYjBCkAAlAEYAYQBmCUurgBZ764BWEA2ANzYsKlwQC7vKoHI5YE7wArna4ANnuACYru9UGcEbDkTdER9UN9fv84XCQMDDsdTmcMXd0U97o8qV8fn9%2BIhCeUQSSIecMQB2e4YgAc1Ku3LpuP4cIADMzQMSwaSMWjzjT5WdXldYcKGXh%2BUTQeDIcqqcjoQbzpzadj6XiJdq2XqaRd7ir7er%2FrDrTL2WdeVcCcjEN6sSAcRqQFqWdLdecvRTzn67s7%2BBdXWGdaTTUjI8bPZjfWbAxaE1bkzaTVd%2BcjTUzkV6yxmmfG8Bdnm6I2cjUrTe3BQGg5bJaz3XrrvbkdcCfWQHdm6SEcPzgifRyrrOyf7x3CgUWBwrs%2BcVenW5jxxduVOPUbuYbS9383gk1KUx6VQv9dGD2PzSKG5PNy3rpW51c%2F4rkBNJ1h%2BwaAn24akkar6ms%2BppxuBLpQQ%2Bep%2BvufpKn6QrIQmk71CUQA%3D%3D%3D)).
+This opened the way to new forms of minimalism and reasoning (e.g., a cage with 3 cells and 8 in the top-left corner can contain 1-2-5 or 1-3-4, and this ambiguity needs to be resolved somewhere else).
+
+Another pretty standard variant is Sudoku X, where both diagonals must also contain all digits 1 to 9. This is a minor variant, but it still allows for fewer givens.
+
+As you can see, with variants the reasoning gets more creative; you need to develop a new set of tools to solve these puzzles.
+
+So, in general, a _Sudoku Variant_ is a puzzle that has the same basic logic as Sudoku, fewer givens, and extra rules. The rules do not need to be previously codified and explained somewhere else, but they should lead to a clear solution path with no need for guessing.
+
+## Enter Cracking the Cryptic
+
+I stopped caring about Sudoku in 2006; it was mainstream and not actually interesting to me. So I moved on to other puzzles. Fast forward to 2020, COVID times. I stumbled upon the video I linked above: the Miracle Sudoku.
+
+Simon called it "Miracle" because you only have 2 givens and no other clues (apart from extra rules). He was about to dismiss it as an April Fool's joke, but it turned out to be a magnificent Sudoku.
+I'll go into details of that solve in a different post, but let's just take a look at the puzzle.
+
+<PuzzleStep
+  src="/images/miracle_sudoku.png"
+  caption="The Miracle Sudoku - only 2 givens!"
+  size="md"
+/>
+
+We know that this will not be solvable unless we have enough restrictions coming from the rules. So here are the rules:
+
+- Any two cells separated by a **knight**'s move or a **king**'s move (in chess) must contain different digits.
+- Any two orthogonally adjacent cells cannot contain **consecutive** digits.
+
+**That's it**. You can imagine why Simon was baffled, and so was I. And that's what hooked me on Sudoku Variants.
+The amazing thing is that this puzzle is not extremely difficult once you get the hang of the rules.
+
+You can play it here:
+
+<SudokuEmbed
+  puzzle="https://sudokupad.app/fpuzN4IgzglgXgpiBcBOANCALhNAbO8QBUALGAAgFkIAnAQwGMcRVqBXNQge0oRArVuKxYSAGRhxUlZjjAw03AHKcAttSEBlZgBN2Aa2YlJ0ktQAOJrAE8AdCQCCAOwsk0Ad3YlaMQWBIyT1GjQYTRIAIydqEh17CABzQjQAch8ldgA3Uk5jKIh7WOSSVIySAApcj2IwMABKD2p7e3Y0D3Z7NGpytlIwaiVSTTjMGwcnV3dONnZY1tVLY00AKzoYNo8vLB9aesbm2lb28r37GVpWCGKB2MwwK0YQWMoITQQAbRfgAF9kT%2B%2Bvn%2F%2B%2FoDfgBdZDvIEA35QyGfUHg6EQxEIuEwpGokFgmEgNKqZi4ACMqCuGXsCDQkhgaKpKKpCO%2B2NxuAATETzisyRTETS6ejUdzebTYZjBSLgaCQPUMNE4gkOXimG0IDpcrE5TBUI17EcTmcMmqPkA"
+  title="The Miracle Sudoku"
+  height={500}
+/>
+
+After that, I started watching Cracking the Cryptic every night before sleeping. It was hitting just the right spot of interest where it was never trivial.
+Simon and Mark were solving Sudokus in real time, with no cuts or other BS, so there was plenty of time to guess along with them, trying to figure out the next strategy and learning new techniques along the way.
+
+But for a long time I was a mere observer, not daring to solve puzzles myself. I tried every now and then with really bad results. Then something clicked, and I was able to solve my first one in 2022. Yep, two years later.
+
+## Logic-masters.de
+
+After digging a bit and going to the source of Simon & Mark's material, I found [Logic Masters](https://logic-masters.de/).
+I checked the Sudoku page and looked for the first GAS (Genuinely Approachable Sudoku). Starting with a 1-star Sudoku (the easiest ones), I found [Absolute GAS](https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=00093B) by [FullDeck-Missing](https://logic-masters.de/Raetselportal/Benutzer/allgemein.php?name=FullDeck-Missing) (play it [here](https://sudokupad.app/fpuzN4IgzglgXgpiBcBOANCALhNAbO8QEEAjMAeywFc0YACAcXwGURUBDSgCxICcEQAxcliwARGAGMA1tRYA7ACbUAshDCQZAc2nU%2BMAO7UAwiy5ywzEF0EwwMNLwZpZc4wrDk5JCeWqWcYaQAOAVgAngB0ADoyUQAq7DBcALYkibYJ%2FhAyYlwwLDbUAGZcKdSEgoTUaCSVEAFh5upcEHIIANqtwAC%2ByF093b0D%2FUN9ALrIHcODfdNTXWMTM5NLi%2FOzy2uj4xvbS6vr%2BytbBzubCyc7e4tXF2Po8UkpaTzwHSBYmdZtrSAASgCMBj%2B5h%2BACZAcCAMzg1A%2FAAsBhBwIArAjgQA2VEwgDsBghwIAHLjgYgiSMRv03h8zC9vv8DLDgWCGTCoczfvCkciDJyYRieb8cWiCQYhWSKe8ZJ8ab8AVjGQY5SyFcD4fiuWreQYNQKDIgQGLyUA%3D%3D%3D)).
+It's not the most amazing puzzle, but it's a start. This introduces a new variant: Thermo Sudoku. We will talk about that later.
+
+<SudokuEmbed
+  puzzle="https://sudokupad.app/fpuzN4IgzglgXgpiBcBOANCALhNAbO8QEEAjMAeywFc0YACAcXwGURUBDSgCxICcEQAxcliwARGAGMA1tRYA7ACbUAshDCQZAc2nU%2BMAO7UAwiy5ywzEF0EwwMNLwZpZc4wrDk5JCeWqWcYaQAOAVgAngB0ADoyUQAq7DBcALYkibYJ%2FhAyYlwwLDbUAGZcKdSEgoTUaCSVEAFh5upcEHIIANqtwAC%2ByF093b0D%2FUN9ALrIHcODfdNTXWMTM5NLi%2FOzy2uj4xvbS6vr%2BytbBzubCyc7e4tXF2Po8UkpaTzwHSBYmdZtrSAASgCMBj%2B5h%2BACZAcCAMzg1A%2FAAsBhBwIArAjgQA2VEwgDsBghwIAHLjgYgiSMRv03h8zC9vv8DLDgWCGTCoczfvCkciDJyYRieb8cWiCQYhWSKe8ZJ8ab8AVjGQY5SyFcD4fiuWreQYNQKDIgQGLyUA%3D%3D%3D"
+  title="Absolute GAS - Thermo Sudoku"
+  height={500}
+/>
+
+At the same time, I found out that the community was growing, and Sudoku variants were gaining momentum. It was a hunch, probably just a filter-bubble effect, until I found this chart from Logic Masters:
+
+<PuzzleStep
+  src="/images/golden_era_of_sudoku.png"
+  caption="Puzzles published per month on logic-masters.de"
+  size="lg"
+/>
+
+This is the number of puzzles published per month on the website ([source](https://logic-masters.de/Raetselportal/Statistik/allgemein.php)). As you can see, the number went up tenfold during 2020, and we're now at around 500 new puzzles each month, which means around 15 per day.
+So this is not just my gut feeling, but a well-established trend that will probably continue to grow.
+
+## TBD

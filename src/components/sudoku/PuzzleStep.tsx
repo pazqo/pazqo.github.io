@@ -22,12 +22,9 @@ export default function PuzzleStep({ src, caption, size = 'md', alt }: PuzzleSte
   const { theme } = useTheme()
 
   return (
-    <figure className={`inline-block ${sizeMap[size]} my-4`}>
-      <div
-        className={`rounded-lg overflow-hidden shadow-shadow-2 ${
-          theme === 'dark' ? 'bg-jet' : 'bg-gray-200'
-        }`}
-      >
+    <div className="flex justify-center">
+      <figure className={`${sizeMap[size]} my-4`}>
+      <div className="rounded-lg overflow-hidden shadow-md">
         <img
           src={src}
           alt={alt || caption || 'Puzzle step'}
@@ -45,5 +42,6 @@ export default function PuzzleStep({ src, caption, size = 'md', alt }: PuzzleSte
         </figcaption>
       )}
     </figure>
+    </div>
   )
 }

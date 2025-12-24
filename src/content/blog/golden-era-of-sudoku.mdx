@@ -1,5 +1,5 @@
 ---
-title: "Golden Era of Sudoku"
+title: "The Golden Era of Sudoku"
 date: "2024-12-23"
 description: "An introduction to Modern Sudoku."
 tags: ["introduction", "sudoku", "variations", "cracking-the-cryptic"]
@@ -9,20 +9,20 @@ import PuzzleStep from '@/components/sudoku/PuzzleStep'
 import SudokuEmbed from '@/components/sudoku/SudokuEmbed'
 import YouTubeEmbed from '@/components/blog/YouTubeEmbed'
 
-# Golden Era of Sudoku
+# The Golden Era of Sudoku
 
-2020 was an infamous year for a lot of reasons. I'm not going to mention those, you know. But at the same time, it pushed a lot of people to be more creative and discover more content creators.
-One egregious example (which is completely unrelated to this blog) is [Bo Burnham's Inside](https://en.wikipedia.org/wiki/Bo_Burnham:_Inside).
+2020 was an infamous year for many reasons. But it also sparked a creative renaissance—people stuck at home discovered new hobbies, new content creators, and new obsessions. For me, that obsession was Sudoku variants.
 
-Another egregious example is [Cracking the Cryptic](https://www.youtube.com/@CrackingTheCryptic), a YouTube channel hosted by Simon Anthony & Mark Goodliffe.
-They are brilliant puzzlers, extremely polite, and free from all the BS you get on most YouTube channels. One video in particular started it all:
+This post is the first in a series where I'll explore modern Sudoku: what makes it different from the newspaper puzzles of the 2000s, why it's captured such a passionate community, and why I think it's a fascinating testbed for artificial intelligence.
+
+It all started with this video:
 
 <YouTubeEmbed
   video="yKf9aUIxdb4"
   title="The Miracle Sudoku"
 />
 
-Apart from the sudoku itself (we will get back to that later), I think this video jump-started the so-called Golden Era of Sudoku. I'll explain in a moment.
+This is [Cracking the Cryptic](https://www.youtube.com/@CrackingTheCryptic), a YouTube channel hosted by Simon Anthony & Mark Goodliffe—two world-class puzzlers who solve Sudokus live, unedited, thinking out loud. This particular video, the Miracle Sudoku, went viral and jump-started what I call the Golden Era of Sudoku. But to understand why it's so remarkable, let's first revisit the basics.
 
 ## Super short story of Sudoku
 
@@ -51,12 +51,11 @@ As you can see, with variants the reasoning gets more creative; you need to deve
 
 So, in general, a _Sudoku Variant_ is a puzzle that has the same basic logic as Sudoku, fewer givens, and extra rules. The rules do not need to be previously codified and explained somewhere else, but they should lead to a clear solution path with no need for guessing.
 
-## Enter Cracking the Cryptic
+## The Miracle Sudoku
 
-I stopped caring about Sudoku in 2006; it was mainstream and not actually interesting to me. So I moved on to other puzzles. Fast forward to 2020, COVID times. I stumbled upon the video I linked above: the Miracle Sudoku.
+I stopped caring about Sudoku in 2006; it was mainstream and didn't hold my interest. I moved on to other puzzles. Fast forward to 2020, COVID times—I stumbled upon the Miracle Sudoku video.
 
-Simon called it "Miracle" because you only have 2 givens and no other clues (apart from extra rules). He was about to dismiss it as an April Fool's joke, but it turned out to be a magnificent Sudoku.
-I'll go into details of that solve in a different post, but let's just take a look at the puzzle.
+Simon called it "Miracle" because it has only 2 givens. Two! He was about to dismiss it as an April Fool's joke, but it turned out to be completely solvable—and beautiful. Let's take a look:
 
 <PuzzleStep
   src="/images/miracle_sudoku.png"
@@ -69,10 +68,9 @@ We know that this will not be solvable unless we have enough restrictions coming
 - Any two cells separated by a **knight**'s move or a **king**'s move (in chess) must contain different digits.
 - Any two orthogonally adjacent cells cannot contain **consecutive** digits.
 
-**That's it**. You can imagine why Simon was baffled, and so was I. And that's what hooked me on Sudoku Variants.
-The amazing thing is that this puzzle is not extremely difficult once you get the hang of the rules.
+**That's it**. These simple constraints are enough to force a unique solution with just 2 givens. You can imagine why Simon was baffled—and so was I. This is what hooked me on Sudoku variants.
 
-You can play it here:
+The amazing thing is that this puzzle isn't extremely difficult once you internalize the rules. Try it yourself:
 
 <SudokuEmbed
   puzzle="https://sudokupad.app/fpuzN4IgzglgXgpiBcBOANCALhNAbO8QBUALGAAgFkIAnAQwGMcRVqBXNQge0oRArVuKxYSAGRhxUlZjjAw03AHKcAttSEBlZgBN2Aa2YlJ0ktQAOJrAE8AdCQCCAOwsk0Ad3YlaMQWBIyT1GjQYTRIAIydqEh17CABzQjQAch8ldgA3Uk5jKIh7WOSSVIySAApcj2IwMABKD2p7e3Y0D3Z7NGpytlIwaiVSTTjMGwcnV3dONnZY1tVLY00AKzoYNo8vLB9aesbm2lb28r37GVpWCGKB2MwwK0YQWMoITQQAbRfgAF9kT%2B%2Bvn%2F%2B%2FoDfgBdZDvIEA35QyGfUHg6EQxEIuEwpGokFgmEgNKqZi4ACMqCuGXsCDQkhgaKpKKpCO%2B2NxuAATETzisyRTETS6ejUdzebTYZjBSLgaCQPUMNE4gkOXimG0IDpcrE5TBUI17EcTmcMmqPkA"
@@ -80,16 +78,17 @@ You can play it here:
   height={500}
 />
 
-After that, I started watching Cracking the Cryptic every night before sleeping. It was hitting just the right spot of interest where it was never trivial.
-Simon and Mark were solving Sudokus in real time, with no cuts or other BS, so there was plenty of time to guess along with them, trying to figure out the next strategy and learning new techniques along the way.
+After that, I was hooked. I started watching Cracking the Cryptic every night before sleeping—it hit just the right spot where it was challenging but never felt impossible.
 
-But for a long time I was a mere observer, not daring to solve puzzles myself. I tried every now and then with really bad results. Then something clicked, and I was able to solve my first one in 2022. Yep, two years later.
+What makes Simon and Mark special is their approach: they solve in real time, unedited, thinking out loud. No magic, just deductions. You can pause, try to find the next step yourself, then watch them explain their reasoning. It's like having a puzzle mentor.
 
-## Logic-masters.de
+For a long time I was just an observer, too intimidated to try puzzles myself. When I did attempt them, I failed miserably. Then something clicked in 2022—two years after I started watching—and I finally solved my first variant.
 
-After digging a bit and going to the source of Simon & Mark's material, I found [Logic Masters](https://logic-masters.de/).
-I checked the Sudoku page and looked for the first GAS (Genuinely Approachable Sudoku). Starting with a 1-star Sudoku (the easiest ones), I found [Absolute GAS](https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=00093B) by [FullDeck-Missing](https://logic-masters.de/Raetselportal/Benutzer/allgemein.php?name=FullDeck-Missing) (play it [here](https://sudokupad.app/fpuzN4IgzglgXgpiBcBOANCALhNAbO8QEEAjMAeywFc0YACAcXwGURUBDSgCxICcEQAxcliwARGAGMA1tRYA7ACbUAshDCQZAc2nU%2BMAO7UAwiy5ywzEF0EwwMNLwZpZc4wrDk5JCeWqWcYaQAOAVgAngB0ADoyUQAq7DBcALYkibYJ%2FhAyYlwwLDbUAGZcKdSEgoTUaCSVEAFh5upcEHIIANqtwAC%2ByF093b0D%2FUN9ALrIHcODfdNTXWMTM5NLi%2FOzy2uj4xvbS6vr%2BytbBzubCyc7e4tXF2Po8UkpaTzwHSBYmdZtrSAASgCMBj%2B5h%2BACZAcCAMzg1A%2FAAsBhBwIArAjgQA2VEwgDsBghwIAHLjgYgiSMRv03h8zC9vv8DLDgWCGTCoczfvCkciDJyYRieb8cWiCQYhWSKe8ZJ8ab8AVjGQY5SyFcD4fiuWreQYNQKDIgQGLyUA%3D%3D%3D)).
-It's not the most amazing puzzle, but it's a start. This introduces a new variant: Thermo Sudoku. We will talk about that later.
+## The Community
+
+Where do all these puzzles come from? Most of what Simon and Mark solve is submitted by the community, and the main hub is [Logic Masters Germany](https://logic-masters.de/). This site hosts thousands of hand-crafted puzzles, rated by difficulty.
+
+When I started solving on my own, I looked for "GAS" puzzles (Genuinely Approachable Sudoku). Here's one of my early solves—[Absolute GAS](https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=00093B) by FullDeck-Missing, a gentle introduction to Thermo Sudoku:
 
 <SudokuEmbed
   puzzle="https://sudokupad.app/fpuzN4IgzglgXgpiBcBOANCALhNAbO8QEEAjMAeywFc0YACAcXwGURUBDSgCxICcEQAxcliwARGAGMA1tRYA7ACbUAshDCQZAc2nU%2BMAO7UAwiy5ywzEF0EwwMNLwZpZc4wrDk5JCeWqWcYaQAOAVgAngB0ADoyUQAq7DBcALYkibYJ%2FhAyYlwwLDbUAGZcKdSEgoTUaCSVEAFh5upcEHIIANqtwAC%2ByF093b0D%2FUN9ALrIHcODfdNTXWMTM5NLi%2FOzy2uj4xvbS6vr%2BytbBzubCyc7e4tXF2Po8UkpaTzwHSBYmdZtrSAASgCMBj%2B5h%2BACZAcCAMzg1A%2FAAsBhBwIArAjgQA2VEwgDsBghwIAHLjgYgiSMRv03h8zC9vv8DLDgWCGTCoczfvCkciDJyYRieb8cWiCQYhWSKe8ZJ8ab8AVjGQY5SyFcD4fiuWreQYNQKDIgQGLyUA%3D%3D%3D"
@@ -97,7 +96,7 @@ It's not the most amazing puzzle, but it's a start. This introduces a new varian
   height={500}
 />
 
-At the same time, I found out that the community was growing, and Sudoku variants were gaining momentum. It was a hunch, probably just a filter-bubble effect, until I found this chart from Logic Masters:
+But was I just in a filter bubble? The community *felt* like it was exploding, but maybe that was just my newfound obsession talking. Then I found this chart:
 
 <PuzzleStep
   src="/images/golden_era_of_sudoku.png"
@@ -105,7 +104,33 @@ At the same time, I found out that the community was growing, and Sudoku variant
   size="full"
 />
 
-This is the number of puzzles published per month on the website ([source](https://logic-masters.de/Raetselportal/Statistik/allgemein.php)). As you can see, the number went up tenfold during 2020, and we're now at around 500 new puzzles each month, which means around 15 per day.
-So this is not just my gut feeling, but a well-established trend that will probably continue to grow.
+Puzzle submissions to Logic Masters went up *tenfold* in 2020 ([source](https://logic-masters.de/Raetselportal/Statistik/allgemein.php)). We're now at around 500 new puzzles per month—roughly 15 per day. This isn't a niche hobby anymore; it's a genuine movement.
 
-## TBD
+## Sudoku Variants as an A(G)I Benchmark
+
+Here's where my two passions collide: puzzles and artificial intelligence.
+
+I've long believed that Sudoku variants require a particular kind of intelligence —one where you can't just apply memorized rules, but must adapt, think creatively, discard dead ends, and navigate a vast space of possible reasoning paths. Experience matters: the more puzzles you solve, the more you recognize how different rules interact. This feels closer to General Intelligence (at least in the puzzle domain) than classic Sudoku ever could, where the math is fully understood and brute-force algorithms reign supreme.
+
+Having participated in the [ARC-AGI Challenge](https://arcprize.org/) (11th place worldwide!), I've been thinking about this connection for a while. So I was thrilled when [Sakana.ai](https://sakana.ai/company-info/), a Japanese AI company, released a Sudoku [benchmark](https://pub.sakana.ai/sudoku/) specifically designed to test A(G)I capabilities. Their dataset includes:
+
+- 100 handmade puzzles by [Nikoli](https://www.nikoli.co.jp/en/)
+- 2,565 puzzles featured on the Cracking the Cryptic YouTube channel (complete with solve transcripts and step-by-step grid manipulations)
+- 100 benchmark Sudokus ranging from 4x4 to 9x9, plus 20 of Nikoli's most difficult puzzles
+
+The key idea is to *evaluate models on diverse logical and creative reasoning* without relying on solvers or external tools—just raw LLM capabilities. I find this approach compelling: good puzzle-solving rarely requires exhaustive search. Instead, it demands clever deductions and *asking the right questions*. More on that later.
+
+Of course, even the most capable LLM needs to learn the basics first—understanding common variants and developing intuition for which constraints simplify the solution path. And frankly, so do humans.
+
+## What's Next
+
+This post was an introduction—the "why" of modern Sudoku. In upcoming posts, I'll dive into the "how":
+
+- **Common variant types**: Thermos, Killer cages, German Whispers, and more
+- **Fundamental techniques**: How to spot patterns and build deductive chains
+- **The art of constraint**: Why fewer givens can actually make puzzles *easier* to reason about
+- **AI and puzzles**: What LLMs get right, what they struggle with, and what that tells us about intelligence
+
+Whether you're a curious beginner or an AI researcher looking for reasoning benchmarks, I hope you'll find something useful. Stay tuned.
+
+

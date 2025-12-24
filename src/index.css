@@ -2,22 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Base styles - Purple AI theme */
+/* Base styles - Dusk Purple theme (brighter dark) */
 :root {
-  --bg-primary: hsl(260, 25%, 12%);
-  --bg-card: hsl(260, 20%, 18%);
-  --text-primary: hsl(260, 20%, 95%);
-  --text-secondary: hsl(260, 15%, 75%);
-  --accent: hsl(270, 80%, 65%);
+  --bg-primary: hsl(260, 18%, 30%);
+  --bg-card: hsl(260, 15%, 38%);
+  --text-primary: hsl(260, 10%, 95%);
+  --text-secondary: hsl(260, 10%, 75%);
+  --accent: hsl(270, 80%, 72%);
 }
 
 /* Light theme overrides */
 .light {
-  --bg-primary: hsl(260, 20%, 95%);
+  --bg-primary: hsl(260, 30%, 96%);
   --bg-card: hsl(0, 0%, 100%);
-  --text-primary: hsl(260, 30%, 20%);
-  --text-secondary: hsl(260, 15%, 45%);
-  --accent: hsl(270, 80%, 55%);
+  --text-primary: hsl(260, 40%, 25%);
+  --text-secondary: hsl(260, 20%, 50%);
+  --accent: hsl(270, 70%, 55%);
 }
 
 * {
@@ -50,16 +50,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: hsl(260, 25%, 10%);
+  background: hsl(260, 18%, 25%);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(270, 60%, 50%);
+  background: hsl(270, 65%, 60%);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(270, 80%, 65%);
+  background: hsl(270, 80%, 72%);
 }
 
 /* Focus styles */

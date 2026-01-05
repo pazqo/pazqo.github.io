@@ -1,0 +1,636 @@
+{
+  "generated": "2025-01-05",
+  "description": "Curated lists for Connect Words puzzles",
+  "lists": [
+    {
+      "id": "zodiac-signs",
+      "name": "Zodiac Signs",
+      "items": ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]
+    },
+    {
+      "id": "chinese-zodiac",
+      "name": "Chinese Zodiac",
+      "items": ["Rat", "Ox", "Tiger", "Rabbit", "Dragon", "Snake", "Horse", "Goat", "Monkey", "Rooster", "Dog", "Pig"]
+    },
+    {
+      "id": "greek-letters",
+      "name": "Greek Letters",
+      "items": ["Alpha", "Beta", "Gamma", "Delta", "Epsilon", "Zeta", "Eta", "Theta", "Iota", "Kappa", "Lambda", "Mu", "Nu", "Xi", "Omicron", "Pi", "Rho", "Sigma", "Tau", "Upsilon", "Phi", "Chi", "Psi", "Omega"]
+    },
+    {
+      "id": "nato-alphabet",
+      "name": "NATO Phonetic Alphabet",
+      "items": ["Alfa", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf", "Hotel", "India", "Juliet", "Kilo", "Lima", "Mike", "November", "Oscar", "Papa", "Quebec", "Romeo", "Sierra", "Tango", "Uniform", "Victor", "Whiskey", "X-ray", "Yankee", "Zulu"]
+    },
+    {
+      "id": "planets",
+      "name": "Planets",
+      "items": ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
+    },
+    {
+      "id": "solar-system",
+      "name": "Solar System Bodies",
+      "items": ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto", "Ceres", "Eris", "Moon", "Europa", "Titan", "Ganymede", "Callisto", "Io", "Triton", "Charon", "Phobos"]
+    },
+    {
+      "id": "elements",
+      "name": "Chemical Elements",
+      "items": ["Hydrogen", "Helium", "Lithium", "Carbon", "Nitrogen", "Oxygen", "Neon", "Sodium", "Magnesium", "Aluminum", "Silicon", "Phosphorus", "Sulfur", "Chlorine", "Argon", "Potassium", "Calcium", "Iron", "Copper", "Zinc", "Silver", "Gold", "Mercury", "Lead", "Uranium", "Plutonium"]
+    },
+    {
+      "id": "element-symbols",
+      "name": "Element Symbols",
+      "items": ["H", "He", "Li", "C", "N", "O", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Fe", "Cu", "Zn", "Ag", "Au", "Hg", "Pb", "U", "Pu"]
+    },
+    {
+      "id": "noble-gases",
+      "name": "Noble Gases",
+      "items": ["Helium", "Neon", "Argon", "Krypton", "Xenon", "Radon", "Oganesson"]
+    },
+    {
+      "id": "pope-names",
+      "name": "Pope Names",
+      "items": ["Peter", "Leo", "Gregory", "Benedict", "Pius", "John", "Paul", "Clement", "Innocent", "Urban", "Alexander", "Sixtus", "Adrian", "Nicholas", "Stephen", "Francis", "Martin", "Eugene", "Boniface", "Celestine", "Honorius", "Lucius", "Victor", "Anastasius"]
+    },
+    {
+      "id": "chess-pieces",
+      "name": "Chess Pieces",
+      "items": ["King", "Queen", "Rook", "Bishop", "Knight", "Pawn"]
+    },
+    {
+      "id": "chess-terms",
+      "name": "Chess Terms",
+      "items": ["Check", "Checkmate", "Stalemate", "Castling", "En passant", "Fork", "Pin", "Skewer", "Gambit", "Fianchetto", "Zugzwang", "Blunder", "Sacrifice", "Promotion", "Draw", "Resign"]
+    },
+    {
+      "id": "card-ranks",
+      "name": "Playing Card Ranks",
+      "items": ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"]
+    },
+    {
+      "id": "card-suits",
+      "name": "Playing Card Suits",
+      "items": ["Hearts", "Diamonds", "Clubs", "Spades"]
+    },
+    {
+      "id": "poker-hands",
+      "name": "Poker Hands",
+      "items": ["High Card", "Pair", "Two Pair", "Three of a Kind", "Straight", "Flush", "Full House", "Four of a Kind", "Straight Flush", "Royal Flush"]
+    },
+    {
+      "id": "tarot-major",
+      "name": "Tarot Major Arcana",
+      "items": ["Fool", "Magician", "Priestess", "Empress", "Emperor", "Hierophant", "Lovers", "Chariot", "Strength", "Hermit", "Fortune", "Justice", "Hanged Man", "Death", "Temperance", "Devil", "Tower", "Star", "Moon", "Sun", "Judgement", "World"]
+    },
+    {
+      "id": "monopoly-properties",
+      "name": "Monopoly Properties",
+      "items": ["Mediterranean", "Baltic", "Oriental", "Vermont", "Connecticut", "St. Charles", "States", "Virginia", "St. James", "Tennessee", "New York", "Kentucky", "Indiana", "Illinois", "Atlantic", "Ventnor", "Marvin", "Pacific", "Carolina", "Pennsylvania", "Park Place", "Boardwalk"]
+    },
+    {
+      "id": "board-games",
+      "name": "Classic Board Games",
+      "items": ["Chess", "Checkers", "Backgammon", "Go", "Monopoly", "Scrabble", "Risk", "Clue", "Sorry", "Battleship", "Yahtzee", "Othello", "Stratego", "Mancala", "Dominoes", "Mahjong", "Catan", "Trivial Pursuit", "Pictionary", "Jenga"]
+    },
+    {
+      "id": "pen-paper-puzzles",
+      "name": "Pen & Paper Puzzles",
+      "items": ["Crossword", "Sudoku", "Word Search", "Cryptogram", "Anagram", "Acrostic", "Kakuro", "Nonogram", "Futoshiki", "Hitori", "Nurikabe", "Slitherlink", "Hidato", "KenKen", "Hashi", "Masyu", "Fillomino", "Takuzu"]
+    },
+    {
+      "id": "days-of-week",
+      "name": "Days of the Week",
+      "items": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    },
+    {
+      "id": "months",
+      "name": "Months",
+      "items": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    },
+    {
+      "id": "seasons",
+      "name": "Seasons",
+      "items": ["Spring", "Summer", "Autumn", "Winter"]
+    },
+    {
+      "id": "continents",
+      "name": "Continents",
+      "items": ["Africa", "Antarctica", "Asia", "Australia", "Europe", "North America", "South America"]
+    },
+    {
+      "id": "oceans",
+      "name": "Oceans",
+      "items": ["Pacific", "Atlantic", "Indian", "Southern", "Arctic"]
+    },
+    {
+      "id": "us-states",
+      "name": "US States",
+      "items": ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
+    },
+    {
+      "id": "european-capitals",
+      "name": "European Capitals",
+      "items": ["London", "Paris", "Berlin", "Rome", "Madrid", "Lisbon", "Vienna", "Prague", "Warsaw", "Budapest", "Athens", "Dublin", "Amsterdam", "Brussels", "Copenhagen", "Stockholm", "Oslo", "Helsinki", "Bern", "Kyiv", "Moscow", "Bucharest", "Sofia", "Belgrade", "Zagreb"]
+    },
+    {
+      "id": "world-currencies",
+      "name": "World Currencies",
+      "items": ["Dollar", "Euro", "Pound", "Yen", "Yuan", "Rupee", "Franc", "Peso", "Krona", "Won", "Baht", "Ringgit", "Rand", "Ruble", "Lira", "Dinar", "Dirham", "Shekel", "Zloty", "Forint", "Real", "Krone"]
+    },
+    {
+      "id": "music-genres",
+      "name": "Music Genres",
+      "items": ["Rock", "Pop", "Jazz", "Blues", "Country", "Classical", "Hip Hop", "R&B", "Reggae", "Metal", "Punk", "Folk", "Electronic", "Soul", "Funk", "Gospel", "Disco", "Techno", "House", "Indie", "Grunge", "Ska", "Swing", "Bluegrass"]
+    },
+    {
+      "id": "musical-instruments",
+      "name": "Musical Instruments",
+      "items": ["Piano", "Guitar", "Violin", "Drums", "Flute", "Trumpet", "Saxophone", "Cello", "Clarinet", "Harp", "Oboe", "Trombone", "Bassoon", "Tuba", "Accordion", "Banjo", "Mandolin", "Ukulele", "Harmonica", "Organ", "Xylophone", "Marimba"]
+    },
+    {
+      "id": "orchestra-sections",
+      "name": "Orchestra Sections",
+      "items": ["Strings", "Woodwinds", "Brass", "Percussion"]
+    },
+    {
+      "id": "musical-notes",
+      "name": "Musical Notes",
+      "items": ["Do", "Re", "Mi", "Fa", "Sol", "La", "Ti"]
+    },
+    {
+      "id": "film-genres",
+      "name": "Film Genres",
+      "items": ["Action", "Comedy", "Drama", "Horror", "Thriller", "Romance", "Sci-Fi", "Fantasy", "Western", "Musical", "Documentary", "Animation", "Mystery", "Crime", "Adventure", "War", "Biography", "History", "Sport", "Noir"]
+    },
+    {
+      "id": "literary-genres",
+      "name": "Literary Genres",
+      "items": ["Fiction", "Non-fiction", "Mystery", "Romance", "Thriller", "Fantasy", "Sci-Fi", "Horror", "Biography", "Memoir", "Poetry", "Drama", "Satire", "Essay", "Fable", "Epic", "Tragedy", "Comedy", "Novella", "Anthology"]
+    },
+    {
+      "id": "shakespeare-plays",
+      "name": "Shakespeare Plays",
+      "items": ["Hamlet", "Macbeth", "Othello", "Lear", "Romeo", "Tempest", "Midsummer", "Twelfth Night", "Merchant", "Much Ado", "Julius Caesar", "Taming", "As You Like It", "Winter's Tale", "Coriolanus", "Cymbeline", "Pericles", "Timon", "Titus"]
+    },
+    {
+      "id": "greek-gods",
+      "name": "Greek Gods",
+      "items": ["Zeus", "Hera", "Poseidon", "Athena", "Apollo", "Artemis", "Ares", "Aphrodite", "Hephaestus", "Hermes", "Demeter", "Dionysus", "Hades", "Persephone", "Eros", "Nike", "Helios", "Selene", "Pan", "Morpheus"]
+    },
+    {
+      "id": "roman-gods",
+      "name": "Roman Gods",
+      "items": ["Jupiter", "Juno", "Neptune", "Minerva", "Apollo", "Diana", "Mars", "Venus", "Vulcan", "Mercury", "Ceres", "Bacchus", "Pluto", "Proserpina", "Cupid", "Victoria", "Sol", "Luna", "Faunus", "Somnus"]
+    },
+    {
+      "id": "norse-gods",
+      "name": "Norse Gods",
+      "items": ["Odin", "Thor", "Loki", "Freya", "Frigg", "Tyr", "Baldur", "Heimdall", "Njord", "Freyr", "Hel", "Sif", "Idun", "Bragi", "Vidar", "Vali", "Forseti", "Ullr", "Skadi", "Aegir"]
+    },
+    {
+      "id": "egyptian-gods",
+      "name": "Egyptian Gods",
+      "items": ["Ra", "Osiris", "Isis", "Horus", "Anubis", "Thoth", "Set", "Nephthys", "Hathor", "Bastet", "Sekhmet", "Ptah", "Sobek", "Khnum", "Amun", "Nut", "Geb", "Maat", "Tefnut", "Shu"]
+    },
+    {
+      "id": "nine-muses",
+      "name": "Nine Muses",
+      "items": ["Calliope", "Clio", "Erato", "Euterpe", "Melpomene", "Polyhymnia", "Terpsichore", "Thalia", "Urania"]
+    },
+    {
+      "id": "seven-sins",
+      "name": "Seven Deadly Sins",
+      "items": ["Pride", "Greed", "Lust", "Envy", "Gluttony", "Wrath", "Sloth"]
+    },
+    {
+      "id": "seven-virtues",
+      "name": "Seven Virtues",
+      "items": ["Chastity", "Temperance", "Charity", "Diligence", "Patience", "Kindness", "Humility"]
+    },
+    {
+      "id": "four-horsemen",
+      "name": "Four Horsemen",
+      "items": ["Conquest", "War", "Famine", "Death"]
+    },
+    {
+      "id": "twelve-apostles",
+      "name": "Twelve Apostles",
+      "items": ["Peter", "Andrew", "James", "John", "Philip", "Bartholomew", "Matthew", "Thomas", "James", "Thaddaeus", "Simon", "Judas"]
+    },
+    {
+      "id": "body-parts",
+      "name": "Body Parts",
+      "items": ["Head", "Neck", "Shoulder", "Arm", "Elbow", "Wrist", "Hand", "Finger", "Chest", "Back", "Stomach", "Hip", "Leg", "Knee", "Ankle", "Foot", "Toe", "Ear", "Eye", "Nose", "Mouth", "Chin", "Thumb", "Heart", "Brain", "Lung", "Liver", "Kidney"]
+    },
+    {
+      "id": "bones",
+      "name": "Human Bones",
+      "items": ["Skull", "Mandible", "Clavicle", "Scapula", "Sternum", "Rib", "Humerus", "Radius", "Ulna", "Carpals", "Metacarpals", "Phalanges", "Vertebra", "Pelvis", "Femur", "Patella", "Tibia", "Fibula", "Tarsals", "Metatarsals", "Coccyx", "Sacrum"]
+    },
+    {
+      "id": "organs",
+      "name": "Human Organs",
+      "items": ["Brain", "Heart", "Lung", "Liver", "Kidney", "Stomach", "Intestine", "Pancreas", "Spleen", "Bladder", "Gallbladder", "Appendix", "Thyroid", "Adrenal", "Pituitary", "Thymus", "Ovary", "Testes", "Uterus", "Prostate"]
+    },
+    {
+      "id": "senses",
+      "name": "Five Senses",
+      "items": ["Sight", "Hearing", "Taste", "Smell", "Touch"]
+    },
+    {
+      "id": "colors-basic",
+      "name": "Basic Colors",
+      "items": ["Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Pink", "Brown", "Black", "White", "Gray"]
+    },
+    {
+      "id": "colors-extended",
+      "name": "Colors",
+      "items": ["Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Pink", "Brown", "Black", "White", "Gray", "Cyan", "Magenta", "Maroon", "Navy", "Teal", "Olive", "Silver", "Gold", "Coral", "Salmon", "Turquoise", "Indigo", "Violet", "Crimson", "Scarlet", "Beige", "Ivory", "Lavender", "Mint"]
+    },
+    {
+      "id": "rainbow",
+      "name": "Rainbow Colors",
+      "items": ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"]
+    },
+    {
+      "id": "shapes",
+      "name": "Geometric Shapes",
+      "items": ["Circle", "Square", "Triangle", "Rectangle", "Pentagon", "Hexagon", "Octagon", "Oval", "Diamond", "Star", "Heart", "Crescent", "Trapezoid", "Parallelogram", "Rhombus", "Sphere", "Cube", "Pyramid", "Cylinder", "Cone"]
+    },
+    {
+      "id": "polygons",
+      "name": "Polygons",
+      "items": ["Triangle", "Quadrilateral", "Pentagon", "Hexagon", "Heptagon", "Octagon", "Nonagon", "Decagon", "Hendecagon", "Dodecagon"]
+    },
+    {
+      "id": "platonic-solids",
+      "name": "Platonic Solids",
+      "items": ["Tetrahedron", "Cube", "Octahedron", "Dodecahedron", "Icosahedron"]
+    },
+    {
+      "id": "math-operations",
+      "name": "Math Operations",
+      "items": ["Addition", "Subtraction", "Multiplication", "Division", "Exponent", "Root", "Logarithm", "Factorial", "Modulo", "Absolute", "Integral", "Derivative", "Sum", "Product", "Quotient", "Remainder"]
+    },
+    {
+      "id": "prime-numbers",
+      "name": "Prime Numbers",
+      "items": ["Two", "Three", "Five", "Seven", "Eleven", "Thirteen", "Seventeen", "Nineteen", "Twenty-three", "Twenty-nine", "Thirty-one", "Thirty-seven", "Forty-one", "Forty-three", "Forty-seven"]
+    },
+    {
+      "id": "programming-languages",
+      "name": "Programming Languages",
+      "items": ["Python", "Java", "JavaScript", "C", "C++", "C#", "Ruby", "Go", "Rust", "Swift", "Kotlin", "PHP", "TypeScript", "Perl", "R", "MATLAB", "Scala", "Haskell", "Lua", "Dart", "Julia", "Fortran", "COBOL", "Lisp", "Prolog", "Erlang", "Elixir", "Clojure"]
+    },
+    {
+      "id": "web-technologies",
+      "name": "Web Technologies",
+      "items": ["HTML", "CSS", "JavaScript", "React", "Angular", "Vue", "Node", "Express", "Django", "Flask", "Rails", "Laravel", "Bootstrap", "Tailwind", "jQuery", "Webpack", "Babel", "TypeScript", "GraphQL", "REST"]
+    },
+    {
+      "id": "databases",
+      "name": "Databases",
+      "items": ["MySQL", "PostgreSQL", "MongoDB", "Redis", "SQLite", "Oracle", "Cassandra", "DynamoDB", "MariaDB", "Neo4j", "Elasticsearch", "Firebase", "CouchDB", "InfluxDB", "Memcached"]
+    },
+    {
+      "id": "operating-systems",
+      "name": "Operating Systems",
+      "items": ["Windows", "macOS", "Linux", "Ubuntu", "Fedora", "Debian", "Android", "iOS", "Chrome OS", "Unix", "FreeBSD", "Solaris", "Red Hat", "Mint", "Arch", "CentOS", "Manjaro"]
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "items": ["Soccer", "Basketball", "Tennis", "Golf", "Baseball", "Cricket", "Rugby", "Hockey", "Volleyball", "Swimming", "Boxing", "Wrestling", "Cycling", "Skiing", "Skating", "Gymnastics", "Athletics", "Rowing", "Sailing", "Surfing", "Archery", "Fencing", "Badminton", "Squash", "Polo", "Lacrosse", "Handball", "Curling"]
+    },
+    {
+      "id": "olympic-sports",
+      "name": "Olympic Sports",
+      "items": ["Athletics", "Swimming", "Gymnastics", "Cycling", "Rowing", "Sailing", "Archery", "Shooting", "Fencing", "Judo", "Taekwondo", "Boxing", "Wrestling", "Weightlifting", "Equestrian", "Canoeing", "Diving", "Triathlon", "Pentathlon", "Badminton", "Tennis", "Golf", "Rugby", "Soccer", "Basketball", "Volleyball", "Handball", "Hockey"]
+    },
+    {
+      "id": "martial-arts",
+      "name": "Martial Arts",
+      "items": ["Karate", "Judo", "Taekwondo", "Kung Fu", "Aikido", "Jiu-Jitsu", "Kendo", "Muay Thai", "Capoeira", "Boxing", "Wrestling", "Sumo", "Hapkido", "Wing Chun", "Krav Maga", "Sambo", "Savate", "Silat", "Escrima", "Ninjutsu"]
+    },
+    {
+      "id": "ball-sports",
+      "name": "Ball Sports",
+      "items": ["Soccer", "Basketball", "Tennis", "Golf", "Baseball", "Cricket", "Rugby", "Volleyball", "Bowling", "Billiards", "Squash", "Badminton", "Polo", "Lacrosse", "Handball", "Softball", "Dodgeball", "Racquetball", "Pickleball", "Croquet"]
+    },
+    {
+      "id": "winter-sports",
+      "name": "Winter Sports",
+      "items": ["Skiing", "Snowboarding", "Ice Hockey", "Figure Skating", "Speed Skating", "Curling", "Bobsled", "Luge", "Skeleton", "Biathlon", "Cross-Country", "Ski Jumping", "Nordic Combined", "Freestyle Skiing", "Ice Dancing"]
+    },
+    {
+      "id": "water-sports",
+      "name": "Water Sports",
+      "items": ["Swimming", "Diving", "Surfing", "Sailing", "Rowing", "Kayaking", "Canoeing", "Water Polo", "Rafting", "Snorkeling", "Scuba", "Wakeboarding", "Waterskiing", "Paddleboarding", "Windsurfing", "Kiteboarding", "Fishing", "Synchronized Swimming"]
+    },
+    {
+      "id": "car-brands",
+      "name": "Car Brands",
+      "items": ["Toyota", "Honda", "Ford", "Chevrolet", "BMW", "Mercedes", "Audi", "Volkswagen", "Porsche", "Ferrari", "Lamborghini", "Tesla", "Nissan", "Hyundai", "Kia", "Mazda", "Subaru", "Volvo", "Jaguar", "Lexus", "Bentley", "Rolls-Royce", "Maserati", "Bugatti", "McLaren", "Aston Martin"]
+    },
+    {
+      "id": "airlines",
+      "name": "Airlines",
+      "items": ["Delta", "United", "American", "Southwest", "British Airways", "Lufthansa", "Air France", "Emirates", "Qatar", "Singapore", "Cathay Pacific", "Qantas", "JetBlue", "Spirit", "Alaska", "Hawaiian", "KLM", "Iberia", "Swiss", "Turkish", "Japan Airlines", "Korean Air", "Thai", "Air Canada", "Virgin"]
+    },
+    {
+      "id": "fast-food",
+      "name": "Fast Food Chains",
+      "items": ["McDonald's", "Burger King", "Wendy's", "KFC", "Taco Bell", "Subway", "Pizza Hut", "Domino's", "Chick-fil-A", "Popeyes", "Arby's", "Sonic", "Dairy Queen", "Five Guys", "In-N-Out", "Chipotle", "Panda Express", "Dunkin'", "Starbucks", "Tim Hortons"]
+    },
+    {
+      "id": "tech-companies",
+      "name": "Tech Companies",
+      "items": ["Apple", "Google", "Microsoft", "Amazon", "Meta", "Netflix", "Tesla", "Intel", "AMD", "Nvidia", "IBM", "Oracle", "Salesforce", "Adobe", "Spotify", "Twitter", "Uber", "Airbnb", "PayPal", "Stripe", "Zoom", "Slack", "Dropbox", "Reddit", "TikTok", "Snapchat"]
+    },
+    {
+      "id": "social-media",
+      "name": "Social Media",
+      "items": ["Facebook", "Instagram", "Twitter", "TikTok", "YouTube", "Snapchat", "LinkedIn", "Pinterest", "Reddit", "WhatsApp", "Telegram", "Discord", "Tumblr", "Twitch", "BeReal", "Threads", "Mastodon", "WeChat"]
+    },
+    {
+      "id": "fruits",
+      "name": "Fruits",
+      "items": ["Apple", "Banana", "Orange", "Grape", "Strawberry", "Blueberry", "Raspberry", "Mango", "Pineapple", "Watermelon", "Peach", "Pear", "Cherry", "Lemon", "Lime", "Kiwi", "Papaya", "Coconut", "Avocado", "Pomegranate", "Fig", "Plum", "Apricot", "Grapefruit", "Tangerine", "Cantaloupe", "Honeydew", "Guava", "Passion Fruit", "Dragon Fruit"]
+    },
+    {
+      "id": "vegetables",
+      "name": "Vegetables",
+      "items": ["Carrot", "Broccoli", "Spinach", "Tomato", "Potato", "Onion", "Garlic", "Pepper", "Cucumber", "Lettuce", "Celery", "Corn", "Peas", "Beans", "Cabbage", "Cauliflower", "Asparagus", "Zucchini", "Eggplant", "Mushroom", "Radish", "Beet", "Turnip", "Kale", "Artichoke", "Leek", "Squash", "Pumpkin"]
+    },
+    {
+      "id": "herbs",
+      "name": "Herbs",
+      "items": ["Basil", "Oregano", "Thyme", "Rosemary", "Parsley", "Cilantro", "Mint", "Sage", "Dill", "Chives", "Tarragon", "Bay Leaf", "Marjoram", "Lavender", "Fennel", "Lemongrass", "Chamomile", "Coriander"]
+    },
+    {
+      "id": "spices",
+      "name": "Spices",
+      "items": ["Pepper", "Salt", "Cinnamon", "Cumin", "Paprika", "Turmeric", "Ginger", "Nutmeg", "Cardamom", "Clove", "Saffron", "Vanilla", "Curry", "Cayenne", "Chili", "Mustard", "Coriander", "Allspice", "Anise", "Caraway", "Fenugreek"]
+    },
+    {
+      "id": "pasta-types",
+      "name": "Pasta Types",
+      "items": ["Spaghetti", "Penne", "Fusilli", "Rigatoni", "Farfalle", "Linguine", "Fettuccine", "Tagliatelle", "Lasagna", "Ravioli", "Tortellini", "Gnocchi", "Macaroni", "Orzo", "Cannelloni", "Pappardelle", "Orecchiette", "Bucatini", "Ziti", "Rotini", "Cavatappi", "Shells", "Angel Hair", "Vermicelli"]
+    },
+    {
+      "id": "cheese-types",
+      "name": "Cheese Types",
+      "items": ["Cheddar", "Mozzarella", "Parmesan", "Brie", "Gouda", "Swiss", "Feta", "Goat", "Blue", "Camembert", "Gruyere", "Provolone", "Ricotta", "Mascarpone", "Gorgonzola", "Manchego", "Havarti", "Monterey Jack", "Colby", "Asiago", "Fontina", "Pecorino", "Emmental", "Muenster", "Roquefort", "Stilton", "Cottage", "Cream Cheese"]
+    },
+    {
+      "id": "bread-types",
+      "name": "Bread Types",
+      "items": ["Baguette", "Sourdough", "Ciabatta", "Focaccia", "Brioche", "Croissant", "Pita", "Naan", "Rye", "Pumpernickel", "Challah", "Bagel", "Pretzel", "Cornbread", "Tortilla", "Flatbread", "Multigrain", "Whole Wheat", "White", "French", "Italian", "English Muffin"]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "items": ["Cake", "Pie", "Cookie", "Brownie", "Ice Cream", "Cheesecake", "Pudding", "Mousse", "Tiramisu", "Crème Brûlée", "Macaron", "Éclair", "Cupcake", "Donut", "Tart", "Soufflé", "Gelato", "Sorbet", "Flan", "Baklava", "Churro", "Cannoli", "Truffle", "Parfait"]
+    },
+    {
+      "id": "coffee-drinks",
+      "name": "Coffee Drinks",
+      "items": ["Espresso", "Americano", "Latte", "Cappuccino", "Mocha", "Macchiato", "Flat White", "Cortado", "Ristretto", "Affogato", "Cold Brew", "Nitro", "Frappuccino", "Irish Coffee", "Turkish", "Vietnamese", "Drip", "Pour Over", "French Press"]
+    },
+    {
+      "id": "cocktails",
+      "name": "Cocktails",
+      "items": ["Martini", "Margarita", "Mojito", "Cosmopolitan", "Daiquiri", "Piña Colada", "Manhattan", "Old Fashioned", "Negroni", "Whiskey Sour", "Mai Tai", "Bloody Mary", "Mimosa", "Bellini", "Spritz", "Caipirinha", "Singapore Sling", "Tom Collins", "Gin Tonic", "Moscow Mule", "Paloma", "Sazerac"]
+    },
+    {
+      "id": "beer-styles",
+      "name": "Beer Styles",
+      "items": ["Lager", "Pilsner", "Ale", "IPA", "Stout", "Porter", "Wheat", "Hefeweizen", "Pale Ale", "Amber", "Brown Ale", "Bock", "Dunkel", "Kolsch", "Saison", "Sour", "Gose", "Lambic", "Tripel", "Dubbel", "Quadrupel", "Barleywine", "Cream Ale", "Märzen"]
+    },
+    {
+      "id": "wine-types",
+      "name": "Wine Types",
+      "items": ["Cabernet", "Merlot", "Pinot Noir", "Chardonnay", "Sauvignon Blanc", "Riesling", "Syrah", "Zinfandel", "Malbec", "Tempranillo", "Sangiovese", "Pinot Grigio", "Moscato", "Prosecco", "Champagne", "Port", "Sherry", "Madeira", "Rosé", "Burgundy", "Bordeaux", "Chianti"]
+    },
+    {
+      "id": "dog-breeds",
+      "name": "Dog Breeds",
+      "items": ["Labrador", "Golden Retriever", "Bulldog", "Beagle", "Poodle", "Rottweiler", "Boxer", "Dachshund", "Husky", "Doberman", "Great Dane", "Chihuahua", "Pug", "Dalmatian", "Corgi", "Collie", "Terrier", "Schnauzer", "Shih Tzu", "Pomeranian", "Maltese", "Mastiff", "Shepherd", "Retriever", "Spaniel", "Pitbull", "Akita", "Samoyed", "Malamute", "Bernese"]
+    },
+    {
+      "id": "cat-breeds",
+      "name": "Cat Breeds",
+      "items": ["Persian", "Siamese", "Maine Coon", "Ragdoll", "Bengal", "Abyssinian", "Sphynx", "British Shorthair", "Scottish Fold", "Russian Blue", "Birman", "Oriental", "Burmese", "Tonkinese", "Himalayan", "Norwegian Forest", "Savannah", "Devon Rex", "Cornish Rex", "Manx", "Turkish Angora", "Egyptian Mau", "Somali", "Siberian", "Chartreux"]
+    },
+    {
+      "id": "birds",
+      "name": "Birds",
+      "items": ["Eagle", "Hawk", "Falcon", "Owl", "Crow", "Raven", "Sparrow", "Robin", "Cardinal", "Blue Jay", "Hummingbird", "Woodpecker", "Pelican", "Flamingo", "Penguin", "Parrot", "Peacock", "Swan", "Goose", "Duck", "Crane", "Heron", "Stork", "Seagull", "Dove", "Pigeon", "Toucan", "Vulture", "Ostrich", "Emu"]
+    },
+    {
+      "id": "fish",
+      "name": "Fish",
+      "items": ["Salmon", "Tuna", "Trout", "Bass", "Cod", "Halibut", "Mackerel", "Sardine", "Anchovy", "Herring", "Swordfish", "Catfish", "Tilapia", "Perch", "Pike", "Carp", "Goldfish", "Koi", "Clownfish", "Angelfish", "Barracuda", "Marlin", "Snapper", "Grouper", "Flounder", "Sole", "Eel", "Shark"]
+    },
+    {
+      "id": "insects",
+      "name": "Insects",
+      "items": ["Ant", "Bee", "Wasp", "Butterfly", "Moth", "Beetle", "Ladybug", "Dragonfly", "Grasshopper", "Cricket", "Cicada", "Firefly", "Fly", "Mosquito", "Cockroach", "Termite", "Flea", "Tick", "Centipede", "Millipede", "Mantis", "Earwig", "Aphid", "Locust", "Hornet", "Caterpillar"]
+    },
+    {
+      "id": "reptiles",
+      "name": "Reptiles",
+      "items": ["Snake", "Lizard", "Turtle", "Tortoise", "Crocodile", "Alligator", "Gecko", "Iguana", "Chameleon", "Komodo", "Monitor", "Cobra", "Python", "Anaconda", "Rattlesnake", "Viper", "Boa", "Skink", "Salamander", "Newt"]
+    },
+    {
+      "id": "mammals",
+      "name": "Mammals",
+      "items": ["Dog", "Cat", "Horse", "Cow", "Pig", "Sheep", "Goat", "Deer", "Bear", "Wolf", "Fox", "Lion", "Tiger", "Elephant", "Giraffe", "Zebra", "Hippo", "Rhino", "Monkey", "Gorilla", "Whale", "Dolphin", "Seal", "Bat", "Rabbit", "Mouse", "Rat", "Squirrel", "Beaver", "Otter"]
+    },
+    {
+      "id": "dinosaurs",
+      "name": "Dinosaurs",
+      "items": ["T-Rex", "Velociraptor", "Triceratops", "Stegosaurus", "Brontosaurus", "Pterodactyl", "Diplodocus", "Spinosaurus", "Ankylosaurus", "Allosaurus", "Brachiosaurus", "Parasaurolophus", "Iguanodon", "Pachycephalosaurus", "Dilophosaurus", "Carnotaurus", "Archaeopteryx", "Megalosaurus", "Deinonychus", "Gallimimus"]
+    },
+    {
+      "id": "trees",
+      "name": "Trees",
+      "items": ["Oak", "Maple", "Pine", "Cedar", "Birch", "Willow", "Elm", "Ash", "Beech", "Spruce", "Fir", "Redwood", "Sequoia", "Cypress", "Palm", "Magnolia", "Chestnut", "Walnut", "Cherry", "Apple", "Pear", "Olive", "Eucalyptus", "Baobab", "Bamboo", "Poplar", "Sycamore", "Mahogany", "Teak", "Ebony"]
+    },
+    {
+      "id": "flowers",
+      "name": "Flowers",
+      "items": ["Rose", "Tulip", "Lily", "Daisy", "Sunflower", "Orchid", "Carnation", "Daffodil", "Iris", "Violet", "Peony", "Hibiscus", "Jasmine", "Lavender", "Marigold", "Chrysanthemum", "Dahlia", "Magnolia", "Gardenia", "Petunia", "Begonia", "Camellia", "Azalea", "Hydrangea", "Poppy", "Lotus", "Bluebell", "Buttercup", "Dandelion", "Geranium"]
+    },
+    {
+      "id": "gemstones",
+      "name": "Gemstones",
+      "items": ["Diamond", "Ruby", "Sapphire", "Emerald", "Amethyst", "Topaz", "Opal", "Pearl", "Garnet", "Aquamarine", "Turquoise", "Jade", "Onyx", "Obsidian", "Peridot", "Moonstone", "Citrine", "Tanzanite", "Alexandrite", "Zircon", "Tourmaline", "Malachite", "Lapis Lazuli", "Coral", "Amber"]
+    },
+    {
+      "id": "metals",
+      "name": "Metals",
+      "items": ["Gold", "Silver", "Platinum", "Copper", "Iron", "Steel", "Bronze", "Brass", "Aluminum", "Titanium", "Nickel", "Zinc", "Lead", "Tin", "Mercury", "Tungsten", "Chromium", "Cobalt", "Magnesium", "Palladium", "Iridium", "Rhodium", "Osmium"]
+    },
+    {
+      "id": "fabrics",
+      "name": "Fabrics",
+      "items": ["Cotton", "Silk", "Wool", "Linen", "Polyester", "Nylon", "Denim", "Leather", "Velvet", "Satin", "Cashmere", "Flannel", "Corduroy", "Tweed", "Chiffon", "Lace", "Suede", "Canvas", "Jersey", "Fleece", "Rayon", "Spandex", "Organza", "Taffeta"]
+    },
+    {
+      "id": "tools",
+      "name": "Tools",
+      "items": ["Hammer", "Screwdriver", "Wrench", "Pliers", "Saw", "Drill", "Level", "Tape Measure", "Chisel", "File", "Clamp", "Vise", "Sandpaper", "Crowbar", "Mallet", "Awl", "Scissors", "Knife", "Ax", "Hatchet", "Shovel", "Rake", "Pickax", "Ladder", "Wheelbarrow"]
+    },
+    {
+      "id": "furniture",
+      "name": "Furniture",
+      "items": ["Chair", "Table", "Desk", "Sofa", "Bed", "Dresser", "Nightstand", "Bookshelf", "Cabinet", "Wardrobe", "Ottoman", "Recliner", "Bench", "Stool", "Futon", "Loveseat", "Credenza", "Armoire", "Hutch", "Buffet", "Console", "Vanity", "Hammock", "Crib", "Bunk Bed"]
+    },
+    {
+      "id": "kitchen-utensils",
+      "name": "Kitchen Utensils",
+      "items": ["Knife", "Fork", "Spoon", "Spatula", "Ladle", "Whisk", "Tongs", "Peeler", "Grater", "Colander", "Strainer", "Rolling Pin", "Cutting Board", "Measuring Cup", "Mixing Bowl", "Blender", "Toaster", "Microwave", "Oven", "Stove", "Pot", "Pan", "Skillet", "Wok", "Kettle"]
+    },
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "items": ["Shirt", "Pants", "Dress", "Skirt", "Jacket", "Coat", "Sweater", "Hoodie", "Jeans", "Shorts", "Suit", "Tie", "Blouse", "Vest", "Cardigan", "T-shirt", "Tank Top", "Polo", "Blazer", "Trench Coat", "Parka", "Raincoat", "Robe", "Pajamas", "Underwear", "Socks", "Scarf", "Gloves", "Hat", "Belt"]
+    },
+    {
+      "id": "shoes",
+      "name": "Shoes",
+      "items": ["Sneakers", "Boots", "Sandals", "Heels", "Flats", "Loafers", "Oxford", "Brogues", "Moccasins", "Slip-ons", "Wedges", "Pumps", "Stilettos", "Clogs", "Espadrilles", "Flip-flops", "Slippers", "Cleats", "Hiking Boots", "Rain Boots", "Cowboy Boots", "Chelsea Boots", "Ballet Flats", "Platform"]
+    },
+    {
+      "id": "superheroes-dc",
+      "name": "DC Superheroes",
+      "items": ["Superman", "Batman", "Wonder Woman", "Flash", "Aquaman", "Green Lantern", "Cyborg", "Martian Manhunter", "Hawkgirl", "Green Arrow", "Black Canary", "Zatanna", "Shazam", "Supergirl", "Batgirl", "Nightwing", "Robin", "Raven", "Starfire", "Beast Boy"]
+    },
+    {
+      "id": "superheroes-marvel",
+      "name": "Marvel Superheroes",
+      "items": ["Spider-Man", "Iron Man", "Captain America", "Thor", "Hulk", "Black Widow", "Hawkeye", "Black Panther", "Doctor Strange", "Scarlet Witch", "Vision", "Ant-Man", "Wasp", "Captain Marvel", "Wolverine", "Storm", "Cyclops", "Jean Grey", "Deadpool", "Daredevil", "Punisher", "Ghost Rider", "Silver Surfer", "Fantastic Four"]
+    },
+    {
+      "id": "disney-princesses",
+      "name": "Disney Princesses",
+      "items": ["Snow White", "Cinderella", "Aurora", "Ariel", "Belle", "Jasmine", "Pocahontas", "Mulan", "Tiana", "Rapunzel", "Merida", "Moana", "Elsa", "Anna"]
+    },
+    {
+      "id": "harry-potter-houses",
+      "name": "Hogwarts Houses",
+      "items": ["Gryffindor", "Slytherin", "Ravenclaw", "Hufflepuff"]
+    },
+    {
+      "id": "harry-potter-characters",
+      "name": "Harry Potter Characters",
+      "items": ["Harry", "Ron", "Hermione", "Dumbledore", "Snape", "Voldemort", "Hagrid", "Sirius", "Lupin", "McGonagall", "Draco", "Neville", "Luna", "Ginny", "Fred", "George", "Dobby", "Bellatrix", "Lucius", "Cedric", "Moody", "Tonks", "Umbridge", "Flitwick", "Sprout"]
+    },
+    {
+      "id": "lotr-characters",
+      "name": "Lord of the Rings Characters",
+      "items": ["Frodo", "Sam", "Gandalf", "Aragorn", "Legolas", "Gimli", "Boromir", "Merry", "Pippin", "Gollum", "Saruman", "Sauron", "Elrond", "Galadriel", "Arwen", "Eowyn", "Theoden", "Faramir", "Bilbo", "Treebeard"]
+    },
+    {
+      "id": "star-wars-characters",
+      "name": "Star Wars Characters",
+      "items": ["Luke", "Leia", "Han", "Vader", "Yoda", "Obi-Wan", "Chewbacca", "R2-D2", "C-3PO", "Palpatine", "Boba Fett", "Lando", "Anakin", "Padme", "Mace Windu", "Qui-Gon", "Maul", "Dooku", "Grievous", "Kylo Ren", "Rey", "Finn", "Poe", "Grogu", "Mandalorian"]
+    },
+    {
+      "id": "game-of-thrones-houses",
+      "name": "Game of Thrones Houses",
+      "items": ["Stark", "Lannister", "Targaryen", "Baratheon", "Greyjoy", "Tyrell", "Martell", "Arryn", "Tully", "Bolton", "Frey", "Mormont", "Reed", "Karstark", "Umber", "Clegane", "Tarly", "Hightower"]
+    },
+    {
+      "id": "friends-characters",
+      "name": "Friends Characters",
+      "items": ["Rachel", "Monica", "Phoebe", "Ross", "Chandler", "Joey", "Gunther", "Janice", "Richard", "Emily", "Carol", "Susan", "Ben", "Emma", "Mike", "David", "Tag", "Pete", "Paolo", "Marcel"]
+    },
+    {
+      "id": "simpsons-characters",
+      "name": "Simpsons Characters",
+      "items": ["Homer", "Marge", "Bart", "Lisa", "Maggie", "Grandpa", "Flanders", "Moe", "Barney", "Apu", "Burns", "Smithers", "Milhouse", "Nelson", "Ralph", "Krusty", "Sideshow Bob", "Chief Wiggum", "Skinner", "Edna", "Otto", "Comic Book Guy", "Hans Moleman", "Patty", "Selma"]
+    },
+    {
+      "id": "office-characters",
+      "name": "The Office Characters",
+      "items": ["Michael", "Jim", "Pam", "Dwight", "Andy", "Angela", "Kevin", "Oscar", "Stanley", "Phyllis", "Ryan", "Kelly", "Toby", "Creed", "Meredith", "Darryl", "Erin", "Gabe", "Jan", "Holly", "Robert California", "Nellie", "Pete", "Clark"]
+    },
+    {
+      "id": "pokemon-gen1",
+      "name": "Pokemon (Gen 1)",
+      "items": ["Pikachu", "Charizard", "Blastoise", "Venusaur", "Mewtwo", "Mew", "Gengar", "Alakazam", "Machamp", "Gyarados", "Dragonite", "Snorlax", "Lapras", "Eevee", "Jigglypuff", "Bulbasaur", "Charmander", "Squirtle", "Pidgey", "Rattata", "Geodude", "Onix", "Magikarp", "Ditto", "Articuno", "Zapdos", "Moltres"]
+    },
+    {
+      "id": "countries-europe",
+      "name": "European Countries",
+      "items": ["France", "Germany", "Italy", "Spain", "Portugal", "UK", "Ireland", "Netherlands", "Belgium", "Switzerland", "Austria", "Poland", "Czech Republic", "Hungary", "Romania", "Bulgaria", "Greece", "Sweden", "Norway", "Finland", "Denmark", "Iceland", "Croatia", "Serbia", "Ukraine", "Russia"]
+    },
+    {
+      "id": "countries-asia",
+      "name": "Asian Countries",
+      "items": ["China", "Japan", "Korea", "India", "Thailand", "Vietnam", "Philippines", "Indonesia", "Malaysia", "Singapore", "Taiwan", "Mongolia", "Nepal", "Pakistan", "Bangladesh", "Sri Lanka", "Myanmar", "Cambodia", "Laos", "Kazakhstan", "Uzbekistan", "Iran", "Iraq", "Saudi Arabia", "UAE", "Israel", "Turkey"]
+    },
+    {
+      "id": "languages",
+      "name": "Languages",
+      "items": ["English", "Spanish", "French", "German", "Italian", "Portuguese", "Russian", "Chinese", "Japanese", "Korean", "Arabic", "Hindi", "Bengali", "Urdu", "Turkish", "Vietnamese", "Thai", "Greek", "Hebrew", "Polish", "Dutch", "Swedish", "Danish", "Norwegian", "Finnish", "Czech", "Hungarian", "Romanian", "Indonesian", "Malay", "Swahili", "Latin"]
+    },
+    {
+      "id": "emotions",
+      "name": "Emotions",
+      "items": ["Happy", "Sad", "Angry", "Scared", "Surprised", "Disgusted", "Excited", "Nervous", "Confused", "Jealous", "Proud", "Ashamed", "Guilty", "Lonely", "Bored", "Frustrated", "Hopeful", "Content", "Anxious", "Relieved", "Grateful", "Nostalgic", "Curious", "Amused", "Embarrassed"]
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "items": ["Sunny", "Cloudy", "Rainy", "Stormy", "Snowy", "Windy", "Foggy", "Humid", "Dry", "Hot", "Cold", "Freezing", "Mild", "Overcast", "Hazy", "Drizzle", "Sleet", "Hail", "Thunder", "Lightning", "Tornado", "Hurricane", "Blizzard", "Drought", "Frost"]
+    },
+    {
+      "id": "rooms",
+      "name": "Rooms in a House",
+      "items": ["Kitchen", "Bedroom", "Bathroom", "Living Room", "Dining Room", "Basement", "Attic", "Garage", "Laundry Room", "Office", "Pantry", "Closet", "Hallway", "Foyer", "Den", "Nursery", "Guest Room", "Sunroom", "Porch", "Balcony", "Patio", "Cellar", "Library", "Gym"]
+    },
+    {
+      "id": "professions",
+      "name": "Professions",
+      "items": ["Doctor", "Lawyer", "Teacher", "Engineer", "Nurse", "Accountant", "Chef", "Pilot", "Firefighter", "Police", "Architect", "Scientist", "Artist", "Writer", "Actor", "Musician", "Athlete", "Journalist", "Photographer", "Designer", "Programmer", "Pharmacist", "Dentist", "Veterinarian", "Electrician", "Plumber", "Carpenter", "Mechanic", "Farmer", "Banker"]
+    },
+    {
+      "id": "school-subjects",
+      "name": "School Subjects",
+      "items": ["Math", "English", "Science", "History", "Geography", "Physics", "Chemistry", "Biology", "Literature", "Art", "Music", "PE", "Computer Science", "Economics", "Psychology", "Philosophy", "Sociology", "Spanish", "French", "German", "Latin", "Drama", "Health", "Civics"]
+    },
+    {
+      "id": "university-majors",
+      "name": "University Majors",
+      "items": ["Computer Science", "Engineering", "Business", "Psychology", "Biology", "Economics", "Political Science", "English", "History", "Mathematics", "Physics", "Chemistry", "Nursing", "Communications", "Marketing", "Finance", "Accounting", "Art", "Music", "Philosophy", "Sociology", "Anthropology", "Architecture", "Law", "Medicine"]
+    },
+    {
+      "id": "dances",
+      "name": "Dances",
+      "items": ["Waltz", "Tango", "Salsa", "Bachata", "Cha-cha", "Rumba", "Foxtrot", "Swing", "Jive", "Quickstep", "Samba", "Paso Doble", "Ballet", "Jazz", "Tap", "Hip Hop", "Breakdance", "Flamenco", "Polka", "Merengue", "Bolero", "Mambo", "Disco", "Line Dance", "Square Dance"]
+    },
+    {
+      "id": "yoga-poses",
+      "name": "Yoga Poses",
+      "items": ["Downward Dog", "Warrior", "Tree", "Child's Pose", "Cobra", "Plank", "Triangle", "Bridge", "Cat-Cow", "Mountain", "Chair", "Eagle", "Crow", "Pigeon", "Lotus", "Corpse", "Boat", "Bow", "Camel", "Fish", "Locust", "Wheel", "Headstand", "Handstand", "Shoulder Stand"]
+    },
+    {
+      "id": "phobias",
+      "name": "Phobias",
+      "items": ["Arachnophobia", "Claustrophobia", "Acrophobia", "Agoraphobia", "Ophidiophobia", "Cynophobia", "Astraphobia", "Trypanophobia", "Hemophobia", "Glossophobia", "Nyctophobia", "Aviophobia", "Aquaphobia", "Pyrophobia", "Thanatophobia", "Mysophobia", "Emetophobia", "Entomophobia", "Autophobia", "Dentophobia"]
+    },
+    {
+      "id": "logical-fallacies",
+      "name": "Logical Fallacies",
+      "items": ["Ad Hominem", "Straw Man", "False Dilemma", "Slippery Slope", "Circular Reasoning", "Appeal to Authority", "Red Herring", "Hasty Generalization", "Tu Quoque", "Loaded Question", "Bandwagon", "Appeal to Emotion", "Equivocation", "Post Hoc", "No True Scotsman", "Begging the Question", "False Cause", "Texas Sharpshooter"]
+    },
+    {
+      "id": "cognitive-biases",
+      "name": "Cognitive Biases",
+      "items": ["Confirmation Bias", "Anchoring", "Availability Heuristic", "Hindsight Bias", "Dunning-Kruger", "Sunk Cost", "Bandwagon Effect", "Halo Effect", "Negativity Bias", "Optimism Bias", "Self-Serving Bias", "Attribution Error", "Status Quo Bias", "Framing Effect", "Groupthink", "Recency Bias", "Survivorship Bias", "Curse of Knowledge"]
+    }
+  ]
+}

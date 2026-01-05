@@ -631,6 +631,541 @@
       "id": "cognitive-biases",
       "name": "Cognitive Biases",
       "items": ["Confirmation Bias", "Anchoring", "Availability Heuristic", "Hindsight Bias", "Dunning-Kruger", "Sunk Cost", "Bandwagon Effect", "Halo Effect", "Negativity Bias", "Optimism Bias", "Self-Serving Bias", "Attribution Error", "Status Quo Bias", "Framing Effect", "Groupthink", "Recency Bias", "Survivorship Bias", "Curse of Knowledge"]
+    },
+    {
+      "id": "art-movements",
+      "name": "Art Movements",
+      "items": ["Renaissance", "Baroque", "Rococo", "Neoclassicism", "Romanticism", "Impressionism", "Post-Impressionism", "Expressionism", "Cubism", "Surrealism", "Dadaism", "Pop Art", "Abstract", "Minimalism", "Art Nouveau", "Art Deco", "Fauvism", "Futurism", "Bauhaus", "Realism"]
+    },
+    {
+      "id": "famous-painters",
+      "name": "Famous Painters",
+      "items": ["Da Vinci", "Michelangelo", "Rembrandt", "Van Gogh", "Picasso", "Monet", "Renoir", "Cézanne", "Dalí", "Warhol", "Matisse", "Klimt", "Vermeer", "Raphael", "Caravaggio", "Goya", "Degas", "Manet", "Kandinsky", "Pollock", "Frida Kahlo", "O'Keeffe", "Banksy", "Basquiat"]
+    },
+    {
+      "id": "famous-composers",
+      "name": "Famous Composers",
+      "items": ["Bach", "Mozart", "Beethoven", "Chopin", "Tchaikovsky", "Vivaldi", "Handel", "Brahms", "Schubert", "Wagner", "Verdi", "Debussy", "Strauss", "Mahler", "Liszt", "Haydn", "Mendelssohn", "Rachmaninoff", "Stravinsky", "Puccini", "Dvorak", "Prokofiev", "Shostakovich", "Grieg"]
+    },
+    {
+      "id": "famous-scientists",
+      "name": "Famous Scientists",
+      "items": ["Einstein", "Newton", "Darwin", "Curie", "Galileo", "Tesla", "Edison", "Hawking", "Feynman", "Bohr", "Heisenberg", "Planck", "Faraday", "Maxwell", "Pasteur", "Fleming", "Mendel", "Watson", "Crick", "Rutherford", "Fermi", "Oppenheimer", "Dirac", "Schrödinger"]
+    },
+    {
+      "id": "famous-philosophers",
+      "name": "Famous Philosophers",
+      "items": ["Socrates", "Plato", "Aristotle", "Descartes", "Kant", "Nietzsche", "Hegel", "Marx", "Locke", "Hume", "Spinoza", "Leibniz", "Rousseau", "Voltaire", "Wittgenstein", "Russell", "Sartre", "Camus", "Kierkegaard", "Schopenhauer", "Hobbes", "Machiavelli", "Confucius", "Epicurus"]
+    },
+    {
+      "id": "famous-inventors",
+      "name": "Famous Inventors",
+      "items": ["Edison", "Tesla", "Bell", "Wright Brothers", "Ford", "Gutenberg", "Watt", "Nobel", "Pasteur", "Marconi", "Morse", "Whitney", "Diesel", "Daimler", "Benz", "Eastman", "Goodyear", "Baird", "Berners-Lee", "Jobs", "Gates", "Turing", "Babbage", "Lovelace"]
+    },
+    {
+      "id": "constellations",
+      "name": "Constellations",
+      "items": ["Orion", "Ursa Major", "Ursa Minor", "Cassiopeia", "Scorpius", "Leo", "Cygnus", "Draco", "Aquila", "Lyra", "Pegasus", "Andromeda", "Centaurus", "Sagittarius", "Perseus", "Taurus", "Gemini", "Cancer", "Virgo", "Libra", "Capricornus", "Aquarius", "Pisces", "Aries"]
+    },
+    {
+      "id": "cloud-types",
+      "name": "Cloud Types",
+      "items": ["Cumulus", "Stratus", "Cirrus", "Nimbus", "Cumulonimbus", "Stratocumulus", "Altostratus", "Altocumulus", "Cirrostratus", "Cirrocumulus", "Nimbostratus", "Lenticular", "Mammatus", "Contrail"]
+    },
+    {
+      "id": "architecture-styles",
+      "name": "Architecture Styles",
+      "items": ["Gothic", "Baroque", "Romanesque", "Renaissance", "Art Deco", "Art Nouveau", "Brutalist", "Modernist", "Postmodern", "Victorian", "Georgian", "Tudor", "Colonial", "Neoclassical", "Byzantine", "Islamic", "Minimalist", "Deconstructivist", "Prairie", "Craftsman"]
+    },
+    {
+      "id": "world-wonders-ancient",
+      "name": "Ancient World Wonders",
+      "items": ["Great Pyramid", "Hanging Gardens", "Colossus", "Lighthouse", "Mausoleum", "Temple of Artemis", "Statue of Zeus"]
+    },
+    {
+      "id": "world-landmarks",
+      "name": "World Landmarks",
+      "items": ["Eiffel Tower", "Colosseum", "Taj Mahal", "Great Wall", "Machu Picchu", "Petra", "Christ Redeemer", "Stonehenge", "Acropolis", "Big Ben", "Leaning Tower", "Sphinx", "Sydney Opera", "Golden Gate", "Statue of Liberty", "Empire State", "Burj Khalifa", "Angkor Wat", "Forbidden City", "Tower of London", "Notre Dame", "Sagrada Familia", "Mount Rushmore", "Kremlin"]
+    },
+    {
+      "id": "rivers",
+      "name": "Rivers of the World",
+      "items": ["Amazon", "Nile", "Mississippi", "Yangtze", "Ganges", "Danube", "Thames", "Seine", "Rhine", "Congo", "Mekong", "Volga", "Colorado", "Hudson", "Tigris", "Euphrates", "Niger", "Zambezi", "Murray", "Indus", "Brahmaputra", "Orinoco", "Huang He", "Yukon"]
+    },
+    {
+      "id": "mountain-ranges",
+      "name": "Mountain Ranges",
+      "items": ["Himalayas", "Alps", "Andes", "Rockies", "Appalachians", "Pyrenees", "Atlas", "Carpathians", "Urals", "Caucasus", "Sierra Nevada", "Karakoram", "Hindu Kush", "Dolomites", "Blue Mountains", "Cascades", "Ozarks", "Balkans", "Apennines", "Scandinavian"]
+    },
+    {
+      "id": "deserts",
+      "name": "Deserts",
+      "items": ["Sahara", "Arabian", "Gobi", "Kalahari", "Mojave", "Sonoran", "Atacama", "Namib", "Thar", "Patagonian", "Great Victoria", "Syrian", "Gibson", "Great Basin", "Chihuahuan", "Taklamakan", "Karakum", "Negev", "Simpson", "Antarctic"]
+    },
+    {
+      "id": "islands",
+      "name": "Famous Islands",
+      "items": ["Hawaii", "Bali", "Maldives", "Fiji", "Santorini", "Ibiza", "Sicily", "Crete", "Cyprus", "Madagascar", "Jamaica", "Cuba", "Puerto Rico", "Tahiti", "Bora Bora", "Seychelles", "Mauritius", "Sri Lanka", "Phuket", "Galapagos", "Iceland", "Greenland", "Tasmania", "Zanzibar"]
+    },
+    {
+      "id": "national-parks-us",
+      "name": "US National Parks",
+      "items": ["Yellowstone", "Yosemite", "Grand Canyon", "Zion", "Glacier", "Acadia", "Rocky Mountain", "Olympic", "Arches", "Bryce Canyon", "Joshua Tree", "Sequoia", "Redwood", "Denali", "Everglades", "Death Valley", "Canyonlands", "Capitol Reef", "Great Smoky", "Shenandoah", "Badlands", "Mount Rainier", "Crater Lake", "Carlsbad"]
+    },
+    {
+      "id": "us-presidents",
+      "name": "US Presidents",
+      "items": ["Washington", "Adams", "Jefferson", "Madison", "Monroe", "Jackson", "Lincoln", "Grant", "Cleveland", "Roosevelt", "Wilson", "Coolidge", "Truman", "Eisenhower", "Kennedy", "Johnson", "Nixon", "Carter", "Reagan", "Bush", "Clinton", "Obama", "Trump", "Biden"]
+    },
+    {
+      "id": "british-monarchs",
+      "name": "British Monarchs",
+      "items": ["William", "Henry", "Edward", "Richard", "John", "Elizabeth", "Victoria", "George", "James", "Charles", "Anne", "Mary", "Stephen", "Matilda", "Alfred", "Ethelred", "Cnut", "Harold", "Edgar", "Edmund"]
+    },
+    {
+      "id": "video-game-consoles",
+      "name": "Video Game Consoles",
+      "items": ["PlayStation", "Xbox", "Nintendo", "Switch", "Wii", "GameCube", "Dreamcast", "Saturn", "Genesis", "SNES", "NES", "Atari", "Game Boy", "DS", "3DS", "PSP", "Vita", "N64", "TurboGrafx", "Neo Geo", "Sega CD", "Jaguar", "Lynx", "Virtual Boy"]
+    },
+    {
+      "id": "video-game-genres",
+      "name": "Video Game Genres",
+      "items": ["RPG", "FPS", "Platformer", "Racing", "Sports", "Puzzle", "Strategy", "Simulation", "Fighting", "Adventure", "Horror", "Roguelike", "Metroidvania", "Sandbox", "Battle Royale", "MOBA", "MMORPG", "Visual Novel", "Rhythm", "Stealth", "Tower Defense", "Survival", "Card Game", "Party"]
+    },
+    {
+      "id": "famous-video-games",
+      "name": "Famous Video Games",
+      "items": ["Mario", "Zelda", "Tetris", "Minecraft", "Fortnite", "GTA", "Call of Duty", "FIFA", "Pokemon", "Sonic", "Halo", "God of War", "Final Fantasy", "Dark Souls", "Elden Ring", "Skyrim", "Witcher", "Red Dead", "Last of Us", "Resident Evil", "Metal Gear", "Street Fighter", "Smash Bros", "Animal Crossing", "Roblox"]
+    },
+    {
+      "id": "animation-studios",
+      "name": "Animation Studios",
+      "items": ["Pixar", "Disney", "DreamWorks", "Ghibli", "Illumination", "Blue Sky", "Laika", "Aardman", "Cartoon Network", "Nickelodeon", "Warner Bros", "Sony Animation", "Toei", "Madhouse", "Bones", "Kyoto Animation", "Sunrise", "MAPPA", "Wit Studio", "Ufotable"]
+    },
+    {
+      "id": "broadway-musicals",
+      "name": "Broadway Musicals",
+      "items": ["Hamilton", "Phantom", "Les Mis", "Wicked", "Lion King", "Chicago", "Cats", "Rent", "Mamma Mia", "Grease", "West Side Story", "Sound of Music", "Annie", "Fiddler", "Sweeney Todd", "Dear Evan Hansen", "Book of Mormon", "Hadestown", "Moulin Rouge", "Oklahoma", "Cabaret", "Jersey Boys", "Waitress", "Hairspray"]
+    },
+    {
+      "id": "famous-operas",
+      "name": "Famous Operas",
+      "items": ["La Traviata", "Carmen", "Rigoletto", "Tosca", "Aida", "Madama Butterfly", "La Bohème", "Turandot", "Don Giovanni", "Magic Flute", "Marriage of Figaro", "Barber of Seville", "Otello", "Pagliacci", "Norma", "Faust", "Parsifal", "Tristan", "Der Ring", "Falstaff"]
+    },
+    {
+      "id": "famous-ballets",
+      "name": "Famous Ballets",
+      "items": ["Swan Lake", "Nutcracker", "Sleeping Beauty", "Giselle", "Romeo and Juliet", "Don Quixote", "Coppélia", "La Bayadère", "Le Corsaire", "La Sylphide", "Firebird", "Petrouchka", "Rite of Spring", "Serenade", "Jewels", "Apollo", "Cinderella", "Manon", "Onegin", "Spartacus"]
+    },
+    {
+      "id": "ballet-terms",
+      "name": "Ballet Terms",
+      "items": ["Plié", "Tendu", "Relevé", "Pirouette", "Arabesque", "Jeté", "Chassé", "Pas de deux", "Port de bras", "Battement", "Fouetté", "Glissade", "Balancé", "Cambré", "Coupé", "Dégagé", "Développé", "Échappé", "Entrechat", "Rond de jambe"]
+    },
+    {
+      "id": "soccer-positions",
+      "name": "Soccer Positions",
+      "items": ["Goalkeeper", "Sweeper", "Center Back", "Left Back", "Right Back", "Wing Back", "Defensive Mid", "Central Mid", "Attacking Mid", "Left Wing", "Right Wing", "Striker", "Center Forward", "False Nine", "Box-to-Box"]
+    },
+    {
+      "id": "basketball-positions",
+      "name": "Basketball Positions",
+      "items": ["Point Guard", "Shooting Guard", "Small Forward", "Power Forward", "Center"]
+    },
+    {
+      "id": "american-football-positions",
+      "name": "Football Positions",
+      "items": ["Quarterback", "Running Back", "Fullback", "Wide Receiver", "Tight End", "Left Tackle", "Left Guard", "Center", "Right Guard", "Right Tackle", "Defensive End", "Defensive Tackle", "Linebacker", "Cornerback", "Safety", "Kicker", "Punter"]
+    },
+    {
+      "id": "tennis-terms",
+      "name": "Tennis Terms",
+      "items": ["Ace", "Deuce", "Love", "Serve", "Volley", "Backhand", "Forehand", "Smash", "Lob", "Drop Shot", "Slice", "Topspin", "Let", "Fault", "Break", "Rally", "Net", "Baseline", "Match Point", "Set Point", "Tiebreak", "Grand Slam"]
+    },
+    {
+      "id": "baseball-terms",
+      "name": "Baseball Terms",
+      "items": ["Strike", "Ball", "Home Run", "Single", "Double", "Triple", "Walk", "Bunt", "Steal", "Slide", "Tag", "Pitch", "Curveball", "Fastball", "Slider", "Changeup", "Knuckleball", "Inning", "Out", "Run", "Hit", "Error", "RBI", "ERA", "Shutout", "No-Hitter"]
+    },
+    {
+      "id": "golf-terms",
+      "name": "Golf Terms",
+      "items": ["Birdie", "Eagle", "Bogey", "Par", "Hole-in-One", "Ace", "Albatross", "Fairway", "Green", "Bunker", "Rough", "Tee", "Drive", "Putt", "Chip", "Slice", "Hook", "Fade", "Draw", "Fore", "Caddy", "Handicap", "Mulligan", "Dogleg"]
+    },
+    {
+      "id": "horse-breeds",
+      "name": "Horse Breeds",
+      "items": ["Arabian", "Thoroughbred", "Quarter Horse", "Mustang", "Appaloosa", "Clydesdale", "Friesian", "Morgan", "Palomino", "Pinto", "Andalusian", "Belgian", "Percheron", "Lipizzan", "Tennessee Walker", "Shetland Pony", "Welsh Pony", "Shire", "Hanoverian", "Paint", "Akhal-Teke", "Haflinger", "Icelandic", "Fjord"]
+    },
+    {
+      "id": "big-cats",
+      "name": "Big Cats",
+      "items": ["Lion", "Tiger", "Leopard", "Jaguar", "Cheetah", "Cougar", "Snow Leopard", "Clouded Leopard", "Lynx", "Bobcat", "Caracal", "Serval", "Ocelot", "Margay", "Puma"]
+    },
+    {
+      "id": "primates",
+      "name": "Primates",
+      "items": ["Gorilla", "Chimpanzee", "Orangutan", "Bonobo", "Gibbon", "Mandrill", "Baboon", "Macaque", "Capuchin", "Spider Monkey", "Howler Monkey", "Marmoset", "Tamarin", "Lemur", "Tarsier", "Loris", "Bushbaby", "Aye-aye", "Colobus", "Proboscis"]
+    },
+    {
+      "id": "whales",
+      "name": "Whales and Dolphins",
+      "items": ["Blue Whale", "Humpback", "Orca", "Sperm Whale", "Beluga", "Narwhal", "Minke", "Gray Whale", "Right Whale", "Bowhead", "Pilot Whale", "Bottlenose", "Spinner", "Porpoise", "Vaquita", "Fin Whale", "Sei Whale", "Beaked Whale"]
+    },
+    {
+      "id": "sharks",
+      "name": "Sharks",
+      "items": ["Great White", "Hammerhead", "Tiger Shark", "Bull Shark", "Whale Shark", "Mako", "Nurse Shark", "Blue Shark", "Thresher", "Reef Shark", "Blacktip", "Lemon Shark", "Goblin Shark", "Megamouth", "Basking Shark", "Sand Tiger", "Wobbegong", "Angel Shark", "Leopard Shark", "Dogfish"]
+    },
+    {
+      "id": "sea-creatures",
+      "name": "Sea Creatures",
+      "items": ["Octopus", "Squid", "Jellyfish", "Starfish", "Sea Urchin", "Seahorse", "Sea Turtle", "Lobster", "Crab", "Shrimp", "Oyster", "Clam", "Mussel", "Scallop", "Sea Cucumber", "Coral", "Anemone", "Manta Ray", "Stingray", "Moray Eel", "Sea Snake", "Manatee", "Walrus", "Seal", "Sea Lion"]
+    },
+    {
+      "id": "mythical-creatures",
+      "name": "Mythical Creatures",
+      "items": ["Dragon", "Phoenix", "Unicorn", "Griffin", "Pegasus", "Centaur", "Minotaur", "Mermaid", "Kraken", "Basilisk", "Chimera", "Cerberus", "Hydra", "Sphinx", "Gorgon", "Cyclops", "Werewolf", "Vampire", "Yeti", "Bigfoot", "Loch Ness", "Thunderbird", "Kitsune", "Fairy", "Elf", "Troll", "Ogre", "Goblin"]
+    },
+    {
+      "id": "fairy-tale-characters",
+      "name": "Fairy Tale Characters",
+      "items": ["Cinderella", "Snow White", "Rapunzel", "Little Mermaid", "Red Riding Hood", "Hansel", "Gretel", "Jack", "Goldilocks", "Pinocchio", "Rumpelstiltskin", "Thumbelina", "Sleeping Beauty", "Beauty", "Beast", "Prince Charming", "Fairy Godmother", "Big Bad Wolf", "Three Little Pigs", "Puss in Boots"]
+    },
+    {
+      "id": "literary-devices",
+      "name": "Literary Devices",
+      "items": ["Metaphor", "Simile", "Alliteration", "Personification", "Hyperbole", "Irony", "Foreshadowing", "Symbolism", "Imagery", "Onomatopoeia", "Oxymoron", "Paradox", "Allusion", "Euphemism", "Satire", "Allegory", "Juxtaposition", "Flashback", "Motif", "Tone", "Mood", "Theme", "Rhyme", "Rhythm"]
+    },
+    {
+      "id": "poetry-forms",
+      "name": "Poetry Forms",
+      "items": ["Sonnet", "Haiku", "Limerick", "Free Verse", "Ballad", "Epic", "Ode", "Elegy", "Villanelle", "Sestina", "Ghazal", "Tanka", "Couplet", "Quatrain", "Tercet", "Blank Verse", "Acrostic", "Concrete", "Prose Poem", "Narrative"]
+    },
+    {
+      "id": "parts-of-speech",
+      "name": "Parts of Speech",
+      "items": ["Noun", "Verb", "Adjective", "Adverb", "Pronoun", "Preposition", "Conjunction", "Interjection", "Article", "Determiner"]
+    },
+    {
+      "id": "punctuation",
+      "name": "Punctuation Marks",
+      "items": ["Period", "Comma", "Question Mark", "Exclamation", "Colon", "Semicolon", "Apostrophe", "Quotation", "Hyphen", "Dash", "Parentheses", "Brackets", "Ellipsis", "Slash", "Ampersand", "Asterisk", "Tilde", "Caret"]
+    },
+    {
+      "id": "nobel-categories",
+      "name": "Nobel Prize Categories",
+      "items": ["Physics", "Chemistry", "Medicine", "Literature", "Peace", "Economics"]
+    },
+    {
+      "id": "oscar-categories",
+      "name": "Oscar Categories",
+      "items": ["Best Picture", "Best Director", "Best Actor", "Best Actress", "Supporting Actor", "Supporting Actress", "Original Screenplay", "Adapted Screenplay", "Animated Feature", "Cinematography", "Editing", "Visual Effects", "Original Score", "Original Song", "Sound", "Production Design", "Costume Design", "Makeup", "Documentary", "Foreign Film"]
+    },
+    {
+      "id": "grammy-categories",
+      "name": "Grammy Categories",
+      "items": ["Record of the Year", "Album of the Year", "Song of the Year", "Best New Artist", "Best Pop Vocal", "Best Rock Album", "Best Rap Album", "Best Country Album", "Best R&B Album", "Best Jazz Album", "Best Classical", "Best Musical Theater", "Best Comedy Album", "Producer of the Year", "Best Music Video"]
+    },
+    {
+      "id": "sushi-types",
+      "name": "Sushi Types",
+      "items": ["Nigiri", "Maki", "Sashimi", "Temaki", "Uramaki", "Chirashi", "Oshizushi", "Narezushi", "Futomaki", "Hosomaki", "California Roll", "Dragon Roll", "Spider Roll", "Rainbow Roll", "Spicy Tuna", "Philadelphia Roll", "Unagi", "Tamago", "Inari"]
+    },
+    {
+      "id": "japanese-food",
+      "name": "Japanese Food",
+      "items": ["Sushi", "Ramen", "Udon", "Soba", "Tempura", "Teriyaki", "Tonkatsu", "Yakitori", "Gyoza", "Okonomiyaki", "Takoyaki", "Onigiri", "Miso Soup", "Edamame", "Tofu", "Matcha", "Mochi", "Taiyaki", "Dorayaki", "Katsu Curry", "Donburi", "Sukiyaki", "Shabu Shabu", "Kaiseki"]
+    },
+    {
+      "id": "italian-food",
+      "name": "Italian Food",
+      "items": ["Pizza", "Pasta", "Risotto", "Lasagna", "Ravioli", "Gnocchi", "Carbonara", "Bolognese", "Pesto", "Margherita", "Bruschetta", "Caprese", "Antipasto", "Osso Buco", "Saltimbocca", "Prosciutto", "Parmesan", "Tiramisu", "Gelato", "Panna Cotta", "Cannoli", "Espresso", "Focaccia", "Minestrone"]
+    },
+    {
+      "id": "mexican-food",
+      "name": "Mexican Food",
+      "items": ["Taco", "Burrito", "Quesadilla", "Enchilada", "Tamale", "Tostada", "Nachos", "Guacamole", "Salsa", "Pico de Gallo", "Mole", "Pozole", "Menudo", "Carnitas", "Barbacoa", "Carne Asada", "Chorizo", "Elote", "Churro", "Horchata", "Fajita", "Chimichanga", "Taquito", "Huevos Rancheros"]
+    },
+    {
+      "id": "indian-food",
+      "name": "Indian Food",
+      "items": ["Curry", "Tandoori", "Biryani", "Tikka Masala", "Butter Chicken", "Naan", "Roti", "Samosa", "Pakora", "Dosa", "Idli", "Chutney", "Raita", "Dal", "Paneer", "Korma", "Vindaloo", "Madras", "Bhaji", "Chapati", "Paratha", "Lassi", "Chai", "Kulfi", "Gulab Jamun"]
+    },
+    {
+      "id": "chinese-food",
+      "name": "Chinese Food",
+      "items": ["Fried Rice", "Chow Mein", "Lo Mein", "Kung Pao", "Sweet and Sour", "General Tso", "Orange Chicken", "Dim Sum", "Dumplings", "Spring Roll", "Egg Roll", "Wonton", "Peking Duck", "Mapo Tofu", "Hot Pot", "Congee", "Bao", "Char Siu", "Chop Suey", "Mu Shu", "Dan Dan", "Mooncake", "Bubble Tea", "Fortune Cookie"]
+    },
+    {
+      "id": "thai-food",
+      "name": "Thai Food",
+      "items": ["Pad Thai", "Tom Yum", "Green Curry", "Red Curry", "Massaman", "Satay", "Som Tam", "Larb", "Khao Pad", "Tom Kha", "Pad See Ew", "Mango Sticky Rice", "Spring Roll", "Panang Curry", "Pad Kra Pao", "Khao Soi", "Gaeng Daeng", "Thai Iced Tea", "Coconut Soup", "Crispy Pork"]
+    },
+    {
+      "id": "french-food",
+      "name": "French Food",
+      "items": ["Croissant", "Baguette", "Crêpe", "Quiche", "Ratatouille", "Coq au Vin", "Bouillabaisse", "Soufflé", "Escargot", "Foie Gras", "Crème Brûlée", "Macarons", "Éclair", "Mousse", "Cassoulet", "Boeuf Bourguignon", "Onion Soup", "Niçoise Salad", "Duck Confit", "Tarte Tatin", "Brioche", "Madeleine", "Profiterole", "Croque Monsieur"]
+    },
+    {
+      "id": "units-length",
+      "name": "Units of Length",
+      "items": ["Millimeter", "Centimeter", "Meter", "Kilometer", "Inch", "Foot", "Yard", "Mile", "Nanometer", "Micrometer", "Fathom", "Furlong", "League", "Light Year", "Parsec", "Angstrom", "Nautical Mile"]
+    },
+    {
+      "id": "units-weight",
+      "name": "Units of Weight",
+      "items": ["Gram", "Kilogram", "Milligram", "Ounce", "Pound", "Ton", "Stone", "Carat", "Tonne", "Grain", "Dram", "Troy Ounce", "Hundredweight", "Microgram"]
+    },
+    {
+      "id": "units-time",
+      "name": "Units of Time",
+      "items": ["Second", "Minute", "Hour", "Day", "Week", "Month", "Year", "Decade", "Century", "Millennium", "Microsecond", "Millisecond", "Nanosecond", "Fortnight", "Quarter", "Semester", "Fiscal Year"]
+    },
+    {
+      "id": "roman-numerals",
+      "name": "Roman Numerals",
+      "items": ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "L", "C", "D", "M"]
+    },
+    {
+      "id": "birthstones",
+      "name": "Birthstones",
+      "items": ["Garnet", "Amethyst", "Aquamarine", "Diamond", "Emerald", "Pearl", "Ruby", "Peridot", "Sapphire", "Opal", "Topaz", "Turquoise"]
+    },
+    {
+      "id": "wedding-anniversaries",
+      "name": "Wedding Anniversaries",
+      "items": ["Paper", "Cotton", "Leather", "Fruit", "Wood", "Candy", "Wool", "Pottery", "Willow", "Tin", "Steel", "Silk", "Lace", "Ivory", "Crystal", "China", "Silver", "Pearl", "Ruby", "Gold", "Diamond", "Platinum"]
+    },
+    {
+      "id": "zodiac-elements",
+      "name": "Zodiac Elements",
+      "items": ["Fire", "Earth", "Air", "Water"]
+    },
+    {
+      "id": "playing-positions-baseball",
+      "name": "Baseball Positions",
+      "items": ["Pitcher", "Catcher", "First Base", "Second Base", "Third Base", "Shortstop", "Left Field", "Center Field", "Right Field", "Designated Hitter"]
+    },
+    {
+      "id": "card-games",
+      "name": "Card Games",
+      "items": ["Poker", "Blackjack", "Bridge", "Rummy", "Canasta", "Solitaire", "Hearts", "Spades", "Euchre", "Pinochle", "Cribbage", "Go Fish", "War", "Crazy Eights", "Old Maid", "Snap", "Baccarat", "Gin Rummy", "Texas Hold'em", "Omaha", "Uno", "Skip-Bo", "Phase 10", "Mahjong"]
+    },
+    {
+      "id": "casino-games",
+      "name": "Casino Games",
+      "items": ["Blackjack", "Roulette", "Craps", "Baccarat", "Poker", "Slots", "Keno", "Bingo", "Pai Gow", "Wheel of Fortune", "Three Card Poker", "Caribbean Stud", "Let It Ride", "Sic Bo", "Video Poker"]
+    },
+    {
+      "id": "types-of-government",
+      "name": "Types of Government",
+      "items": ["Democracy", "Republic", "Monarchy", "Dictatorship", "Oligarchy", "Aristocracy", "Theocracy", "Communism", "Socialism", "Fascism", "Anarchy", "Autocracy", "Plutocracy", "Meritocracy", "Federalism", "Confederation", "Totalitarianism", "Authoritarianism"]
+    },
+    {
+      "id": "economic-terms",
+      "name": "Economic Terms",
+      "items": ["Inflation", "Deflation", "Recession", "Depression", "GDP", "GNP", "Surplus", "Deficit", "Tariff", "Subsidy", "Monopoly", "Oligopoly", "Supply", "Demand", "Elasticity", "Equity", "Bond", "Stock", "Dividend", "Interest", "Capital", "Asset", "Liability", "Liquidity"]
+    },
+    {
+      "id": "photography-terms",
+      "name": "Photography Terms",
+      "items": ["Aperture", "Shutter Speed", "ISO", "Exposure", "Focus", "Depth of Field", "Bokeh", "White Balance", "RAW", "JPEG", "HDR", "Macro", "Wide Angle", "Telephoto", "Prime", "Zoom", "F-Stop", "Megapixel", "Resolution", "Contrast", "Saturation", "Histogram", "Crop", "Composition"]
+    },
+    {
+      "id": "typography-terms",
+      "name": "Typography Terms",
+      "items": ["Serif", "Sans-serif", "Font", "Typeface", "Kerning", "Leading", "Tracking", "Baseline", "X-height", "Ascender", "Descender", "Bold", "Italic", "Weight", "Glyph", "Ligature", "Point Size", "Em", "En", "Cap Height", "Monospace", "Display", "Script", "Slab Serif"]
+    },
+    {
+      "id": "knitting-stitches",
+      "name": "Knitting Stitches",
+      "items": ["Knit", "Purl", "Stockinette", "Garter", "Rib", "Seed", "Cable", "Moss", "Basketweave", "Lace", "Fair Isle", "Intarsia", "Bobble", "Slip", "Yarn Over", "Decrease", "Increase", "Bind Off", "Cast On", "Drop Stitch"]
+    },
+    {
+      "id": "painting-techniques",
+      "name": "Painting Techniques",
+      "items": ["Impasto", "Glazing", "Scumbling", "Wet-on-Wet", "Dry Brush", "Stippling", "Sgraffito", "Underpainting", "Pointillism", "Chiaroscuro", "Tenebrism", "Sfumato", "Trompe l'oeil", "Alla Prima", "Grisaille", "Fresco", "Encaustic", "Wash", "Blending", "Hatching"]
+    },
+    {
+      "id": "music-tempo",
+      "name": "Music Tempo Markings",
+      "items": ["Largo", "Adagio", "Andante", "Moderato", "Allegro", "Vivace", "Presto", "Lento", "Grave", "Allegretto", "Prestissimo", "Accelerando", "Ritardando", "Rubato", "A Tempo"]
+    },
+    {
+      "id": "music-dynamics",
+      "name": "Music Dynamics",
+      "items": ["Pianissimo", "Piano", "Mezzo Piano", "Mezzo Forte", "Forte", "Fortissimo", "Crescendo", "Decrescendo", "Sforzando", "Fortepiano", "Diminuendo"]
+    },
+    {
+      "id": "wine-regions",
+      "name": "Wine Regions",
+      "items": ["Bordeaux", "Burgundy", "Champagne", "Tuscany", "Napa Valley", "Sonoma", "Barossa", "Rioja", "Douro", "Mosel", "Loire", "Rhone", "Piedmont", "Marlborough", "Mendoza", "Stellenbosch", "Willamette", "Finger Lakes", "Hunter Valley", "Central Otago"]
+    },
+    {
+      "id": "whisky-regions",
+      "name": "Scotch Whisky Regions",
+      "items": ["Speyside", "Highland", "Lowland", "Islay", "Campbeltown", "Islands"]
+    },
+    {
+      "id": "tea-types",
+      "name": "Tea Types",
+      "items": ["Black Tea", "Green Tea", "White Tea", "Oolong", "Pu-erh", "Herbal", "Rooibos", "Chai", "Earl Grey", "English Breakfast", "Darjeeling", "Assam", "Ceylon", "Matcha", "Sencha", "Jasmine", "Chamomile", "Peppermint", "Hibiscus", "Ginger"]
+    },
+    {
+      "id": "knots",
+      "name": "Knots",
+      "items": ["Square Knot", "Bowline", "Clove Hitch", "Sheet Bend", "Figure Eight", "Timber Hitch", "Taut-Line", "Two Half Hitches", "Rolling Hitch", "Trucker's Hitch", "Prusik", "Alpine Butterfly", "Fisherman's Knot", "Carrick Bend", "Constrictor", "Slip Knot", "Overhand", "Granny Knot", "Surgeon's Knot", "Blood Knot"]
+    },
+    {
+      "id": "sailing-terms",
+      "name": "Sailing Terms",
+      "items": ["Port", "Starboard", "Bow", "Stern", "Helm", "Tack", "Jibe", "Heave To", "Luff", "Reef", "Boom", "Mast", "Halyard", "Sheet", "Cleat", "Winch", "Anchor", "Mooring", "Draft", "Keel", "Rudder", "Tiller", "Spinnaker", "Jib", "Mainsail"]
+    },
+    {
+      "id": "astronomy-terms",
+      "name": "Astronomy Terms",
+      "items": ["Nebula", "Galaxy", "Supernova", "Black Hole", "Quasar", "Pulsar", "Red Giant", "White Dwarf", "Neutron Star", "Dark Matter", "Dark Energy", "Comet", "Asteroid", "Meteor", "Eclipse", "Equinox", "Solstice", "Light Year", "Parsec", "Redshift", "Magnitude", "Orbit", "Aphelion", "Perihelion"]
+    },
+    {
+      "id": "geology-terms",
+      "name": "Geology Terms",
+      "items": ["Igneous", "Sedimentary", "Metamorphic", "Magma", "Lava", "Fault", "Fold", "Erosion", "Weathering", "Plate Tectonics", "Subduction", "Mantle", "Core", "Crust", "Volcano", "Earthquake", "Fossil", "Mineral", "Crystal", "Ore", "Sediment", "Stratum", "Geode", "Stalactite"]
+    },
+    {
+      "id": "chemistry-terms",
+      "name": "Chemistry Terms",
+      "items": ["Atom", "Molecule", "Ion", "Isotope", "Compound", "Element", "Solution", "Solvent", "Solute", "Acid", "Base", "pH", "Catalyst", "Enzyme", "Oxidation", "Reduction", "Bond", "Electron", "Proton", "Neutron", "Valence", "Mole", "Molarity", "Titration"]
+    },
+    {
+      "id": "biology-terms",
+      "name": "Biology Terms",
+      "items": ["Cell", "DNA", "RNA", "Gene", "Chromosome", "Mitosis", "Meiosis", "Protein", "Enzyme", "Organelle", "Nucleus", "Cytoplasm", "Membrane", "Ribosome", "Mitochondria", "Chloroplast", "Photosynthesis", "Respiration", "Metabolism", "Evolution", "Natural Selection", "Mutation", "Adaptation", "Species"]
+    },
+    {
+      "id": "physics-terms",
+      "name": "Physics Terms",
+      "items": ["Force", "Mass", "Velocity", "Acceleration", "Momentum", "Energy", "Work", "Power", "Gravity", "Friction", "Inertia", "Torque", "Wave", "Frequency", "Amplitude", "Wavelength", "Quantum", "Relativity", "Entropy", "Thermodynamics", "Electromagnetism", "Particle", "Field", "Photon"]
+    },
+    {
+      "id": "medical-specialties",
+      "name": "Medical Specialties",
+      "items": ["Cardiology", "Neurology", "Oncology", "Pediatrics", "Orthopedics", "Dermatology", "Gastroenterology", "Pulmonology", "Nephrology", "Endocrinology", "Rheumatology", "Psychiatry", "Ophthalmology", "ENT", "Urology", "Gynecology", "Radiology", "Anesthesiology", "Pathology", "Emergency Medicine", "Surgery", "Internal Medicine", "Family Medicine", "Geriatrics"]
+    },
+    {
+      "id": "architectural-elements",
+      "name": "Architectural Elements",
+      "items": ["Column", "Arch", "Dome", "Vault", "Buttress", "Pillar", "Cornice", "Frieze", "Pediment", "Portico", "Balustrade", "Parapet", "Spire", "Tower", "Minaret", "Cupola", "Clerestory", "Transept", "Nave", "Apse", "Atrium", "Cloister", "Gargoyle", "Finial"]
+    },
+    {
+      "id": "legal-terms",
+      "name": "Legal Terms",
+      "items": ["Plaintiff", "Defendant", "Verdict", "Testimony", "Evidence", "Objection", "Subpoena", "Deposition", "Appeal", "Acquittal", "Conviction", "Bail", "Parole", "Probation", "Indictment", "Arraignment", "Statute", "Precedent", "Tort", "Liability", "Jurisdiction", "Habeas Corpus", "Pro Bono", "Miranda Rights"]
+    },
+    {
+      "id": "financial-terms",
+      "name": "Financial Terms",
+      "items": ["Asset", "Liability", "Equity", "Revenue", "Expense", "Profit", "Loss", "Balance Sheet", "Income Statement", "Cash Flow", "Depreciation", "Amortization", "Dividend", "Capital Gain", "Interest", "Principal", "Mortgage", "Collateral", "Portfolio", "Hedge", "Derivative", "Futures", "Options", "Securities"]
+    },
+    {
+      "id": "military-ranks-army",
+      "name": "Army Ranks",
+      "items": ["Private", "Corporal", "Sergeant", "Staff Sergeant", "First Sergeant", "Sergeant Major", "Lieutenant", "Captain", "Major", "Lieutenant Colonel", "Colonel", "Brigadier General", "Major General", "Lieutenant General", "General"]
+    },
+    {
+      "id": "military-ranks-navy",
+      "name": "Navy Ranks",
+      "items": ["Seaman", "Petty Officer", "Chief Petty Officer", "Ensign", "Lieutenant", "Lieutenant Commander", "Commander", "Captain", "Rear Admiral", "Vice Admiral", "Admiral", "Fleet Admiral"]
+    },
+    {
+      "id": "car-parts",
+      "name": "Car Parts",
+      "items": ["Engine", "Transmission", "Radiator", "Battery", "Alternator", "Starter", "Brake", "Clutch", "Suspension", "Steering", "Exhaust", "Muffler", "Carburetor", "Fuel Pump", "Spark Plug", "Piston", "Crankshaft", "Camshaft", "Timing Belt", "Water Pump", "Oil Filter", "Air Filter", "Catalytic Converter", "Differential"]
+    },
+    {
+      "id": "airplane-parts",
+      "name": "Airplane Parts",
+      "items": ["Fuselage", "Wing", "Aileron", "Flap", "Rudder", "Elevator", "Stabilizer", "Cockpit", "Propeller", "Engine", "Landing Gear", "Nose Cone", "Tail", "Winglet", "Spoiler", "Slat", "Nacelle", "Cowling", "Pitot Tube", "Navigation Light"]
+    },
+    {
+      "id": "ship-parts",
+      "name": "Ship Parts",
+      "items": ["Hull", "Bow", "Stern", "Port", "Starboard", "Deck", "Bridge", "Mast", "Sail", "Rudder", "Keel", "Anchor", "Propeller", "Galley", "Cabin", "Hold", "Crow's Nest", "Gangway", "Porthole", "Bulkhead", "Bilge", "Gunwale", "Transom", "Prow"]
+    },
+    {
+      "id": "horse-gaits",
+      "name": "Horse Gaits",
+      "items": ["Walk", "Trot", "Canter", "Gallop", "Pace", "Amble", "Rack"]
+    },
+    {
+      "id": "riding-equipment",
+      "name": "Horse Riding Equipment",
+      "items": ["Saddle", "Bridle", "Reins", "Bit", "Stirrup", "Girth", "Halter", "Lead Rope", "Crop", "Spurs", "Helmet", "Boots", "Breeches", "Saddle Pad", "Martingale", "Breastplate"]
+    },
+    {
+      "id": "coffee-origins",
+      "name": "Coffee Origins",
+      "items": ["Ethiopia", "Colombia", "Brazil", "Kenya", "Guatemala", "Costa Rica", "Jamaica", "Sumatra", "Java", "Yemen", "Hawaii", "Peru", "Mexico", "Panama", "Rwanda", "Tanzania", "Vietnam", "Honduras", "Nicaragua", "El Salvador"]
+    },
+    {
+      "id": "chocolate-types",
+      "name": "Chocolate Types",
+      "items": ["Dark", "Milk", "White", "Bittersweet", "Semisweet", "Unsweetened", "Dutch Process", "Ruby", "Gianduja", "Couverture", "Compound", "Ganache", "Truffle", "Praline", "Bonbon", "Bark"]
+    },
+    {
+      "id": "ice-cream-flavors",
+      "name": "Ice Cream Flavors",
+      "items": ["Vanilla", "Chocolate", "Strawberry", "Mint Chip", "Cookies and Cream", "Rocky Road", "Cookie Dough", "Butter Pecan", "Pistachio", "Coffee", "Neapolitan", "Rum Raisin", "Cherry Garcia", "Pralines and Cream", "Salted Caramel", "Birthday Cake", "Dulce de Leche", "Mango", "Green Tea", "Banana"]
+    },
+    {
+      "id": "types-of-homes",
+      "name": "Types of Homes",
+      "items": ["House", "Apartment", "Condo", "Townhouse", "Duplex", "Bungalow", "Cottage", "Mansion", "Villa", "Cabin", "Chalet", "Castle", "Palace", "Penthouse", "Loft", "Studio", "Ranch", "Colonial", "Victorian", "Tudor", "Craftsman", "Cape Cod", "Split-Level", "Mobile Home", "Tiny House"]
+    },
+    {
+      "id": "types-of-bridges",
+      "name": "Types of Bridges",
+      "items": ["Arch", "Beam", "Suspension", "Cable-Stayed", "Cantilever", "Truss", "Tied Arch", "Drawbridge", "Covered", "Footbridge", "Viaduct", "Aqueduct", "Pontoon", "Floating", "Swing"]
+    },
+    {
+      "id": "martial-arts-belts",
+      "name": "Martial Arts Belts",
+      "items": ["White", "Yellow", "Orange", "Green", "Blue", "Purple", "Brown", "Red", "Black"]
+    },
+    {
+      "id": "camping-gear",
+      "name": "Camping Gear",
+      "items": ["Tent", "Sleeping Bag", "Backpack", "Flashlight", "Lantern", "Compass", "Map", "Knife", "Rope", "Tarp", "Cooler", "Stove", "Matches", "Firestarter", "Water Bottle", "First Aid Kit", "Hammock", "Sleeping Pad", "Headlamp", "Multitool", "Bear Spray", "Binoculars"]
+    },
+    {
+      "id": "types-of-hats",
+      "name": "Types of Hats",
+      "items": ["Baseball Cap", "Beanie", "Fedora", "Bowler", "Top Hat", "Beret", "Cowboy Hat", "Sombrero", "Fez", "Turban", "Helmet", "Visor", "Bucket Hat", "Panama", "Trilby", "Cloche", "Pillbox", "Newsboy", "Flat Cap", "Trucker Hat", "Sun Hat", "Boater", "Pork Pie", "Deerstalker"]
+    },
+    {
+      "id": "types-of-bags",
+      "name": "Types of Bags",
+      "items": ["Backpack", "Handbag", "Tote", "Clutch", "Satchel", "Messenger", "Briefcase", "Duffel", "Crossbody", "Shoulder Bag", "Fanny Pack", "Bucket Bag", "Hobo Bag", "Wristlet", "Wallet", "Coin Purse", "Laptop Bag", "Gym Bag", "Weekend Bag", "Garment Bag", "Camera Bag", "Diaper Bag"]
+    },
+    {
+      "id": "types-of-glasses",
+      "name": "Types of Glasses",
+      "items": ["Wine Glass", "Champagne Flute", "Martini Glass", "Highball", "Lowball", "Shot Glass", "Pint Glass", "Pilsner", "Beer Mug", "Snifter", "Coupe", "Collins", "Hurricane", "Margarita", "Goblet", "Tumbler", "Cordial", "Grappa", "Sake Cup"]
+    },
+    {
+      "id": "cocktail-ingredients",
+      "name": "Cocktail Ingredients",
+      "items": ["Vodka", "Gin", "Rum", "Tequila", "Whiskey", "Bourbon", "Scotch", "Vermouth", "Bitters", "Triple Sec", "Kahlua", "Amaretto", "Cointreau", "Grand Marnier", "Campari", "Aperol", "Grenadine", "Simple Syrup", "Lime Juice", "Lemon Juice", "Orange Juice", "Cranberry", "Tonic", "Soda"]
+    },
+    {
+      "id": "farm-animals",
+      "name": "Farm Animals",
+      "items": ["Cow", "Pig", "Chicken", "Sheep", "Goat", "Horse", "Donkey", "Duck", "Goose", "Turkey", "Llama", "Alpaca", "Rabbit", "Guinea Fowl", "Peacock", "Mule", "Ox", "Rooster", "Hen", "Lamb"]
+    },
+    {
+      "id": "zoo-animals",
+      "name": "Zoo Animals",
+      "items": ["Lion", "Tiger", "Elephant", "Giraffe", "Zebra", "Gorilla", "Chimpanzee", "Orangutan", "Hippo", "Rhino", "Polar Bear", "Panda", "Koala", "Kangaroo", "Penguin", "Flamingo", "Seal", "Otter", "Meerkat", "Lemur", "Sloth", "Crocodile", "Python", "Toucan"]
     }
   ]
 }

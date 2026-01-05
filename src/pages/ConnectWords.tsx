@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { ArrowLeft, Check, Trash2 } from 'lucide-react'
 import ConnectWordsGame from '../components/games/ConnectWordsGame'
 import { puzzles } from '../data/connectwords/puzzles'
-import { generatePuzzle, getDbStats, getMaxPuzzleSize } from '../data/connectwords/puzzleGenerator'
+import { generatePuzzle, getDbStats, getMaxPuzzleSize, getEligibleLists } from '../data/connectwords/puzzleGenerator'
 import { getSavedGames, deleteSavedGame, type SavedGame } from '../data/connectwords/savedGames'
 import type { Puzzle } from '../data/connectwords/puzzles'
 import { useTheme } from '../context/ThemeContext'
@@ -229,7 +229,8 @@ export default function ConnectWords() {
                 min="5"
                 max={maxSize}
                 value={customSize}
-                onChange={(e) => setCustomSize(Math.min(maxSize, Math.max(5, parseInt(e.target.value) || 5)))}
+                onChange={(e) => setCustomSize(parseInt(e.target.value) || 5)}
+                onBlur={() => setCustomSize(Math.min(maxSize, Math.max(5, customSize)))}
                 className={`w-20 p-2 rounded border text-fs-7 text-center outline-none transition-colors ${inputClass}`}
               />
               <span className={`text-fs-7 ${textClass}`}>× {customSize}</span>
@@ -241,11 +242,9 @@ export default function ConnectWords() {
                 {generating ? 'Generating...' : 'Generate'}
               </button>
             </div>
-            {dbStats && (
-              <p className={`mt-2 text-fs-8 ${textClass}`}>
-                {dbStats.availableFor[customSize] || dbStats.totalLists} lists available for {customSize}×{customSize}
-              </p>
-            )}
+            <p className={`mt-2 text-fs-8 ${textClass}`}>
+              {getEligibleLists(customSize).length} lists available for {customSize}×{customSize}
+            </p>
           </div>
 
           {/* Quick size buttons */}

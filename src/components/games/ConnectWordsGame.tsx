@@ -1,5 +1,5 @@
-import { useState, useEffect, useCallback } from 'react'
-import { Maximize, Minimize, Save, RotateCcw } from 'lucide-react'
+import { useState, useEffect, useCallback, useRef } from 'react'
+import { Maximize, Minimize, Save, RotateCcw, Shuffle, ArrowDownAZ, AlignLeft, Pencil, X, Check } from 'lucide-react'
 import SolvedGroup from './SolvedGroup'
 import { getShuffledWords, validatePuzzle } from '../../data/connectwords/puzzles'
 import type { Puzzle, PuzzleGroup } from '../../data/connectwords/puzzles'
@@ -10,12 +10,14 @@ interface MergedCluster {
   indices: number[]
   words: string[]
   color?: string
+  label?: string
 }
 
 interface ConnectWordsGameProps {
   puzzle: Puzzle
   savedState?: SavedGame
   onSave?: () => void
+  startExpanded?: boolean
 }
 
 function generateColor(index: number): string {
@@ -23,18 +25,22 @@ function generateColor(index: number): string {
   return `hsl(${hue}, 70%, 85%)`
 }
 
-export default function ConnectWordsGame({ puzzle, savedState, onSave }: ConnectWordsGameProps) {
+export default function ConnectWordsGame({ puzzle, savedState, onSave, startExpanded = false }: ConnectWordsGameProps) {
   const [grid, setGrid] = useState<GridCell[]>([])
   const [clusters, setClusters] = useState<Record<number, number[]>>({})
   const [clusterColors, setClusterColors] = useState<Record<number, string>>({})
+  const [clusterLabels, setClusterLabels] = useState<Record<number, string>>({})
   const [selectedClusterId, setSelectedClusterId] = useState<number | null>(null)
   const [solvedGroups, setSolvedGroups] = useState<(PuzzleGroup & { groupIndex: number })[]>([])
   const [message, setMessage] = useState('')
   const [nextClusterId, setNextClusterId] = useState(0)
   const [nextColorIndex, setNextColorIndex] = useState(0)
   const [showInstructions, setShowInstructions] = useState(false)
-  const [isExpanded, setIsExpanded] = useState(false)
+  const [isExpanded, setIsExpanded] = useState(startExpanded)
   const [gameId] = useState(() => savedState?.id || generateGameId(puzzle))
+  const [editingLabelId, setEditingLabelId] = useState<number | null>(null)
+  const [editingLabelText, setEditingLabelText] = useState('')
+  const labelInputRef = useRef<HTMLInputElement>(null)
 
   const n = puzzle.groups.length
 
@@ -51,6 +57,7 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave }: Connect
       setGrid(savedState.grid)
       setClusters(savedState.clusters)
       setClusterColors(savedState.clusterColors)
+      setClusterLabels(savedState.clusterLabels || {})
       setSolvedGroups(savedState.solvedGroups)
       setNextClusterId(savedState.nextClusterId)
       setNextColorIndex(savedState.nextColorIndex)
@@ -76,6 +83,7 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave }: Connect
     setGrid(initialGrid)
     setClusters(initialClusters)
     setClusterColors({})
+    setClusterLabels({})
     setSelectedClusterId(null)
     setSolvedGroups([])
     setMessage('')
@@ -104,6 +112,7 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave }: Connect
       grid,
       clusters,
       clusterColors,
+      clusterLabels,
       solvedGroups,
       nextClusterId,
       nextColorIndex,
@@ -114,11 +123,169 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave }: Connect
     setMessage('Game saved!')
     setTimeout(() => setMessage(''), 1500)
     onSave?.()
-  }, [gameId, puzzle, grid, clusters, clusterColors, solvedGroups, nextClusterId, nextColorIndex, n, onSave])
+  }, [gameId, puzzle, grid, clusters, clusterColors, clusterLabels, solvedGroups, nextClusterId, nextColorIndex, n, onSave])
 
   // Toggle expanded mode
   const toggleExpanded = () => {
     setIsExpanded(prev => !prev)
+  }
+
+  // Shuffle unsolved cells (Fisher-Yates)
+  const handleShuffle = () => {
+    const unsolvedIndices = grid.map((cell, i) => cell.solved ? -1 : i).filter(i => i !== -1)
+    const unsolvedCells = unsolvedIndices.map(i => grid[i])
+
+    // Fisher-Yates shuffle
+    for (let i = unsolvedCells.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [unsolvedCells[i], unsolvedCells[j]] = [unsolvedCells[j], unsolvedCells[i]]
+    }
+
+    // Create new grid with shuffled cells
+    const newGrid = [...grid]
+    unsolvedIndices.forEach((gridIndex, i) => {
+      newGrid[gridIndex] = { ...unsolvedCells[i], cellIndex: gridIndex }
+    })
+
+    // Update clusters to point to new indices
+    const newClusters: Record<number, number[]> = {}
+    Object.entries(clusters).forEach(([clusterId, indices]) => {
+      const newIndices = indices.map(oldIndex => {
+        const cell = grid[oldIndex]
+        return newGrid.findIndex(c => c.word === cell.word && c.groupIndex === cell.groupIndex && !c.solved)
+      }).filter(i => i !== -1)
+      if (newIndices.length > 0) {
+        newClusters[parseInt(clusterId)] = newIndices
+      }
+    })
+
+    // Update grid cells with correct cluster IDs
+    const finalGrid = newGrid.map(cell => {
+      if (cell.solved) return cell
+      const clusterId = Object.entries(newClusters).find(([, indices]) =>
+        indices.includes(cell.cellIndex)
+      )?.[0]
+      return { ...cell, clusterId: clusterId ? parseInt(clusterId) : cell.clusterId }
+    })
+
+    setGrid(finalGrid)
+    setClusters(newClusters)
+    setSelectedClusterId(null)
+    setMessage('Shuffled!')
+    setTimeout(() => setMessage(''), 1000)
+  }
+
+  // Sort unsolved cells alphabetically
+  const handleSort = () => {
+    const unsolvedIndices = grid.map((cell, i) => cell.solved ? -1 : i).filter(i => i !== -1)
+    const unsolvedCells = unsolvedIndices.map(i => grid[i])
+
+    // Sort alphabetically by word
+    unsolvedCells.sort((a, b) => a.word.localeCompare(b.word))
+
+    // Create new grid with sorted cells
+    const newGrid = [...grid]
+    unsolvedIndices.forEach((gridIndex, i) => {
+      newGrid[gridIndex] = { ...unsolvedCells[i], cellIndex: gridIndex }
+    })
+
+    // Update clusters to point to new indices
+    const newClusters: Record<number, number[]> = {}
+    Object.entries(clusters).forEach(([clusterId, indices]) => {
+      const newIndices = indices.map(oldIndex => {
+        const cell = grid[oldIndex]
+        return newGrid.findIndex(c => c.word === cell.word && c.groupIndex === cell.groupIndex && !c.solved)
+      }).filter(i => i !== -1)
+      if (newIndices.length > 0) {
+        newClusters[parseInt(clusterId)] = newIndices
+      }
+    })
+
+    // Update grid cells with correct cluster IDs
+    const finalGrid = newGrid.map(cell => {
+      if (cell.solved) return cell
+      const clusterId = Object.entries(newClusters).find(([, indices]) =>
+        indices.includes(cell.cellIndex)
+      )?.[0]
+      return { ...cell, clusterId: clusterId ? parseInt(clusterId) : cell.clusterId }
+    })
+
+    setGrid(finalGrid)
+    setClusters(newClusters)
+    setSelectedClusterId(null)
+    setMessage('Sorted!')
+    setTimeout(() => setMessage(''), 1000)
+  }
+
+  // Compact: move unsolved cells to fill gaps from solved cells
+  const handleCompact = () => {
+    const unsolvedCells = grid.filter(cell => !cell.solved)
+    const totalCells = n * n
+
+    // Create new grid: unsolved cells first, then solved placeholders
+    const newGrid: GridCell[] = []
+    unsolvedCells.forEach((cell, i) => {
+      newGrid.push({ ...cell, cellIndex: i })
+    })
+    // Fill remaining with solved placeholders
+    for (let i = unsolvedCells.length; i < totalCells; i++) {
+      newGrid.push({ word: '', groupIndex: -1, groupName: '', clusterId: -1, cellIndex: i, solved: true })
+    }
+
+    // Update clusters to point to new indices
+    const newClusters: Record<number, number[]> = {}
+    Object.entries(clusters).forEach(([clusterId, indices]) => {
+      const newIndices: number[] = []
+      indices.forEach(oldIndex => {
+        const cell = grid[oldIndex]
+        const newIndex = newGrid.findIndex(c => c.word === cell.word && c.groupIndex === cell.groupIndex && !c.solved)
+        if (newIndex !== -1) newIndices.push(newIndex)
+      })
+      if (newIndices.length > 0) {
+        newClusters[parseInt(clusterId)] = newIndices
+      }
+    })
+
+    // Update grid cells with correct cluster IDs
+    const finalGrid = newGrid.map(cell => {
+      if (cell.solved) return cell
+      const clusterId = Object.entries(newClusters).find(([, indices]) =>
+        indices.includes(cell.cellIndex)
+      )?.[0]
+      return { ...cell, clusterId: clusterId ? parseInt(clusterId) : cell.clusterId }
+    })
+
+    setGrid(finalGrid)
+    setClusters(newClusters)
+    setSelectedClusterId(null)
+    setMessage('Compacted!')
+    setTimeout(() => setMessage(''), 1000)
+  }
+
+  // Label editing
+  const startEditingLabel = (clusterId: number, e: React.MouseEvent) => {
+    e.stopPropagation()
+    setEditingLabelId(clusterId)
+    setEditingLabelText(clusterLabels[clusterId] || '')
+    setTimeout(() => labelInputRef.current?.focus(), 0)
+  }
+
+  const saveLabel = (clusterId: number) => {
+    if (editingLabelText.trim()) {
+      setClusterLabels(prev => ({ ...prev, [clusterId]: editingLabelText.trim() }))
+    } else {
+      setClusterLabels(prev => {
+        const newLabels = { ...prev }
+        delete newLabels[clusterId]
+        return newLabels
+      })
+    }
+    setEditingLabelId(null)
+  }
+
+  const cancelEditingLabel = () => {
+    setEditingLabelId(null)
+    setEditingLabelText('')
   }
 
   // Get merged clusters (size > 1) for sidebar
@@ -128,7 +295,8 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave }: Connect
       clusterId: parseInt(clusterId),
       indices,
       words: indices.map(i => grid[i]?.word).filter(Boolean),
-      color: clusterColors[parseInt(clusterId)]
+      color: clusterColors[parseInt(clusterId)],
+      label: clusterLabels[parseInt(clusterId)]
     }))
     .sort((a, b) => b.indices.length - a.indices.length)
 
@@ -152,17 +320,25 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave }: Connect
       const size2 = cluster2Indices.length
       const color1 = clusterColors[clusterId1]
       const color2 = clusterColors[clusterId2]
+      const label1 = clusterLabels[clusterId1]
+      const label2 = clusterLabels[clusterId2]
 
       let mergedColor: string
+      let mergedLabel: string | undefined
       if (size1 === 1 && size2 === 1) {
         mergedColor = generateColor(nextColorIndex)
         setNextColorIndex(prev => prev + 1)
+        mergedLabel = label1 || label2
       } else if (size1 === 1) {
         mergedColor = color2
+        mergedLabel = label2 || label1
       } else if (size2 === 1) {
         mergedColor = color1
+        mergedLabel = label1 || label2
       } else {
+        // Both are merged groups - keep the larger one's label, or the second one's if same size
         mergedColor = size1 > size2 ? color1 : color2
+        mergedLabel = size1 > size2 ? (label1 || label2) : (label2 || label1)
       }
 
       const newGrid = grid.map(cell => {
@@ -182,6 +358,13 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave }: Connect
       delete newClusterColors[clusterId2]
       newClusterColors[newClusterId] = mergedColor
 
+      const newClusterLabels = { ...clusterLabels }
+      delete newClusterLabels[clusterId1]
+      delete newClusterLabels[clusterId2]
+      if (mergedLabel) {
+        newClusterLabels[newClusterId] = mergedLabel
+      }
+
       if (mergedIndices.length === n) {
         const group = puzzle.groups[firstGroupIndex]
         setSolvedGroups(prev => [...prev, { ...group, groupIndex: firstGroupIndex }])
@@ -196,8 +379,10 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave }: Connect
 
         delete newClusters[newClusterId]
         delete newClusterColors[newClusterId]
+        delete newClusterLabels[newClusterId]
         setClusters(newClusters)
         setClusterColors(newClusterColors)
+        setClusterLabels(newClusterLabels)
 
         setMessage(`Found: ${group.name}!`)
         setTimeout(() => setMessage(''), 2000)
@@ -205,6 +390,7 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave }: Connect
         setGrid(newGrid)
         setClusters(newClusters)
         setClusterColors(newClusterColors)
+        setClusterLabels(newClusterLabels)
       }
 
       setNextClusterId(newClusterId + 1)
@@ -251,6 +437,7 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave }: Connect
     setGrid(initialGrid)
     setClusters(initialClusters)
     setClusterColors({})
+    setClusterLabels({})
     setSelectedClusterId(null)
     setSolvedGroups([])
     setMessage('')
@@ -303,6 +490,15 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave }: Connect
           <button onClick={() => setSelectedClusterId(null)} disabled={selectedClusterId === null}>
             Deselect
           </button>
+          <button onClick={handleShuffle} title="Shuffle words">
+            <Shuffle size={14} />
+          </button>
+          <button onClick={handleSort} title="Sort alphabetically">
+            <ArrowDownAZ size={14} />
+          </button>
+          <button onClick={handleCompact} title="Compact grid">
+            <AlignLeft size={14} />
+          </button>
           <button onClick={handleReset} title="Reset puzzle">
             <RotateCcw size={14} />
           </button>
@@ -322,6 +518,7 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave }: Connect
               <div className="cw-instructions-tooltip">
                 Click two words or groups that belong together to merge them.
                 Use the sidebar to quickly access and merge larger groups.
+                You can add labels to groups to help remember what they might be.
               </div>
             )}
           </div>
@@ -360,24 +557,62 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave }: Connect
           <div className="cw-groups-sidebar">
             <div className="cw-sidebar-header">Groups ({mergedClusters.length})</div>
             <div className="cw-sidebar-list">
-              {mergedClusters.map(({ clusterId, indices, words, color }) => {
+              {mergedClusters.map(({ clusterId, indices, words, color, label }) => {
                 const isSelected = selectedClusterId === clusterId
+                const isEditing = editingLabelId === clusterId
                 const preview = words.slice(0, 3)
                 const remaining = words.length - 3
 
                 return (
-                  <button
+                  <div
                     key={clusterId}
                     className={`cw-sidebar-group ${isSelected ? 'cw-selected' : ''}`}
                     style={{ backgroundColor: color }}
-                    onClick={() => handleClusterClick(clusterId)}
+                    onClick={() => !isEditing && handleClusterClick(clusterId)}
                   >
-                    <div className="cw-sidebar-group-count">{indices.length}/{n}</div>
+                    <div className="cw-sidebar-group-header">
+                      <div className="cw-sidebar-group-count">{indices.length}/{n}</div>
+                      {isEditing ? (
+                        <div className="cw-label-edit" onClick={e => e.stopPropagation()}>
+                          <input
+                            ref={labelInputRef}
+                            type="text"
+                            value={editingLabelText}
+                            onChange={e => setEditingLabelText(e.target.value)}
+                            onKeyDown={e => {
+                              if (e.key === 'Enter') saveLabel(clusterId)
+                              if (e.key === 'Escape') cancelEditingLabel()
+                            }}
+                            className="cw-label-input"
+                            placeholder="Label..."
+                            maxLength={20}
+                          />
+                          <button onClick={() => saveLabel(clusterId)} className="cw-label-btn cw-label-save" title="Save">
+                            <Check size={12} />
+                          </button>
+                          <button onClick={cancelEditingLabel} className="cw-label-btn cw-label-cancel" title="Cancel">
+                            <X size={12} />
+                          </button>
+                        </div>
+                      ) : (
+                        <button
+                          onClick={(e) => startEditingLabel(clusterId, e)}
+                          className="cw-label-edit-btn"
+                          title={label ? 'Edit label' : 'Add label'}
+                        >
+                          {label ? (
+                            <span className="cw-label-text">{label}</span>
+                          ) : (
+                            <Pencil size={12} />
+                          )}
+                        </button>
+                      )}
+                    </div>
                     <div className="cw-sidebar-group-words">
                       {preview.join(', ')}
                       {remaining > 0 && <span className="cw-more">+{remaining}</span>}
                     </div>
-                  </button>
+                  </div>
                 )
               })}
               {mergedClusters.length === 0 && (

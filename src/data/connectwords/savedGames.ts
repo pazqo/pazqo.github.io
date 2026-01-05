@@ -16,6 +16,7 @@ export interface SavedGame {
   grid: GridCell[]
   clusters: Record<number, number[]>
   clusterColors: Record<number, string>
+  clusterLabels?: Record<number, string>
   solvedGroups: (PuzzleGroup & { groupIndex: number })[]
   nextClusterId: number
   nextColorIndex: number

@@ -285,6 +285,7 @@ export default function ConnectWords() {
             puzzle={currentPuzzle}
             savedState={currentSavedState}
             onSave={refreshSavedGames}
+            startExpanded={true}
           />
         </>
       )}

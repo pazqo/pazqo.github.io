@@ -390,11 +390,17 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
+.cw-sidebar-group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
 .cw-sidebar-group-count {
   font-size: 13px;
   font-weight: 700;
   color: #1a1a1a;
-  margin-bottom: 4px;
 }
 
 .cw-sidebar-group-words {
@@ -402,6 +408,82 @@
   color: #333;
   text-transform: uppercase;
   line-height: 1.4;
+}
+
+/* Label editing */
+.cw-label-edit-btn {
+  background: transparent;
+  border: none;
+  padding: 2px 6px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.15s;
+  display: flex;
+  align-items: center;
+  color: #1a1a1a;
+}
+
+.cw-label-edit-btn:hover {
+  opacity: 1;
+}
+
+.cw-label-text {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cw-label-edit {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.cw-label-input {
+  width: 80px;
+  padding: 2px 6px;
+  font-size: 11px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+  background: white;
+  color: #1a1a1a;
+  outline: none;
+}
+
+.cw-label-input:focus {
+  border-color: hsl(270, 80%, 72%);
+}
+
+.cw-label-btn {
+  background: transparent;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+
+.cw-label-save {
+  color: #16a34a;
+}
+
+.cw-label-save:hover {
+  background: rgba(22, 163, 74, 0.15);
+}
+
+.cw-label-cancel {
+  color: #dc2626;
+}
+
+.cw-label-cancel:hover {
+  background: rgba(220, 38, 38, 0.15);
 }
 
 .cw-sidebar-group-words .cw-more {

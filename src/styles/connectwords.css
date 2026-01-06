@@ -47,6 +47,42 @@
   font-size: 18px;
 }
 
+/* Back link (visible in expanded mode) */
+.cw-back-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin-right: 16px;
+}
+
+.dark .cw-back-link {
+  background: transparent;
+  border: 1px solid #ffdb70;
+  color: #ffdb70;
+}
+
+.dark .cw-back-link:hover {
+  background: #ffdb70;
+  color: hsl(260, 15%, 20%);
+}
+
+.light .cw-back-link {
+  background: transparent;
+  border: 1px solid #f59e0b;
+  color: #f59e0b;
+}
+
+.light .cw-back-link:hover {
+  background: #f59e0b;
+  color: white;
+}
+
 .dark .cw-game-title {
   color: hsl(260, 10%, 95%);
 }

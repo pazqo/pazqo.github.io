@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
-import { Maximize, Minimize, Save, RotateCcw, Shuffle, ArrowDownAZ, AlignLeft, Pencil, X, Check } from 'lucide-react'
+import { Maximize, Minimize, RotateCcw, Shuffle, ArrowDownAZ, AlignLeft, Pencil, X, Check, ArrowLeft } from 'lucide-react'
 import SolvedGroup from './SolvedGroup'
 import { getShuffledWords, validatePuzzle } from '../../data/connectwords/puzzles'
 import type { Puzzle, PuzzleGroup } from '../../data/connectwords/puzzles'
@@ -104,8 +104,8 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave, startExpa
 
   const isWon = solvedGroups.length === n
 
-  // Save game to localStorage
-  const handleSaveGame = useCallback(() => {
+  // Auto-save game to localStorage when progress is made
+  const saveGame = useCallback(() => {
     const game: SavedGame = {
       id: gameId,
       puzzle,
@@ -120,10 +120,17 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave, startExpa
       savedAt: Date.now()
     }
     saveToStorage(game)
-    setMessage('Game saved!')
-    setTimeout(() => setMessage(''), 1500)
     onSave?.()
   }, [gameId, puzzle, grid, clusters, clusterColors, clusterLabels, solvedGroups, nextClusterId, nextColorIndex, n, onSave])
+
+  // Auto-save when there's progress (merged clusters or solved groups)
+  useEffect(() => {
+    const hasMergedClusters = Object.values(clusters).some(indices => indices.length > 1)
+    const hasSolvedGroups = solvedGroups.length > 0
+    if (hasMergedClusters || hasSolvedGroups) {
+      saveGame()
+    }
+  }, [clusters, solvedGroups, saveGame])
 
   // Toggle expanded mode
   const toggleExpanded = () => {
@@ -175,27 +182,33 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave, startExpa
     setTimeout(() => setMessage(''), 1000)
   }
 
-  // Sort unsolved cells alphabetically
+  // Sort unsolved cells alphabetically, with empty/solved at the bottom
   const handleSort = () => {
-    const unsolvedIndices = grid.map((cell, i) => cell.solved ? -1 : i).filter(i => i !== -1)
-    const unsolvedCells = unsolvedIndices.map(i => grid[i])
+    const unsolvedCells = grid.filter(cell => !cell.solved)
+    const totalCells = n * n
 
     // Sort alphabetically by word
     unsolvedCells.sort((a, b) => a.word.localeCompare(b.word))
 
-    // Create new grid with sorted cells
-    const newGrid = [...grid]
-    unsolvedIndices.forEach((gridIndex, i) => {
-      newGrid[gridIndex] = { ...unsolvedCells[i], cellIndex: gridIndex }
+    // Create new grid: sorted unsolved cells first, then solved placeholders at the bottom
+    const newGrid: GridCell[] = []
+    unsolvedCells.forEach((cell, i) => {
+      newGrid.push({ ...cell, cellIndex: i })
     })
+    // Fill remaining with solved placeholders
+    for (let i = unsolvedCells.length; i < totalCells; i++) {
+      newGrid.push({ word: '', groupIndex: -1, groupName: '', clusterId: -1, cellIndex: i, solved: true })
+    }
 
     // Update clusters to point to new indices
     const newClusters: Record<number, number[]> = {}
     Object.entries(clusters).forEach(([clusterId, indices]) => {
-      const newIndices = indices.map(oldIndex => {
+      const newIndices: number[] = []
+      indices.forEach(oldIndex => {
         const cell = grid[oldIndex]
-        return newGrid.findIndex(c => c.word === cell.word && c.groupIndex === cell.groupIndex && !c.solved)
-      }).filter(i => i !== -1)
+        const newIndex = newGrid.findIndex(c => c.word === cell.word && c.groupIndex === cell.groupIndex && !c.solved)
+        if (newIndex !== -1) newIndices.push(newIndex)
+      })
       if (newIndices.length > 0) {
         newClusters[parseInt(clusterId)] = newIndices
       }
@@ -485,6 +498,15 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave, startExpa
     <div className={`cw-game-container ${isExpanded ? 'cw-expanded' : ''}`}>
       {/* Top bar */}
       <div className="cw-game-topbar">
+        {isExpanded && (
+          <button
+            onClick={toggleExpanded}
+            className="cw-back-link"
+          >
+            <ArrowLeft size={16} />
+            Exit full page
+          </button>
+        )}
         <h2 className="cw-game-title">{puzzle.title}</h2>
         <div className="cw-topbar-controls">
           <button onClick={() => setSelectedClusterId(null)} disabled={selectedClusterId === null}>
@@ -501,9 +523,6 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave, startExpa
           </button>
           <button onClick={handleReset} title="Reset puzzle">
             <RotateCcw size={14} />
-          </button>
-          <button onClick={handleSaveGame} title="Save progress">
-            <Save size={14} />
           </button>
           <button onClick={toggleExpanded} title={isExpanded ? 'Exit full page' : 'Full page'}>
             {isExpanded ? <Minimize size={14} /> : <Maximize size={14} />}

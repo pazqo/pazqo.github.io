@@ -17,11 +17,14 @@ export default function About() {
         theme === 'dark' ? 'text-light-gray' : 'text-light-muted'
       }`}>
         <p className="mb-4">
-          I am an interdisciplinary Software Engineer with 10+ years of experience in Academia, Banking, Google. I am based in Zurich, Switzerland.
+          I am an interdisciplinary Software Engineer with 10+ years of experience in Academia, Banking, Google. I am based in Zurich, Switzerland, but open to relocate for the right opportunity and the right location.
         </p>
-        <p>
+        <p className="mb-4">
           I possess a strong analytical background, expertise in modern dev technologies, and innovative thought process.
           My unique blend of academic proficiency in Mathematics, practical experience in Data Engineering, keen business sense, and a problem-solving attitude positions me to excel in diverse environments.
+        </p>
+        <p>
+          My time at Google gave me exposure to world-class engineering practices, large-scale distributed systems, and rigorous code review culture. Working in startups taught me to wear multiple hats, move fast, take ownership end-to-end, and deliver with limited resources. Together, these experiences allow me to bring both engineering excellence and pragmatic execution to any team.
         </p>
       </section>
 

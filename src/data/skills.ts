@@ -1,10 +1,47 @@
-export const programmingSkills = [
-  { name: 'Python', percentage: 95 },
-  { name: 'SQL/NoSQL', percentage: 85 },
-  { name: 'C++', percentage: 85 },
-  { name: 'Java', percentage: 80 },
-  { name: 'Scala', percentage: 75 },
-]
+export const technicalSkills = {
+  'Languages': [
+    'Python',
+    'C++',
+    'Java',
+    'Scala',
+    'TypeScript',
+    'SQL',
+    'Rust (learning)',
+  ],
+  'AI & Agents': [
+    'Claude Code',
+    'AI Agents',
+    'LLMs',
+    'PyTorch',
+    'Transformers',
+    'RAG',
+    'Prompt Engineering',
+  ],
+  'Data & ML': [
+    'Spark',
+    'Dagster',
+    'Pandas',
+    'Scikit-learn',
+    'NumPy',
+    'Data Pipelines',
+  ],
+  'Cloud & Infra': [
+    'GCP',
+    'AWS',
+    'Azure',
+    'Docker',
+    'Kubernetes',
+    'CI/CD',
+  ],
+  'Tools': [
+    'Git',
+    'Linux',
+    'React',
+    'Tailwind',
+    'PostgreSQL',
+    'MongoDB',
+  ],
+}
 
 export const languages = [
   { name: 'Italian', proficiency: 'Native Speaker' },
@@ -14,11 +51,12 @@ export const languages = [
 ]
 
 export const keyQualifications = [
-  '7+ years designing large-scale distributed systems, with focus on Shopping retrieval and quality infrastructure at Google',
-  'Expertise in large-scale data processing & pipelines (Spark, Dagster) for real-time ingestion, enrichment, and retrieval at scale',
-  'Proficient in backend development (Python, Java/Scala, C++) with strong system design and distributed infrastructure skills',
-  'Hands-on with AI/ML pipelines for query understanding, text comprehension, image segmentation and classification',
-  'Strong cross-functional collaborator, aligning with product, infra, and ML teams to deliver measurable business impact',
+  'Versatile generalist who thrives across the stack — from algorithmic problem-solving to system design to shipping products',
+  'Strong algorithmic foundation (PhD in Mathematics, 500+ competitive programming problems solved) applied to real-world engineering',
+  '7+ years designing large-scale distributed systems at Google, with focus on Shopping retrieval and quality infrastructure',
+  'Pragmatic executor: I understand trade-offs, cut through ambiguity, and deliver working solutions',
+  'Expertise in AI/ML pipelines, data engineering (Spark, Dagster), and modern AI tooling (Claude Code, LLM agents)',
+  'Effective cross-functional collaborator who bridges technical depth with business impact',
 ]
 
 export const interests = {

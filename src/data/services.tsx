@@ -1,11 +1,15 @@
+import { FlaskConical, Code, BookOpen, Puzzle, Sparkles } from 'lucide-react'
+
+const iconClass = "w-10 h-10"
+
 export const services = [
   {
-    icon: '/images/airesearch.svg',
+    icon: <FlaskConical className={iconClass} strokeWidth={1.5} />,
     title: 'Research Engineer | inait',
     description: 'Building testing frameworks for timeseries forecasting experiments at inait, a Lausanne-based neuroscience and AI company.',
   },
   {
-    icon: '/images/aoc.svg',
+    icon: <Code className={iconClass} strokeWidth={1.5} />,
     title: 'Coding Puzzles',
     description: (
       <>
@@ -14,13 +18,18 @@ export const services = [
     ),
   },
   {
-    icon: '/images/learning.svg',
+    icon: <BookOpen className={iconClass} strokeWidth={1.5} />,
     title: 'Learning',
     description: "I'm constantly learning stuff, from new programming languages (e.g. Rust) to new AI architectures or languages (e.g. Japanese)",
   },
   {
-    icon: '/images/puzzle.svg',
+    icon: <Puzzle className={iconClass} strokeWidth={1.5} />,
     title: 'Everything Puzzles',
     description: 'I love puzzles, from sudoku variations to mechanical puzzles.',
+  },
+  {
+    icon: <Sparkles className={iconClass} strokeWidth={1.5} />,
+    title: 'Vibe Coding',
+    description: 'Building side projects and prototypes with AI assistance - letting the vibes guide the architecture.',
   },
 ]

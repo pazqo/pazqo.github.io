@@ -17,8 +17,14 @@ export default function Games() {
         <ArticleTitle>Games</ArticleTitle>
       </header>
 
-      <p className={`text-fs-6 mb-8 ${textClass}`}>
-        A collection of word and logic games to challenge your brain.
+      <p className={`text-fs-6 mb-4 ${textClass}`}>
+        A collection of word and logic games I've created to challenge your brain.
+      </p>
+      <p className={`text-fs-7 mb-8 ${textClass}`}>
+        Have feedback or ideas? Drop me a line at{' '}
+        <a href="mailto:pazqop@gmail.com" className="text-orange-yellow-crayola hover:underline">
+          pazqop@gmail.com
+        </a>
       </p>
 
       <section>

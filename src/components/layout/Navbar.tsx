@@ -26,11 +26,12 @@ export default function Navbar() {
               to={path}
               className={({ isActive }) => `
                 block py-4 lg:py-5 px-2 text-fs-8 md:text-fs-7 lg:text-fs-6 font-medium transition-colors
+                border-b-2 -mb-[2px]
                 ${isActive
-                  ? 'text-orange-yellow-crayola'
+                  ? 'text-orange-yellow-crayola border-orange-yellow-crayola'
                   : theme === 'dark'
-                    ? 'text-light-gray hover:text-light-gray-70'
-                    : 'text-light-muted hover:text-light-text'
+                    ? 'text-light-gray hover:text-light-gray-70 border-transparent'
+                    : 'text-light-muted hover:text-light-text border-transparent'
                 }
               `}
             >

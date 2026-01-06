@@ -1,7 +1,7 @@
 import { useTheme } from '../../context/ThemeContext'
 
 interface ServiceItemProps {
-  icon: string
+  icon: React.ReactNode
   title: string
   description: React.ReactNode
 }
@@ -19,10 +19,8 @@ export default function ServiceItem({ icon, title, description }: ServiceItemPro
         theme === 'dark' ? 'bg-gradient-jet' : 'bg-white'
       }`} />
 
-      <div className={`mb-3 md:mb-0 md:mt-1 w-fit p-2 rounded-20 mx-auto md:mx-0 ${
-        theme === 'dark' ? 'bg-zinc-800' : 'bg-gray-100'
-      }`}>
-        <img src={icon} alt="" className="w-14 h-14" />
+      <div className="mb-3 md:mb-0 md:mt-1 w-fit mx-auto md:mx-0 text-orange-yellow-crayola">
+        {icon}
       </div>
 
       <div className="text-center md:text-left">

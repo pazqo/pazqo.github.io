@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import ArticleTitle from '../components/ui/ArticleTitle'
 import SectionTitle from '../components/ui/SectionTitle'
+import LinkedInGamesTable from '../components/ui/LinkedInGamesTable'
 import { useTheme } from '../context/ThemeContext'
 import puzzlesData from '../data/puzzles.json'
 
@@ -28,6 +29,7 @@ export default function Puzzles() {
   const [sortDir, setSortDir] = useState<SortDir>('desc')
 
   const linkClass = "text-orange-yellow-crayola hover:underline"
+  const primaryLinkClass = "text-orange-yellow-crayola hover:underline font-semibold"
   const textClass = theme === 'dark' ? 'text-light-gray' : 'text-light-muted'
 
   const sortedPuzzles = [...puzzles].sort((a, b) => {
@@ -86,10 +88,71 @@ export default function Puzzles() {
         A collection of resources for puzzle enthusiasts - from pen-and-paper logic puzzles to mechanical puzzles you can hold in your hands.
       </p>
 
+      {/* Daily Puzzles Section */}
+      <section className="mb-8">
+        <SectionTitle>Daily Puzzles</SectionTitle>
+        <p className={`text-fs-7 mb-3 ${textClass}`}>
+          Online puzzles that refresh ~daily - perfect for a quick brain workout.
+        </p>
+        <ul className={`text-fs-6 space-y-2 ${textClass}`}>
+          <li>
+            <a href="https://www.linkedin.com/games/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              LinkedIn Games
+            </a>
+            {' '}- A variety of daily puzzles including 6x6 Sudoku, Queens and more.
+            If you want to challenge me, connect on <a href="https://www.linkedin.com/in/pazqo/" target="_blank" rel="noopener noreferrer" className={linkClass}>LinkedIn</a>! My stats:
+            <LinkedInGamesTable />
+          </li>
+          <li>
+            <a href="https://inkwellgames.com/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              Stars + Fields by Inkwell Games
+            </a>
+            {' '}- Classic Startbattle daily puzzle, plus Fields (probably more to come)
+          </li>
+          <li>
+            <a href="https://replicube.xyz/staging/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              Replicube
+            </a>
+            {' '}- Use Lua code to generate the picture/animation of the day (actually, Mon + Wed + Fri)
+          </li>
+          <li>
+            <a href="https://enclose.horse/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              Enclose Horse
+            </a>
+            {' '}- Create the largest enclosed area with limited blockers. Tricky to get the optimal score!
+          </li>
+          <li>
+            <a href="https://cluesbysam.com/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              Clues by Sam
+            </a>
+            {' '}- Solve the mistery by unveiling Innocents and Criminals.
+          </li>
+          <li>
+            <a href="https://raddle.quest/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              Raddle Quest
+            </a>
+            {' '}- A word-transformation game.
+          </li>
+          <li>
+            <a href="https://www.reddit.com/r/syllo/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              Syllo
+            </a>
+            {' '}- A reddit-hosted syllable arrangement game.
+          </li>
+          {/* Add more daily puzzles here */}
+        </ul>
+      </section>
+
       {/* Sudokus Section */}
       <section className="mb-8">
-        <SectionTitle>Sudokus</SectionTitle>
+        <SectionTitle>Sudoku Variants Resources</SectionTitle>
         <ul className={`text-fs-6 space-y-2 mb-4 ${textClass}`}>
+          <li>
+            <a href="https://logic-masters.de/Raetselportal/Suche/spezial.php?listname=sudokus" target="_blank" rel="noopener noreferrer" className={linkClass}>
+              Logic Masters - Sudokus
+            </a>
+            {' '}- The main resource for Sudoku variants with ratings and user solves
+          </li>
           <li>
             <a href="https://sudokupad.app" target="_blank" rel="noopener noreferrer" className={linkClass}>
               SudokuPad
@@ -111,22 +174,9 @@ export default function Puzzles() {
         </ul>
       </section>
 
-      {/* More Pen & Paper Section */}
-      <section className="mb-8">
-        <SectionTitle>More Pen & Paper</SectionTitle>
-        <ul className={`text-fs-6 space-y-2 ${textClass}`}>
-          <li>
-            <a href="https://logic-masters.de" target="_blank" rel="noopener noreferrer" className={linkClass}>
-              Logic Masters Germany
-            </a>
-            {' '}- Huge collection of logic puzzles with difficulty ratings
-          </li>
-        </ul>
-      </section>
-
       {/* My Solved Puzzles */}
       <section className="mb-8">
-        <SectionTitle>My Solved Puzzles ({puzzles.length} total)</SectionTitle>
+        <SectionTitle>My Solved Sudoku Variation Puzzles ({puzzles.length} total)</SectionTitle>
         <div className={`rounded-lg overflow-hidden border ${
           theme === 'dark' ? 'border-eerie-black-1' : 'border-gray-200'
         }`}>

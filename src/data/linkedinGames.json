@@ -1,0 +1,8 @@
+[
+  { "name": "Queens", "plays": 533, "winPct": 99, "best": "0:07", "streak": 418 },
+  { "name": "Tango", "plays": 454, "winPct": 100, "best": "0:17", "streak": 438 },
+  { "name": "Crossclimb", "plays": 505, "winPct": 98, "best": "0:21", "streak": 438 },
+  { "name": "Pinpoint", "plays": 505, "winPct": 92, "best": "1", "streak": 200 },
+  { "name": "Zip", "plays": 295, "winPct": 100, "best": "0:05", "streak": 295 },
+  { "name": "Mini Sudoku", "plays": 148, "winPct": 100, "best": "0:34", "streak": 148 }
+]

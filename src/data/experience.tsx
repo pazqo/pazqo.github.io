@@ -76,7 +76,7 @@ export const achievements = [
   { icon: '🥇', text: "Gold Medal ARC AGI '24 (11th place)", url: 'https://www.kaggle.com/competitions/arc-prize-2024/leaderboard' },
   { icon: '⭐', text: 'Advent of Code: 524 stars (2015-2025)', url: 'https://adventofcode.com' },
   { icon: '🧮', text: 'Project Euler: 165+ problems solved', url: 'https://projecteuler.net/profile/pazqo.png' },
-  { icon: '🧩', text: 'Logic Masters: 840+ puzzles solved', url: 'https://logic-masters.de/Raetselportal/Benutzer/geloest.php?name=pazqo' },
+  { icon: '🧩', text: 'Logic Masters: 840+ Sudoku Variations solved', url: 'https://logic-masters.de/Raetselportal/Benutzer/geloest.php?name=pazqo' },
   { icon: '🏆', text: 'ABI Innovation Award 2018 (payments optimization)', url: "https://bancaforte.it/video/uc-balance-di-unicredit-vince-il-premio-abi-innovazione-2018-RB83117j" },
   { icon: '📚', text: 'INdAM Fellowship recipient (Bachelor & Master)' },
 ]

@@ -4,8 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "generate-solves": "node scripts/generate-solves-index.js",
+    "dev": "npm run generate-solves && vite",
+    "build": "npm run generate-solves && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

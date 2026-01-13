@@ -1,4 +1,8 @@
 {
+  "nhk1907h1": {
+    "replay": "sudokupad-Nikoli-Nikoli_nhk1907h1-a728-d666.replay",
+    "gif": "sudokupad-Nikoli-Nikoli_nhk1907h1.gif"
+  },
   "nhk2204m": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk2204m-a722-d552.replay",
     "gif": "sudokupad-Nikoli-Nikoli_nhk2204m.gif"
@@ -6,6 +10,10 @@
   "nhk2205m": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk2205m-a582-d453.replay",
     "gif": "sudokupad-Nikoli-Nikoli_nhk2205m.gif"
+  },
+  "nhk2208h1": {
+    "replay": "sudokupad-Nikoli-Nikoli_nhk2208h1-a619-d531.replay",
+    "gif": "sudokupad-Nikoli-Nikoli_nhk2208h1.gif"
   },
   "nhk2311h1": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk2311h1-a1028-d1028.replay",

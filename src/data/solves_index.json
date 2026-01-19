@@ -1,7 +1,23 @@
 {
+  "sxsm_MartySears_580c6fdbbba9bfb0e71ae19044f02d4c": {
+    "replay": "sudokupad-Marty_Sear-Parity_Fish-a1566-d1566.replay",
+    "gif": "sudokupad-Marty_Sear-Parity_Fish.gif"
+  },
+  "nhk1905h": {
+    "replay": "sudokupad-Nikoli-Nikoli_nhk1905h-a968-d891.replay",
+    "gif": "sudokupad-Nikoli-Nikoli_nhk1905h.gif"
+  },
   "nhk1907h1": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk1907h1-a728-d666.replay",
     "gif": "sudokupad-Nikoli-Nikoli_nhk1907h1.gif"
+  },
+  "nhk1912h2": {
+    "replay": "sudokupad-Nikoli-Nikoli_nhk1912h2-a1168-d1006.replay",
+    "gif": "sudokupad-Nikoli-Nikoli_nhk1912h2.gif"
+  },
+  "nhk2107m": {
+    "replay": "sudokupad-Nikoli-Nikoli_nhk2107m-a503-d510.replay",
+    "gif": "sudokupad-Nikoli-Nikoli_nhk2107m.gif"
   },
   "nhk2204m": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk2204m-a722-d552.replay",
@@ -15,8 +31,24 @@
     "replay": "sudokupad-Nikoli-Nikoli_nhk2208h1-a619-d531.replay",
     "gif": "sudokupad-Nikoli-Nikoli_nhk2208h1.gif"
   },
+  "nhk2211m": {
+    "replay": "sudokupad-Nikoli-Nikoli_nhk2211m-a537-d421.replay",
+    "gif": "sudokupad-Nikoli-Nikoli_nhk2211m.gif"
+  },
+  "nhk2304m": {
+    "replay": "sudokupad-Nikoli-Nikoli_nhk2304m-a558-d423.replay",
+    "gif": "sudokupad-Nikoli-Nikoli_nhk2304m.gif"
+  },
+  "nhk2308m": {
+    "replay": "sudokupad-Nikoli-Nikoli_nhk2308m-a669-d541.replay",
+    "gif": "sudokupad-Nikoli-Nikoli_nhk2308m.gif"
+  },
   "nhk2311h1": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk2311h1-a1028-d1028.replay",
     "gif": "sudokupad-Nikoli-Nikoli_nhk2311h1.gif"
+  },
+  "nhk2311m": {
+    "replay": "sudokupad-Nikoli-Nikoli_nhk2311m-a922-d6326.replay",
+    "gif": "sudokupad-Nikoli-Nikoli_nhk2311m.gif"
   }
 }

@@ -37,7 +37,7 @@ const puzzles = puzzlesData as Puzzle[]
 const benchmarkPuzzles = benchmarkData as BenchmarkPuzzle[]
 const mySolves = solvesIndex as Record<string, SolveData>
 
-const PAGE_SIZE = 20
+const PAGE_SIZE = 10
 const BENCHMARK_PAGE_SIZE = 25
 
 type SortField = 'date' | 'difficulty'

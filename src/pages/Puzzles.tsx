@@ -71,6 +71,12 @@ export default function Puzzles() {
             </a>
             {' '}- A reddit-hosted syllable arrangement game.
           </li>
+          <li>
+            <a href="https://thinkygames.com/dailies/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              Thinky Games
+            </a>
+            {' '}- A new puzzle every day, differnt varieties, and story based too!
+          </li>
           {/* Add more daily puzzles here */}
         </ul>
       </section>

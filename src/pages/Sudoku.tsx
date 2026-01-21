@@ -72,6 +72,7 @@ export default function Sudoku() {
   const [searchQuery, setSearchQuery] = useState('')
   const [solvedPuzzles, setSolvedPuzzles] = useState<Set<string>>(new Set())
   const [showSolvedOnly, setShowSolvedOnly] = useState(false)
+  const [userSolvedFilter, setUserSolvedFilter] = useState<'all' | 'solved' | 'unsolved'>('all')
   const [gifOverlay, setGifOverlay] = useState<{ url: string; title: string } | null>(null)
 
   useEffect(() => {

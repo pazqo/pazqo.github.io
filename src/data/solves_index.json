@@ -1,7 +1,15 @@
 {
+  "sxsm_AadvandeWetering_2f8b2a4129d1adfc0a51da6fe6ef26ed": {
+    "replay": "sudokupad-Aad_van_de-Four_Triangles-a2975-d6260.replay",
+    "gif": "sudokupad-Aad_van_de-Four_Triangles.gif"
+  },
   "sxsm_MartySears_580c6fdbbba9bfb0e71ae19044f02d4c": {
     "replay": "sudokupad-Marty_Sear-Parity_Fish-a1566-d1566.replay",
     "gif": "sudokupad-Marty_Sear-Parity_Fish.gif"
+  },
+  "sxsm_MichaelLefkowitz_8ab8aeb4b8e4966f12df37b3cf195e14": {
+    "replay": "sudokupad-Michael_Le-Cross_Product-a451-d522.replay",
+    "gif": "sudokupad-Michael_Le-Cross_Product.gif"
   },
   "nhk1905h": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk1905h-a968-d891.replay",
@@ -50,5 +58,9 @@
   "nhk2311m": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk2311m-a922-d6326.replay",
     "gif": "sudokupad-Nikoli-Nikoli_nhk2311m.gif"
+  },
+  "fpuzzlea6ea6e58397248eccc123914267b418a": {
+    "replay": "sudokupad-Pete_Craig-Mutation-a1026-d1371.replay",
+    "gif": "sudokupad-Pete_Craig-Mutation.gif"
   }
 }

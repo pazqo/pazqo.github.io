@@ -10,9 +10,9 @@ const challengePuzzles = JSON.parse(
   fs.readFileSync(path.join(rootDir, 'src/data/challenge_100_puzzles.json'), 'utf-8')
 )
 
-// Normalize a string for fuzzy matching (lowercase, remove underscores/spaces/hyphens)
+// Normalize a string for fuzzy matching (lowercase, remove punctuation/spaces)
 function normalize(str) {
-  return str.toLowerCase().replace(/[_\s-]/g, '')
+  return str.toLowerCase().replace(/[_\s\-()[\]'".,:;!?]/g, '')
 }
 
 // Extract author and title from filename pattern: sudokupad-{Author}-{Title}[-extra].ext

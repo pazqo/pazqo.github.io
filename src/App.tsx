@@ -4,6 +4,7 @@ import About from './pages/About'
 import Resume from './pages/Resume'
 import Misc from './pages/Misc'
 import Puzzles from './pages/Puzzles'
+import PuzzleCollection from './pages/PuzzleCollection'
 import Sudoku from './pages/Sudoku'
 import Games from './pages/Games'
 import ConnectWords from './pages/ConnectWords'
@@ -19,6 +20,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/misc" element={<Misc />} />
         <Route path="/puzzles" element={<Puzzles />} />
+        <Route path="/puzzle-collection" element={<PuzzleCollection />} />
         <Route path="/sudoku" element={<Sudoku />} />
         <Route path="/games" element={<Games />} />
         <Route path="/games/connect-words" element={<ConnectWords />} />

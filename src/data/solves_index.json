@@ -3,9 +3,17 @@
     "replay": "sudokupad-Aad_van_de-Four_Triangles-a2975-d6260.replay",
     "gif": "sudokupad-Aad_van_de-Four_Triangles.gif"
   },
+  "sxsm_ErinToler_e6cdeb1b18f48701649271cc2f2c5af4": {
+    "replay": "sudokupad-Erin_Toler-x0F-a755-d904.replay",
+    "gif": "sudokupad-Erin_Toler-x0F.gif"
+  },
   "sxsm_Gerhard1963_88140ac3d09fb8b28ccfddd24a67cc5f": {
     "replay": "sudokupad-Gerhard196-Theta-a1246-d5084.replay",
     "gif": "sudokupad-Gerhard196-Theta.gif"
+  },
+  "sxsm_JordanOliver_a933bdafd58f730a6f802eacbfd8c3ff": {
+    "replay": "sudokupad-Jordan_Oli-Prime_Killer_Snack-a185-d347.replay",
+    "gif": "sudokupad-Jordan_Oli-Prime_Killer_Snack.gif"
   },
   "sxsm_MartySears_580c6fdbbba9bfb0e71ae19044f02d4c": {
     "replay": "sudokupad-Marty_Sear-Parity_Fish-a1566-d1566.replay",
@@ -14,6 +22,22 @@
   "sxsm_MichaelLefkowitz_8ab8aeb4b8e4966f12df37b3cf195e14": {
     "replay": "sudokupad-Michael_Le-Cross_Product-a451-d522.replay",
     "gif": "sudokupad-Michael_Le-Cross_Product.gif"
+  },
+  "sxsm_MichaelLefkowitz_1b4c5d28db5234255eefb090a2e3d349": {
+    "replay": "sudokupad-Michael_Le-Introduction_to_Anti_Knight-a52-d56.replay",
+    "gif": "sudokupad-Michael_Le-Introduction_to_Anti_Knight.gif"
+  },
+  "sxsm_MichaelLefkowitz_e78a47bc1d90064f398be51f153ff6c3": {
+    "replay": "sudokupad-Michael_Le-Introduction_to_Counting_Circl-a83-d50.replay",
+    "gif": "sudokupad-Michael_Le-Introduction_to_Counting_Circl.gif"
+  },
+  "sxsm_MichaelLefkowitz_4e4d663bc8bd4f6a014b4432152e4d99": {
+    "replay": "sudokupad-Michael_Le-Introduction_to_Killer_Sudoku-a105-d64.replay",
+    "gif": "sudokupad-Michael_Le-Introduction_to_Killer_Sudoku.gif"
+  },
+  "sxsm_MichaelLefkowitz_3ac77fd64f5032647403d6ac353c0c20": {
+    "replay": "sudokupad-Michael_Le-Introduction_to_Renban_Lines-a90-d54.replay",
+    "gif": "sudokupad-Michael_Le-Introduction_to_Renban_Lines.gif"
   },
   "nhk1905h": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk1905h-a968-d891.replay",
@@ -66,5 +90,9 @@
   "fpuzzlea6ea6e58397248eccc123914267b418a": {
     "replay": "sudokupad-Pete_Craig-Mutation-a1026-d1371.replay",
     "gif": "sudokupad-Pete_Craig-Mutation.gif"
+  },
+  "sxsm_pep9_92b0c509f8c94da4502812765e67155a": {
+    "replay": "sudokupad-pep9-Guess_Who-a825-d1249.replay",
+    "gif": "sudokupad-pep9-Guess_Who.gif"
   }
 }

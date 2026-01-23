@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import ArticleTitle from '../components/ui/ArticleTitle'
 import SectionTitle from '../components/ui/SectionTitle'
 import LinkedInGamesTable from '../components/ui/LinkedInGamesTable'
@@ -84,9 +85,17 @@ export default function Puzzles() {
       {/* Mechanical Puzzles */}
       <section>
         <SectionTitle>Mechanical Puzzles</SectionTitle>
-        <p className={`text-fs-6 ${textClass}`}>
-          Coming soon - links to puzzle shops and recommendations.
+        <p className={`text-fs-6 mb-3 ${textClass}`}>
+          Physical puzzles you can hold in your hands - burrs, boxes, packing puzzles, and more.
         </p>
+        <ul className={`text-fs-6 space-y-2 ${textClass}`}>
+          <li>
+            <Link to="/puzzle-collection" className={primaryLinkClass}>
+              My Collection
+            </Link>
+            {' '}- Browse my personal puzzle collection with photos
+          </li>
+        </ul>
       </section>
     </>
   )

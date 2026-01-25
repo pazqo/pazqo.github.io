@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom'
 import Layout from './components/layout/Layout'
 import About from './pages/About'
 import Resume from './pages/Resume'
-import Misc from './pages/Misc'
 import Puzzles from './pages/Puzzles'
 import PuzzleCollection from './pages/PuzzleCollection'
 import Sudoku from './pages/Sudoku'
@@ -18,7 +17,6 @@ function App() {
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/resume" element={<Resume />} />
-        <Route path="/misc" element={<Misc />} />
         <Route path="/puzzles" element={<Puzzles />} />
         <Route path="/puzzle-collection" element={<PuzzleCollection />} />
         <Route path="/sudoku" element={<Sudoku />} />

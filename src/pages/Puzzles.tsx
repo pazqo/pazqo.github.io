@@ -82,6 +82,18 @@ export default function Puzzles() {
         </ul>
       </section>
 
+      {/* Interesting Puzzle Resources */}
+      <section>
+        <SectionTitle>Interesting Puzzle Resources</SectionTitle>
+        <ul className={`text-fs-6 space-y-2 mb-8 ${textClass}`}>
+          <li>
+            <a href="https://www.jamisbuck.org/mazes/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              Maze generation algorithms
+            </a>
+            {' '}- A collection of visualizations of different maze generation algorithms.
+          </li>
+        </ul>
+      </section>
       {/* Mechanical Puzzles */}
       <section>
         <SectionTitle>Mechanical Puzzles</SectionTitle>

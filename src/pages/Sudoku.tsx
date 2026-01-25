@@ -310,12 +310,12 @@ export default function Sudoku() {
       {/* Benchmark Puzzles */}
       <section className="mb-8">
         <SectionTitle>
-          Sudoku Challenge ({filteredBenchmark.length} puzzles, {mySolvedCount} solved by me)
+          Sakana Sudoku Challenge ({filteredBenchmark.length} puzzles, {mySolvedCount} solved)
         </SectionTitle>
         <p className={`text-fs-7 mb-3 ${textClass}`}>
-          A curated challenge of 100 puzzles. Puzzles I've solved have a "Replay" link to download my solve.
-          To watch: click "Play", then in SudokuPad go to Settings &gt; Import/Export &gt; Replay load/save.
-          Use the checkbox to track your own progress (stored locally in your browser).
+          A curated challenge of 100 puzzles from the Sakana benchmark.
+          Use the checkbox to track your own progress.
+          If you'd like a replay file or want to discuss a puzzle, feel free to reach out via email.
         </p>
 
         {/* Filters */}
@@ -401,30 +401,16 @@ export default function Sudoku() {
                       )}
                     </td>
                     <td className="p-2 text-center">
-                      {puzzle.puzzle_id in mySolves ? (
-                        <>
-                          {mySolves[puzzle.puzzle_id].replay && (
-                            <a
-                              href={`/solves/${mySolves[puzzle.puzzle_id].replay}`}
-                              download
-                              className={linkClass}
-                            >
-                              Replay
-                            </a>
-                          )}
-                          {mySolves[puzzle.puzzle_id].replay && mySolves[puzzle.puzzle_id].gif && ' | '}
-                          {mySolves[puzzle.puzzle_id].gif && (
-                            <button
-                              onClick={() => setGifOverlay({
-                                url: `/solves/${mySolves[puzzle.puzzle_id].gif}`,
-                                title: puzzle.title
-                              })}
-                              className={`${linkClass} bg-transparent border-none cursor-pointer`}
-                            >
-                              GIF
-                            </button>
-                          )}
-                        </>
+                      {puzzle.puzzle_id in mySolves && mySolves[puzzle.puzzle_id].gif ? (
+                        <button
+                          onClick={() => setGifOverlay({
+                            url: `/solves/${mySolves[puzzle.puzzle_id].gif}`,
+                            title: puzzle.title
+                          })}
+                          className={`${linkClass} bg-transparent border-none cursor-pointer`}
+                        >
+                          GIF
+                        </button>
                       ) : (
                         <span className="text-gray-500">-</span>
                       )}

@@ -18,6 +18,7 @@ interface ConnectWordsGameProps {
   savedState?: SavedGame
   onSave?: () => void
   startExpanded?: boolean
+  onExit?: () => void
 }
 
 function generateColor(index: number): string {
@@ -25,7 +26,7 @@ function generateColor(index: number): string {
   return `hsl(${hue}, 70%, 85%)`
 }
 
-export default function ConnectWordsGame({ puzzle, savedState, onSave, startExpanded = false }: ConnectWordsGameProps) {
+export default function ConnectWordsGame({ puzzle, savedState, onSave, startExpanded = false, onExit }: ConnectWordsGameProps) {
   const [grid, setGrid] = useState<GridCell[]>([])
   const [clusters, setClusters] = useState<Record<number, number[]>>({})
   const [clusterColors, setClusterColors] = useState<Record<number, string>>({})
@@ -95,12 +96,16 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave, startExpa
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape' && isExpanded) {
-        setIsExpanded(false)
+        if (onExit) {
+          onExit()
+        } else {
+          setIsExpanded(false)
+        }
       }
     }
     document.addEventListener('keydown', handleKeyDown)
     return () => document.removeEventListener('keydown', handleKeyDown)
-  }, [isExpanded])
+  }, [isExpanded, onExit])
 
   const isWon = solvedGroups.length === n
 
@@ -134,7 +139,12 @@ export default function ConnectWordsGame({ puzzle, savedState, onSave, startExpa
 
   // Toggle expanded mode
   const toggleExpanded = () => {
-    setIsExpanded(prev => !prev)
+    if (isExpanded && onExit) {
+      // If exiting expanded mode and there's an onExit handler, call it
+      onExit()
+    } else {
+      setIsExpanded(prev => !prev)
+    }
   }
 
   // Shuffle unsolved cells (Fisher-Yates)

@@ -285,7 +285,12 @@ export default function ConnectWords() {
             puzzle={currentPuzzle}
             savedState={currentSavedState}
             onSave={refreshSavedGames}
-            startExpanded={true}
+            startExpanded={currentPuzzle.groups.length > 7}
+            onExit={currentPuzzle.groups.length > 7 ? () => {
+              setCurrentPuzzle(null)
+              setCurrentSavedState(undefined)
+              refreshSavedGames()
+            } : undefined}
           />
         </>
       )}

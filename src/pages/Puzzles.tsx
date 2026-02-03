@@ -78,6 +78,12 @@ export default function Puzzles() {
             </a>
             {' '}- A new puzzle every day, differnt varieties, and story based too!
           </li>
+          <li>
+            <a href="https://www.minutecryptic.com/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              Minute Cryptic
+            </a>
+            {' '}- Daily cryptic crossword puzzles - 1 clue only, but tricky!
+          </li>
           {/* Add more daily puzzles here */}
         </ul>
       </section>

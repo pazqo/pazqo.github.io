@@ -1,0 +1,76 @@
+---
+title: "A small Euler Sudoku"
+date: "2025-01-29"
+description: "A step-by-step solve of a small nugget."
+tags: ["solve", "tutorial", "sudoku", "thermo"]
+---
+
+import Spoiler from '@/components/blog/Spoiler'
+import SudokuEmbed from '@/components/sudoku/SudokuEmbed'
+import Cell from '@/components/blog/Cell'
+
+# A small Euler Sudoku
+
+Let's go through a step-by-step solve of this cute little puzzle.
+It's not incredibly hard, but it has a nice mathematical structure. There will be spoilers ahead, so proceed with caution.
+
+Let's take a look at the puzzle and the rules:
+
+<SudokuEmbed
+  puzzle="https://sudokupad.app/dx20yzi1cv"
+  height={500}
+/>
+
+Rules:
+- 4x4 **Euler** Sudoku rules apply: Place the digits 1-4 and 4 different colors exactly once in each row, column, and box such that each cell has a digit and a color.
+  Every digit/color combination must appear exactly once.
+- Digits along thermometers increase from the bulb end.
+- The digit in the gray circle is odd.
+
+We will discuss thermo restrictions in detail in a different post. For now, this only means that <Cell r='1' c='2'/> < <Cell r='2' c='3'/> and <Cell r='2' c='2'/> < <Cell r='3' c='3'/>.
+The odd restriction means that <Cell r='3' c='4'/> is 1 or 3. We will only use these information later in the solve.
+
+The most important interesting restriction is that this Sudoku is actually a **Euler** Sudoku, which is strictly related to Graeco-Latin squares. We'll take a look at that restrictin in more detail.
+
+# Graeco-Latin square
+
+This is a pretty rare Sudoku, as it's extremely restricted. Let's take a look at more generic problem of **Graeco-Latin square**, or **orthogonal Latin squares**.
+
+Given a *nxn* square and an alphabeth with *n* symbols, we can form a latin square if each rown and each column contain a set of the symbols of the alphabeth. In the Sudoku, we also require that this is true for each region.
+
+Given a *nxn* square and two alphabets (in our case numbers and colors) with *n* symbols, we want to arrange a pair of symbols in each cell such that when restricting to a single alphabeth we get a latin square, and no pair is repeated.
+This extra contraint make the job more difficult. A solution, straight from wikipedia is this one:
+
+<div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/f/fa/GrecoLatinSquare-Order4.svg"
+    alt="Graeco-Latin square"
+    style={{maxWidth: '250px'}}
+  />
+  <em>Source: <a href="https://commons.wikimedia.org/wiki/File:GrecoLatinSquare-Order4.svg">Wikimedia Commons</a>, Public Domain</em>
+</div>
+
+This is not a valid sudoku for Latin letters (A, B repeat in the first region) but would be a valid sudoku for greek letters. We want 
+
+
+<Spoiler title="Think about it first...">
+  The answer is **45**.
+
+  A quick way to calculate: pair up 1+9, 2+8, 3+7, 4+6 = four pairs of 10, plus the 5 in the middle.
+
+  So: 4 × 10 + 5 = 45
+</Spoiler>
+
+You can nest multiple hints for a step-by-step reveal:
+
+<Spoiler title="Hint 1">
+  Try pairing numbers from opposite ends.
+</Spoiler>
+
+<Spoiler title="Hint 2">
+  Each pair sums to the same value.
+</Spoiler>
+
+<Spoiler title="Final answer">
+  1+9 = 2+8 = 3+7 = 4+6 = **10**
+</Spoiler>

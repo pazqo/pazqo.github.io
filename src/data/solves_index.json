@@ -7,6 +7,10 @@
     "replay": "sudokupad-Aad_van_de-Four_Triangles-a2975-d6260.replay",
     "gif": "sudokupad-Aad_van_de-Four_Triangles.gif"
   },
+  "sxsm_Allagem_b1ac858c98cadd439d6f44c06dd1cc1e": {
+    "replay": "sudokupad-Allagem-Granular_Impurities-a2011-d5885.replay",
+    "gif": "sudokupad-Allagem-Granular_Impurities.gif"
+  },
   "sxsm_Biscuit_1cdfee5b62656f4d3f3aa8c35ded50ea": {
     "replay": "sudokupad-Biscuit-Tendril_Battle-a1340-d1705.replay",
     "gif": "sudokupad-Biscuit-Tendril_Battle.gif"
@@ -42,6 +46,10 @@
   "sxsm_JamesKopp_663a5d92442985f6bce55f6da3b7c58c": {
     "replay": "sudokupad-James_Kopp-Out_of_the_Blue-a370-d328.replay",
     "gif": "sudokupad-James_Kopp-Out_of_the_Blue.gif"
+  },
+  "sxsm_JollyRogers_0c6e29b9800d1e39b135b6b4ddf8037f": {
+    "replay": "sudokupad-Jolly_Roge-Tropical_Knights-a769-d809.replay",
+    "gif": "sudokupad-Jolly_Roge-Tropical_Knights.gif"
   },
   "sxsm_JordanOliver_a933bdafd58f730a6f802eacbfd8c3ff": {
     "replay": "sudokupad-Jordan_Oli-Prime_Killer_Snack-a185-d347.replay",
@@ -159,6 +167,14 @@
     "replay": "sudokupad-Pete_Craig-Mutation-a1026-d1371.replay",
     "gif": "sudokupad-Pete_Craig-Mutation.gif"
   },
+  "sxsm_PeteCraig_125159246c42f5b038e5a1eb34ab8b63": {
+    "replay": "sudokupad-Pete_Craig-Slow_Thermos-a1005-d805.replay",
+    "gif": "sudokupad-Pete_Craig-Slow_Thermos.gif"
+  },
+  "fpuzzle61c751d9d206fae5c7deae1035e9645c": {
+    "replay": "sudokupad-Ratfinkz-Broken_Paperclip-a1321-d1397.replay",
+    "gif": "sudokupad-Ratfinkz-Broken_Paperclip.gif"
+  },
   "sxsm_ShintaroFushidaHardy_51c3c9d73cd4298695f1e0b637c95fca": {
     "replay": "sudokupad-Shintaro_F-Parity_vision-a578-d741.replay",
     "gif": "sudokupad-Shintaro_F-Parity_vision.gif"
@@ -167,6 +183,10 @@
     "replay": "sudokupad-Skeptical_-Reticule-a858-d809.replay",
     "gif": "sudokupad-Skeptical_-Reticule.gif"
   },
+  "sxsm_Space_man_a938fd84f9351d2f2c5e3aa87fb312b1": {
+    "replay": "sudokupad-Space_man-Corners-a1562-d2081.replay",
+    "gif": "sudokupad-Space_man-Corners.gif"
+  },
   "penpa583faf82b49f98649ca8ccedfdde0e8b": {
     "replay": "sudokupad-Sujoyku_Eg-Zip_Zag-a2364-d4494.replay",
     "gif": "sudokupad-Sujoyku_Eg-Zip_Zag.gif"
@@ -174,6 +194,10 @@
   "sxsm_SujoykuandMartySears_afc27f9a61c48f209cbef0310385b36c": {
     "replay": "sudokupad-Sujoyku_an-Differences_Count_part_2-a413-d358.replay",
     "gif": "sudokupad-Sujoyku_an-Differences_Count_part_2.gif"
+  },
+  "n4qHMLbtTd": {
+    "replay": "sudokupad-Testarossa-Limbo-a3382-d2083.replay",
+    "gif": "sudokupad-Testarossa-Limbo.gif"
   },
   "gQrmDmMFtM": {
     "replay": "sudokupad-Walking_Wr-NGN-a763-d710.replay",
@@ -190,6 +214,10 @@
   "fpuzzle2aa567b91ab54585d756858c655758fb": {
     "replay": "sudokupad-gdc-Knights_of_the_QS_Example-a52-d32.replay",
     "gif": "sudokupad-gdc-Knights_of_the_QS_Example.gif"
+  },
+  "sxsm_gdc_e24d25a725ab55588baadf63091a878d": {
+    "replay": "sudokupad-gdc-Thermal_Balance-a1340-d1469.replay",
+    "gif": "sudokupad-gdc-Thermal_Balance.gif"
   },
   "sxsm_oklux_a4c0c622b56f51c34ef5017a1a6d8407": {
     "replay": "sudokupad-oklux-Astraeus-a4853-d23109.replay",

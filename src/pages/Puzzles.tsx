@@ -100,6 +100,48 @@ export default function Puzzles() {
           </li>
         </ul>
       </section>
+      {/* Jane Street Puzzles */}
+      <section className="mb-8">
+        <SectionTitle>Jane Street Puzzles</SectionTitle>
+        <p className={`text-fs-7 mb-3 ${textClass}`}>
+          Monthly puzzles from <a href="https://www.janestreet.com/puzzles/" target="_blank" rel="noopener noreferrer" className={linkClass}>Jane Street</a> - challenging math and logic problems.
+          You can find me as pazqo in the list of submissions.
+        </p>
+        <ul className={`text-fs-6 space-y-2 ${textClass}`}>
+          <li>
+            <a href="https://www.janestreet.com/puzzles/altered-states-2-index/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              June 24 - Altered States 2
+            </a>
+            {' '}- Grid exploration with edit distance.
+          </li>
+          <li>
+            <a href="https://www.janestreet.com/puzzles/hall-of-mirrors-3-index/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              Mar 25 - Hall of Mirrors 3
+            </a>
+            {' '}- Maximizing laser reflections.
+          </li>
+          <li>
+            <a href="https://www.janestreet.com/puzzles/sum-one-somewhere-index/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              Apr 25 - Sum One, Somewhere
+            </a>
+            {' '}- Probabily in infinite trees.
+          </li>
+          <li>
+            <a href="https://www.janestreet.com/puzzles/some-ones-somewhere-index/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              Jun 25 - Some Ones, Somewhere
+            </a>
+            {' '}- Visual puzzle, perfect for last year.
+          </li>
+          <li>
+            <a href="https://www.janestreet.com/puzzles/current-puzzle/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              Feb 26 - Subtiles 2 (Current)
+            </a>
+            {' '}- Diophantine formulas and subtiles
+          </li>
+          {/* Add solved puzzles here */}
+        </ul>
+      </section>
+
       {/* Mechanical Puzzles */}
       <section>
         <SectionTitle>Mechanical Puzzles</SectionTitle>

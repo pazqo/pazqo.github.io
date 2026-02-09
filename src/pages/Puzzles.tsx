@@ -116,25 +116,25 @@ export default function Puzzles() {
           </li>
           <li>
             <a href="https://www.janestreet.com/puzzles/hall-of-mirrors-3-index/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
-              Mar 25 - Hall of Mirrors 3
+              March 25 - Hall of Mirrors 3
             </a>
             {' '}- Maximizing laser reflections.
           </li>
           <li>
             <a href="https://www.janestreet.com/puzzles/sum-one-somewhere-index/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
-              Apr 25 - Sum One, Somewhere
+              April 25 - Sum One, Somewhere
             </a>
             {' '}- Probabily in infinite trees.
           </li>
           <li>
             <a href="https://www.janestreet.com/puzzles/some-ones-somewhere-index/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
-              Jun 25 - Some Ones, Somewhere
+              June 25 - Some Ones, Somewhere
             </a>
             {' '}- Visual puzzle, perfect for last year.
           </li>
           <li>
             <a href="https://www.janestreet.com/puzzles/current-puzzle/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
-              Feb 26 - Subtiles 2 (Current)
+              February 26 - Subtiles 2 (Current)
             </a>
             {' '}- Diophantine formulas and subtiles
           </li>

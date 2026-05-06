@@ -31,6 +31,21 @@ const config: Config = {
           muted: 'hsl(260, 20%, 50%)',
           accent: 'hsl(270, 70%, 55%)',
         },
+        // Green theme for Ouroboros
+        ouroboros: {
+          bg: 'hsl(150, 20%, 12%)',
+          'bg-light': 'hsl(150, 25%, 95%)',
+          card: 'hsl(150, 18%, 18%)',
+          'card-light': 'hsl(150, 20%, 98%)',
+          border: 'hsl(150, 15%, 25%)',
+          'border-light': 'hsl(150, 20%, 85%)',
+          text: 'hsl(150, 15%, 90%)',
+          'text-light': 'hsl(150, 30%, 20%)',
+          muted: 'hsl(150, 12%, 65%)',
+          'muted-light': 'hsl(150, 15%, 45%)',
+          accent: 'hsl(145, 65%, 55%)',
+          'accent-hover': 'hsl(145, 70%, 45%)',
+        },
       },
       backgroundImage: {
         // Dusk Purple gradients

@@ -71,6 +71,10 @@
     "replay": "sudokupad-LMDemasi-God_save_the_Queen-a3865-d77428.replay",
     "gif": "sudokupad-LMDemasi-God_save_the_Queen.gif"
   },
+  "sxsm_Lizzy01_1ce14c6d68f53b5a3daf48675f261495": {
+    "replay": "sudokupad-Lizzy01-Pumpkin_Wizard-a5582-d20917.replay",
+    "gif": "sudokupad-Lizzy01-Pumpkin_Wizard.gif"
+  },
   "39GDNpTT9J": {
     "replay": "sudokupad-Logan_Wall-VanDerWaal-a996-d1467.replay",
     "gif": "sudokupad-Logan_Wall-VanDerWaal.gif"
@@ -82,6 +86,14 @@
   "sxsm_MartySears_580c6fdbbba9bfb0e71ae19044f02d4c": {
     "replay": "sudokupad-Marty_Sear-Parity_Fish-a1566-d1566.replay",
     "gif": "sudokupad-Marty_Sear-Parity_Fish.gif"
+  },
+  "sxsm_MattTressel_2e7aeae3cb221bf7de68c12442fd5ede": {
+    "replay": "sudokupad-Matt_Tress-Fibonacci_Lines-a2391-d5264.replay",
+    "gif": "sudokupad-Matt_Tress-Fibonacci_Lines.gif"
+  },
+  "sxsm_MattTressel_776cd909f14b7625daa106abaa32f8e9": {
+    "replay": "sudokupad-Matt_Tress-Leftovers-a3271-d6483.replay",
+    "gif": "sudokupad-Matt_Tress-Leftovers.gif"
   },
   "sxsm_MichaelLefkowitz_8d607a9cd510c988a3a7a7409cab75af": {
     "replay": "sudokupad-Michael_Le-Clear_Skies-a294-d362.replay",
@@ -111,6 +123,10 @@
     "replay": "sudokupad-Migu-4x4_Euler_Thermo_Sudoku-a289-d245.replay",
     "gif": "sudokupad-Migu-4x4_Euler_Thermo_Sudoku.gif"
   },
+  "sxsm_Neokart_d5260b08ac3932463f0aa0e660e15106": {
+    "replay": "sudokupad-Neokart-rbol-a5044-d20313.replay",
+    "gif": "sudokupad-Neokart-rbol.gif"
+  },
   "nhk1905h": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk1905h-a968-d891.replay",
     "gif": "sudokupad-Nikoli-Nikoli_nhk1905h.gif"
@@ -118,6 +134,10 @@
   "nhk1907h1": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk1907h1-a728-d666.replay",
     "gif": "sudokupad-Nikoli-Nikoli_nhk1907h1.gif"
+  },
+  "nhk1911h2": {
+    "replay": "sudokupad-Nikoli-Nikoli_nhk1911h2-a2899-d6543.replay",
+    "gif": "sudokupad-Nikoli-Nikoli_nhk1911h2.gif"
   },
   "nhk1912h2": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk1912h2-a1168-d1006.replay",
@@ -135,13 +155,25 @@
     "replay": "sudokupad-Nikoli-Nikoli_nhk2205m-a582-d453.replay",
     "gif": "sudokupad-Nikoli-Nikoli_nhk2205m.gif"
   },
+  "nhk2206m": {
+    "replay": "sudokupad-Nikoli-Nikoli_nhk2206m-a768-d1053.replay",
+    "gif": "sudokupad-Nikoli-Nikoli_nhk2206m.gif"
+  },
   "nhk2208h1": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk2208h1-a619-d531.replay",
     "gif": "sudokupad-Nikoli-Nikoli_nhk2208h1.gif"
   },
+  "nhk2209h2": {
+    "replay": "sudokupad-Nikoli-Nikoli_nhk2209h2-a2398-d3225.replay",
+    "gif": "sudokupad-Nikoli-Nikoli_nhk2209h2.gif"
+  },
   "nhk2211m": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk2211m-a537-d421.replay",
     "gif": "sudokupad-Nikoli-Nikoli_nhk2211m.gif"
+  },
+  "nhk2303h1": {
+    "replay": "sudokupad-Nikoli-Nikoli_nhk2303h1-a548-d509.replay",
+    "gif": "sudokupad-Nikoli-Nikoli_nhk2303h1.gif"
   },
   "nhk2304m": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk2304m-a558-d423.replay",
@@ -150,6 +182,10 @@
   "nhk2308m": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk2308m-a669-d541.replay",
     "gif": "sudokupad-Nikoli-Nikoli_nhk2308m.gif"
+  },
+  "nhk2309m": {
+    "replay": "sudokupad-Nikoli-Nikoli_nhk2309m-a749-d774.replay",
+    "gif": "sudokupad-Nikoli-Nikoli_nhk2309m.gif"
   },
   "nhk2311h1": {
     "replay": "sudokupad-Nikoli-Nikoli_nhk2311h1-a1028-d1028.replay",
@@ -174,6 +210,10 @@
   "fpuzzle61c751d9d206fae5c7deae1035e9645c": {
     "replay": "sudokupad-Ratfinkz-Broken_Paperclip-a1321-d1397.replay",
     "gif": "sudokupad-Ratfinkz-Broken_Paperclip.gif"
+  },
+  "fpuzzlef08d5d8ef6f0c7d63b4165a86f8c5614": {
+    "replay": "sudokupad-SSG-Mountaineering-a1322-d1573.replay",
+    "gif": "sudokupad-SSG-Mountaineering.gif"
   },
   "sxsm_ShintaroFushidaHardy_51c3c9d73cd4298695f1e0b637c95fca": {
     "replay": "sudokupad-Shintaro_F-Parity_vision-a578-d741.replay",

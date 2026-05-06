@@ -150,6 +150,12 @@ export default function Puzzles() {
         </p>
         <ul className={`text-fs-6 space-y-2 ${textClass}`}>
           <li>
+            <Link to="/ouroboros" className={primaryLinkClass}>
+              Ouroboros
+            </Link>
+            {' '}- My first mechanical puzzle design
+          </li>
+          <li>
             <Link to="/puzzle-collection" className={primaryLinkClass}>
               My Collection
             </Link>

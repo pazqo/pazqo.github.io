@@ -10,23 +10,32 @@ import ConnectWords from './pages/ConnectWords'
 import BlackWhite from './pages/BlackWhite'
 import Blog from './pages/Blog'
 import BlogPost from './pages/BlogPost'
+import Ouroboros from './pages/Ouroboros'
 
 function App() {
   return (
-    <Layout>
-      <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/puzzles" element={<Puzzles />} />
-        <Route path="/puzzle-collection" element={<PuzzleCollection />} />
-        <Route path="/sudoku" element={<Sudoku />} />
-        <Route path="/games" element={<Games />} />
-        <Route path="/games/connect-words" element={<ConnectWords />} />
-        <Route path="/games/black-white" element={<BlackWhite />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/blog/:slug" element={<BlogPost />} />
-      </Routes>
-    </Layout>
+    <Routes>
+      {/* Standalone landing page - no layout */}
+      <Route path="/ouroboros" element={<Ouroboros />} />
+
+      {/* All other pages with standard layout */}
+      <Route path="/*" element={
+        <Layout>
+          <Routes>
+            <Route path="/" element={<About />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/puzzles" element={<Puzzles />} />
+            <Route path="/puzzle-collection" element={<PuzzleCollection />} />
+            <Route path="/sudoku" element={<Sudoku />} />
+            <Route path="/games" element={<Games />} />
+            <Route path="/games/connect-words" element={<ConnectWords />} />
+            <Route path="/games/black-white" element={<BlackWhite />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
+          </Routes>
+        </Layout>
+      } />
+    </Routes>
   )
 }
 

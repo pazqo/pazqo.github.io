@@ -133,8 +133,14 @@ export default function Puzzles() {
             {' '}- Visual puzzle, perfect for last year.
           </li>
           <li>
-            <a href="https://www.janestreet.com/puzzles/current-puzzle/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+            <a href="https://www.janestreet.com/puzzles/subtiles-2-index/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
               February 26 - Subtiles 2 (Current)
+            </a>
+            {' '}- Diophantine formulas and subtiles
+          </li>
+          <li>
+            <a href="https://www.janestreet.com/puzzles/current-puzzle/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              May 26 - Arch Madness (Current)
             </a>
             {' '}- Diophantine formulas and subtiles
           </li>

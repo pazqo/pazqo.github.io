@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTheme } from '../context/ThemeContext'
 import { ChevronRight, Sun, Moon } from 'lucide-react'
@@ -56,6 +57,7 @@ function GreenSpoiler({ title, children }: { title: string; children: React.Reac
 
 export default function Ouroboros() {
   const { theme } = useTheme()
+  const [isZoomed, setIsZoomed] = useState(false)
 
   const textClass = theme === 'dark' ? 'text-ouroboros-muted' : 'text-ouroboros-muted-light'
   const headingClass = theme === 'dark' ? 'text-ouroboros-text' : 'text-ouroboros-text-light'
@@ -77,12 +79,23 @@ export default function Ouroboros() {
           </h1>
         </header>
 
+        {/* Backdrop when zoomed */}
+        {isZoomed && (
+          <div
+            className="fixed inset-0 bg-black/50 z-40"
+            onClick={() => setIsZoomed(false)}
+          />
+        )}
+
         {/* Puzzle Image */}
         <div className="flex justify-center mb-10">
           <img
-            src="/images/puzzles/Ouroboros_unsolved.jpeg"
+            src="/images/puzzles/Ouroboros_unsolved_2.jpeg"
             alt="Ouroboros puzzle"
-            className={`w-full max-w-lg rounded-lg shadow-lg ${
+            onClick={() => setIsZoomed(!isZoomed)}
+            className={`w-full max-w-lg rounded-3xl shadow-lg cursor-pointer transition-transform duration-300 ${
+              isZoomed ? 'scale-150 z-50 relative' : 'hover:scale-[1.02]'
+            } ${
               theme === 'dark'
                 ? 'border border-ouroboros-border'
                 : 'border border-ouroboros-border-light'
@@ -96,14 +109,14 @@ export default function Ouroboros() {
             Objective
           </h2>
           <p className={`text-base leading-relaxed mb-6 ${textClass}`}>
-            The long hinged snake must be folded so that it fits its entirety on the frame, with hinges fitting in the frame holes.
+            Fold the hinged snake so it fits entirely on the frame, with each hinge sitting in one of the holes.
           </p>
 
           <h2 className={`text-2xl font-semibold mb-4 ${headingClass}`}>
             About
           </h2>
           <p className={`text-base leading-relaxed ${textClass}`}>
-            Ouroboros was presented at the{' '}
+            Ouroboros was presented and exchanged at the{' '}
             <a
               href="http://www.puzzleparty.org/"
               target="_blank"
@@ -114,8 +127,20 @@ export default function Ouroboros() {
             </a>
             {' '}XLIII (2026).
           </p>
-          <p className={`text-base leading-relaxed mt-4 italic ${textClass}`}>
-            More details about the design and production process coming soon.
+          <p className={`text-base leading-relaxed mt-4 ${textClass}`}>
+            It was initially inspired by{' '}
+            <a
+              href="https://www.constantin-puzzles.de/de/produkte/p/p2d-420"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-ouroboros-accent hover:text-ouroboros-accent-hover hover:underline"
+            >
+              Metermass/Tough Measures
+            </a>
+            {' '} by J. Constantin, but I wanted to use a single closed component.
+            I'm not going to explain the rest of the thinking process, as it could spoil the solution.
+            <br/>
+            I'll leave some notes later, but I suggest you solve it first.
           </p>
         </section>
 
@@ -130,9 +155,42 @@ export default function Ouroboros() {
 
           <GreenSpoiler title="Hint 1">
             <GreenSpoiler title="Are you sure?">
-              <p>[First hint goes here]</p>
+              <p>The solution is symmetric</p>
             </GreenSpoiler>
           </GreenSpoiler>
+
+          <GreenSpoiler title="Hint 2">
+            <GreenSpoiler title="Are you sure?">
+              <p>The solution snake will self-cross; this movement is only possible in specific sections of the snake</p>
+            </GreenSpoiler>
+          </GreenSpoiler>
+
+          <GreenSpoiler title="Hint 3">
+            <GreenSpoiler title="Are you sure?">
+              <p>Not all segments need to be parallel to one of the sides</p>
+            </GreenSpoiler>
+          </GreenSpoiler>
+
+          <GreenSpoiler title="Hint 4">
+            <GreenSpoiler title="Are you sure?">
+              <p>There is not approximation, think of Pythagoras</p>
+            </GreenSpoiler>
+          </GreenSpoiler>
+
+          <GreenSpoiler title="Hint 5">
+            <GreenSpoiler title="Are you sure?">
+              <p>I already explained that the solution is symmetric, but the symmetry is not reflectional! It's a 180° rotational symmetry</p>
+            </GreenSpoiler>
+          </GreenSpoiler>
+
+          <GreenSpoiler title="Hint 6">
+            <GreenSpoiler title="Are you sure?">
+              <p>Two of the longer pieces must be self-symmetric as they are on different planes. Hence they must be in the center of symmetry</p>
+            </GreenSpoiler>
+          </GreenSpoiler>
+
+        There is still something to figure out, you can drop an email if you are still stuck.
+
         </section>
 
         {/* Solution */}
@@ -142,6 +200,7 @@ export default function Ouroboros() {
           </h2>
           <p className={`text-base ${textClass}`}>
             The solution is not provided here. Keep trying - you can do it!
+            If you are really in trouble, drop me an email and I can give you a nudge.
           </p>
         </section>
 

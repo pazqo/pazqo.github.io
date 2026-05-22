@@ -173,7 +173,7 @@ export default function Ouroboros() {
 
           <GreenSpoiler title="Hint 4">
             <GreenSpoiler title="Are you sure?">
-              <p>There is not approximation, think of Pythagoras</p>
+              <p>There is no approximation, think of Pythagoras</p>
             </GreenSpoiler>
           </GreenSpoiler>
 
@@ -188,9 +188,10 @@ export default function Ouroboros() {
               <p>Two of the longer pieces must be self-symmetric as they are on different planes. Hence they must be in the center of symmetry</p>
             </GreenSpoiler>
           </GreenSpoiler>
-
-        There is still something to figure out, you can drop an email if you are still stuck.
-
+          
+          <p className={`text-base ${textClass}`}>
+            There is still something to figure out, you can drop an email if you are still stuck.
+          </p>
         </section>
 
         {/* Solution */}

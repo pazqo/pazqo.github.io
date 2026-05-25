@@ -1,4 +1,5 @@
-import { Routes, Route } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import Layout from './components/layout/Layout'
 import About from './pages/About'
 import Resume from './pages/Resume'
@@ -11,6 +12,16 @@ import BlackWhite from './pages/BlackWhite'
 import Blog from './pages/Blog'
 import BlogPost from './pages/BlogPost'
 import Ouroboros from './pages/Ouroboros'
+
+function ScrollToTop() {
+  const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
+  return null
+}
 
 function App() {
   return (

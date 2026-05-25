@@ -150,42 +150,41 @@ export default function Ouroboros() {
             Hints
           </h2>
           <p className={`text-sm mb-4 ${textClass}`}>
-            Stuck? Each hint requires two clicks to reveal.
+            Stuck? Each hint only nudges you towards the solution. Stop when you think you have more information!
           </p>
 
           <GreenSpoiler title="Hint 1">
-            <GreenSpoiler title="Are you sure?">
-              <p>The solution is symmetric</p>
-            </GreenSpoiler>
+            <p>The solution is symmetric</p>
           </GreenSpoiler>
 
           <GreenSpoiler title="Hint 2">
-            <GreenSpoiler title="Are you sure?">
-              <p>The solution snake will self-cross; this movement is only possible in specific sections of the snake</p>
-            </GreenSpoiler>
+            <p>The solution snake will self-cross; this movement is only possible in specific sections of the snake</p>
           </GreenSpoiler>
 
           <GreenSpoiler title="Hint 3">
-            <GreenSpoiler title="Are you sure?">
-              <p>Not all segments need to be parallel to one of the sides</p>
-            </GreenSpoiler>
+            <p>I already explained that the solution is symmetric, but the symmetry is not reflectional! It's a 180° rotational symmetry</p>
           </GreenSpoiler>
 
           <GreenSpoiler title="Hint 4">
-            <GreenSpoiler title="Are you sure?">
-              <p>There is no approximation, think of Pythagoras</p>
-            </GreenSpoiler>
+            <p>Two of the longer pieces must be self-symmetric as they are on different planes. Hence they must be in the center of symmetry</p>
           </GreenSpoiler>
 
           <GreenSpoiler title="Hint 5">
-            <GreenSpoiler title="Are you sure?">
-              <p>I already explained that the solution is symmetric, but the symmetry is not reflectional! It's a 180° rotational symmetry</p>
-            </GreenSpoiler>
+            <p>Not all segments need to be parallel to one of the sides</p>
           </GreenSpoiler>
 
           <GreenSpoiler title="Hint 6">
-            <GreenSpoiler title="Are you sure?">
-              <p>Two of the longer pieces must be self-symmetric as they are on different planes. Hence they must be in the center of symmetry</p>
+            <p>There is no approximation, think of Pythagoras; if you don't see it, try thinking about distances between holes, not length of segment!</p>
+          </GreenSpoiler>
+
+          <GreenSpoiler title="Hint 7">
+            <p>I can show you one side, I'm not going to show you the other side; this is the final hint, so only click if you are definitively stuck!</p>
+            <GreenSpoiler title="Show image">
+              <img
+                src="/images/puzzles/Ouroboros_side_b.jpeg"
+                alt="Ouroboros side B hint"
+                className="w-full max-w-md rounded-lg mx-auto"
+              />
             </GreenSpoiler>
           </GreenSpoiler>
           

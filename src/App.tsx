@@ -25,9 +25,11 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <Routes>
-      {/* Standalone landing page - no layout */}
-      <Route path="/ouroboros" element={<Ouroboros />} />
+    <>
+      <ScrollToTop />
+      <Routes>
+        {/* Standalone landing page - no layout */}
+        <Route path="/ouroboros" element={<Ouroboros />} />
 
       {/* All other pages with standard layout */}
       <Route path="/*" element={
@@ -46,7 +48,8 @@ function App() {
           </Routes>
         </Layout>
       } />
-    </Routes>
+      </Routes>
+    </>
   )
 }
 

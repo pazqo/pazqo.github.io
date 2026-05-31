@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
+import usePageTracking from './hooks/usePageTracking'
 import Layout from './components/layout/Layout'
 import About from './pages/About'
 import Resume from './pages/Resume'
@@ -24,6 +25,8 @@ function ScrollToTop() {
 }
 
 function App() {
+  usePageTracking()
+
   return (
     <>
       <ScrollToTop />

@@ -77,6 +77,9 @@ export default function Ouroboros() {
           <h1 className={`text-4xl md:text-5xl font-bold mb-3 ${headingClass}`}>
             Ouroboros
           </h1>
+          <p className={`text-lg ${textClass}`}>
+            Designed by Stefano "pazqo" Pascolutti
+          </p>
         </header>
 
         {/* Backdrop when zoomed */}
@@ -118,7 +121,7 @@ export default function Ouroboros() {
           <p className={`text-base leading-relaxed ${textClass}`}>
             Ouroboros was presented and exchanged at the{' '}
             <a
-              href="http://www.puzzleparty.org/"
+              href="https://www.puzzleparty.org/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-ouroboros-accent hover:text-ouroboros-accent-hover hover:underline"
@@ -177,7 +180,7 @@ export default function Ouroboros() {
             <p>There is no approximation, think of Pythagoras; if you don't see it, try thinking about distances between holes, not length of segment!</p>
           </GreenSpoiler>
 
-          <GreenSpoiler title="Hint 7">
+          {/* <GreenSpoiler title="Hint 7">
             <p>I can show you one side, I'm not going to show you the other side; this is the final hint, so only click if you are definitively stuck!</p>
             <GreenSpoiler title="Show image">
               <img
@@ -186,7 +189,7 @@ export default function Ouroboros() {
                 className="w-full max-w-md rounded-lg mx-auto"
               />
             </GreenSpoiler>
-          </GreenSpoiler>
+          </GreenSpoiler> */}
           
           <p className={`text-base ${textClass}`}>
             There is still something to figure out, you can drop an email if you are still stuck.

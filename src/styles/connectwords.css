@@ -14,8 +14,8 @@
 }
 
 .dark .cw-game-container {
-  background: hsl(260, 15%, 20%);
-  border: 1px solid hsl(260, 15%, 30%);
+  background: hsl(230, 22%, 16%);
+  border: 1px solid hsl(230, 18%, 24%);
 }
 
 .light .cw-game-container {
@@ -33,8 +33,8 @@
 }
 
 .dark .cw-game-topbar {
-  background: hsl(260, 15%, 25%);
-  border-bottom: 1px solid hsl(260, 15%, 30%);
+  background: hsl(230, 22%, 18%);
+  border-bottom: 1px solid hsl(230, 18%, 24%);
 }
 
 .light .cw-game-topbar {
@@ -63,28 +63,28 @@
 
 .dark .cw-back-link {
   background: transparent;
-  border: 1px solid #ffdb70;
-  color: #ffdb70;
+  border: 1px solid hsl(185, 85%, 55%);
+  color: hsl(185, 85%, 55%);
 }
 
 .dark .cw-back-link:hover {
-  background: #ffdb70;
-  color: hsl(260, 15%, 20%);
+  background: hsl(185, 85%, 55%);
+  color: hsl(230, 22%, 16%);
 }
 
 .light .cw-back-link {
   background: transparent;
-  border: 1px solid #f59e0b;
-  color: #f59e0b;
+  border: 1px solid hsl(185, 75%, 40%);
+  color: hsl(185, 75%, 40%);
 }
 
 .light .cw-back-link:hover {
-  background: #f59e0b;
+  background: hsl(185, 75%, 40%);
   color: white;
 }
 
 .dark .cw-game-title {
-  color: hsl(260, 10%, 95%);
+  color: hsl(210, 15%, 95%);
 }
 
 .light .cw-game-title {
@@ -107,14 +107,14 @@
 }
 
 .dark .cw-topbar-controls button {
-  border: 1px solid hsl(260, 10%, 75%);
+  border: 1px solid hsl(220, 12%, 72%);
   background-color: transparent;
-  color: hsl(260, 10%, 75%);
+  color: hsl(220, 12%, 72%);
 }
 
 .dark .cw-topbar-controls button:hover:not(:disabled) {
-  background-color: hsl(260, 10%, 75%);
-  color: hsl(260, 15%, 20%);
+  background-color: hsl(220, 12%, 72%);
+  color: hsl(230, 22%, 16%);
 }
 
 .light .cw-topbar-controls button {
@@ -148,8 +148,8 @@
 }
 
 .dark .cw-help-icon {
-  background: hsl(260, 15%, 35%);
-  color: hsl(260, 10%, 75%);
+  background: hsl(230, 18%, 28%);
+  color: hsl(220, 12%, 72%);
 }
 
 .light .cw-help-icon {
@@ -216,8 +216,8 @@
 }
 
 .dark .cw-solved-groups {
-  background: hsl(260, 15%, 22%);
-  border-bottom: 1px solid hsl(260, 15%, 30%);
+  background: hsl(230, 22%, 16%);
+  border-bottom: 1px solid hsl(230, 18%, 24%);
 }
 
 .light .cw-solved-groups {
@@ -303,8 +303,8 @@
 }
 
 .dark .cw-grid-cell {
-  background-color: hsl(260, 15%, 35%);
-  color: hsl(260, 10%, 95%);
+  background-color: hsl(230, 18%, 28%);
+  color: hsl(210, 15%, 95%);
 }
 
 .light .cw-grid-cell {
@@ -319,7 +319,7 @@
 
 .cw-grid-cell.cw-selected {
   z-index: 2;
-  outline: 3px solid hsl(270, 80%, 72%);
+  outline: 3px solid hsl(185, 85%, 55%);
   outline-offset: 1px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
@@ -362,8 +362,8 @@
 }
 
 .dark .cw-groups-sidebar {
-  background: hsl(260, 15%, 22%);
-  border-left: 1px solid hsl(260, 15%, 30%);
+  background: hsl(230, 22%, 16%);
+  border-left: 1px solid hsl(230, 18%, 24%);
 }
 
 .light .cw-groups-sidebar {
@@ -378,9 +378,9 @@
 }
 
 .dark .cw-sidebar-header {
-  color: hsl(260, 10%, 95%);
-  border-bottom: 1px solid hsl(260, 15%, 30%);
-  background: hsl(260, 15%, 25%);
+  color: hsl(210, 15%, 95%);
+  border-bottom: 1px solid hsl(230, 18%, 24%);
+  background: hsl(230, 22%, 18%);
 }
 
 .light .cw-sidebar-header {
@@ -409,7 +409,7 @@
 }
 
 .dark .cw-sidebar-group {
-  background: hsl(260, 15%, 35%);
+  background: hsl(230, 18%, 28%);
 }
 
 .light .cw-sidebar-group {
@@ -421,7 +421,7 @@
 }
 
 .cw-sidebar-group.cw-selected {
-  border-color: hsl(270, 80%, 72%);
+  border-color: hsl(185, 85%, 55%);
   border-width: 3px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
@@ -491,7 +491,7 @@
 }
 
 .cw-label-input:focus {
-  border-color: hsl(270, 80%, 72%);
+  border-color: hsl(185, 85%, 55%);
 }
 
 .cw-label-btn {
@@ -535,7 +535,7 @@
 }
 
 .dark .cw-sidebar-empty {
-  color: hsl(260, 10%, 60%);
+  color: hsl(220, 12%, 55%);
 }
 
 .light .cw-sidebar-empty {
@@ -556,7 +556,7 @@
   }
 
   .dark .cw-groups-sidebar {
-    border-color: hsl(260, 15%, 30%);
+    border-color: hsl(230, 18%, 24%);
   }
 
   .light .cw-groups-sidebar {
@@ -593,7 +593,7 @@
 }
 
 .dark .cw-game-container.cw-expanded {
-  background: hsl(260, 18%, 11%);
+  background: hsl(230, 25%, 10%);
 }
 
 .light .cw-game-container.cw-expanded {

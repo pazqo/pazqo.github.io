@@ -2,22 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Base styles - Dusk Purple theme (brighter dark) */
+/* Base styles - Refn aesthetic (deep blue-purple, cyan accent) */
 :root {
-  --bg-primary: hsl(260, 18%, 30%);
-  --bg-card: hsl(260, 15%, 38%);
-  --text-primary: hsl(260, 10%, 95%);
-  --text-secondary: hsl(260, 10%, 75%);
-  --accent: hsl(270, 80%, 72%);
+  --bg-primary: hsl(230, 22%, 16%);
+  --bg-card: hsl(230, 20%, 20%);
+  --text-primary: hsl(210, 15%, 95%);
+  --text-secondary: hsl(220, 12%, 72%);
+  --accent: hsl(185, 85%, 55%);
 }
 
 /* Light theme overrides */
 .light {
-  --bg-primary: hsl(260, 30%, 96%);
+  --bg-primary: hsl(220, 30%, 96%);
   --bg-card: hsl(0, 0%, 100%);
-  --text-primary: hsl(260, 40%, 25%);
-  --text-secondary: hsl(260, 20%, 50%);
-  --accent: hsl(270, 70%, 55%);
+  --text-primary: hsl(230, 40%, 22%);
+  --text-secondary: hsl(220, 20%, 45%);
+  --accent: hsl(185, 75%, 40%);
 }
 
 * {
@@ -39,7 +39,7 @@ body {
 
 /* Selection styling */
 ::selection {
-  background: hsl(270, 80%, 65%);
+  background: hsl(185, 85%, 40%);
   color: white;
 }
 
@@ -50,21 +50,21 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: hsl(260, 18%, 25%);
+  background: hsl(230, 25%, 12%);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(270, 65%, 60%);
+  background: hsl(185, 60%, 40%);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(270, 80%, 72%);
+  background: hsl(185, 85%, 55%);
 }
 
 /* Focus styles */
 :focus {
-  outline-color: hsl(270, 80%, 65%);
+  outline-color: hsl(185, 85%, 50%);
 }
 
 /* Link visited color */

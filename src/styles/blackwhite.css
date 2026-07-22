@@ -1,9 +1,9 @@
 /* Black & White Path Game Styles */
 
 .bw-game {
-  --bw-accent: hsl(270, 80%, 72%);
-  --bw-accent-hover: hsl(270, 70%, 65%);
-  --bw-path-color: hsl(270, 80%, 72%);
+  --bw-accent: hsl(185, 85%, 55%);
+  --bw-accent-hover: hsl(185, 75%, 45%);
+  --bw-path-color: hsl(185, 85%, 55%);
 }
 
 /* Cell base styles */
@@ -20,57 +20,57 @@
 
 /* Frame cells */
 .bw-cell-frame {
-  background: hsl(260, 15%, 40%);
+  background: hsl(230, 20%, 28%);
 }
 
 .bw-cell-frame:hover {
-  background: hsl(260, 15%, 35%);
+  background: hsl(230, 20%, 24%);
 }
 
 .bw-cell-frame.light {
-  background: hsl(260, 10%, 65%);
+  background: hsl(220, 15%, 65%);
 }
 
 .bw-cell-frame.light:hover {
-  background: hsl(260, 10%, 55%);
+  background: hsl(220, 15%, 55%);
 }
 
 /* Start cell */
 .bw-cell-start {
   background: var(--bw-accent) !important;
-  color: hsl(260, 20%, 15%);
+  color: hsl(230, 25%, 12%);
 }
 
 /* Frame cell visited */
 .bw-cell-frame.bw-cell-visited {
-  background: hsl(270, 60%, 55%);
+  background: hsl(185, 65%, 40%);
 }
 
 .bw-cell-frame.bw-cell-visited.light {
-  background: hsl(270, 50%, 60%);
+  background: hsl(185, 55%, 50%);
 }
 
 /* Frame cell current */
 .bw-cell-frame.bw-cell-current {
-  box-shadow: inset 0 0 0 3px #ffd700;
+  box-shadow: inset 0 0 0 3px hsl(185, 100%, 70%);
   background: var(--bw-accent);
 }
 
 /* Inner cells */
 .bw-cell-inner.bw-cell-black {
-  background: hsl(260, 20%, 15%);
+  background: hsl(230, 25%, 12%);
 }
 
 .bw-cell-inner.bw-cell-white {
-  background: hsl(260, 20%, 90%);
+  background: hsl(220, 15%, 90%);
 }
 
 .bw-cell-inner.bw-cell-black.light {
-  background: hsl(260, 30%, 20%);
+  background: hsl(230, 30%, 18%);
 }
 
 .bw-cell-inner.bw-cell-white.light {
-  background: hsl(260, 15%, 95%);
+  background: hsl(220, 10%, 95%);
 }
 
 /* Inner cell visited */

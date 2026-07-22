@@ -9,27 +9,27 @@ const config: Config = {
         poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
-        // Dusk Purple theme - brighter dark with purple accents
-        jet: 'hsl(260, 15%, 38%)',            // cards
-        onyx: 'hsl(260, 18%, 30%)',           // background
+        // Refn aesthetic - deep blue-purple with electric cyan accent
+        jet: 'hsl(230, 20%, 20%)',            // cards
+        onyx: 'hsl(230, 22%, 16%)',           // background
         'eerie-black': {
-          1: 'hsl(260, 14%, 42%)',            // borders
-          2: 'hsl(260, 14%, 45%)',            // hover states
+          1: 'hsl(230, 18%, 24%)',            // borders
+          2: 'hsl(230, 16%, 28%)',            // hover states
         },
-        'smoky-black': 'hsl(260, 18%, 25%)', // deeper bg
+        'smoky-black': 'hsl(230, 25%, 12%)', // deeper bg
         'white-1': 'hsl(0, 0%, 100%)',
-        'white-2': 'hsl(260, 10%, 95%)',     // main text (brighter)
-        'orange-yellow-crayola': 'hsl(270, 80%, 72%)', // brighter purple accent
-        'vegas-gold': 'hsl(280, 75%, 65%)',  // secondary purple
-        'light-gray': 'hsl(260, 10%, 75%)',  // muted text (brighter)
-        'light-gray-70': 'hsla(260, 10%, 75%, 0.7)',
-        'bittersweet-shimmer': 'hsl(340, 65%, 65%)',
+        'white-2': 'hsl(210, 15%, 95%)',     // main text (cool white)
+        'orange-yellow-crayola': 'hsl(185, 85%, 55%)', // electric cyan accent
+        'vegas-gold': 'hsl(195, 75%, 50%)',  // secondary cyan
+        'light-gray': 'hsl(220, 12%, 72%)',  // muted text
+        'light-gray-70': 'hsla(220, 12%, 72%, 0.7)',
+        'bittersweet-shimmer': 'hsl(320, 70%, 60%)',
         light: {
-          bg: 'hsl(260, 30%, 96%)',
+          bg: 'hsl(220, 30%, 96%)',
           card: 'hsl(0, 0%, 100%)',
-          text: 'hsl(260, 40%, 25%)',
-          muted: 'hsl(260, 20%, 50%)',
-          accent: 'hsl(270, 70%, 55%)',
+          text: 'hsl(230, 40%, 22%)',
+          muted: 'hsl(220, 20%, 45%)',
+          accent: 'hsl(185, 75%, 40%)',
         },
         // Green theme for Ouroboros
         ouroboros: {
@@ -48,18 +48,18 @@ const config: Config = {
         },
       },
       backgroundImage: {
-        // Dusk Purple gradients
-        'gradient-onyx': 'linear-gradient(to bottom right, hsl(260, 18%, 28%) 3%, hsl(260, 18%, 25%) 97%)',
-        'gradient-jet': 'linear-gradient(to bottom right, hsla(270, 22%, 45%, 0.5) 0%, hsla(260, 18%, 35%, 0) 100%), hsl(260, 15%, 38%)',
-        'gradient-yellow': 'linear-gradient(to right, hsl(270, 80%, 72%), hsl(290, 80%, 68%))',
-        'border-gradient-onyx': 'linear-gradient(to bottom right, hsl(270, 45%, 55%) 0%, hsla(260, 18%, 40%, 0) 50%)',
+        // Refn gradients - deep blue-purple with cyan accents
+        'gradient-onyx': 'linear-gradient(to bottom right, hsl(230, 22%, 18%) 3%, hsl(230, 25%, 12%) 97%)',
+        'gradient-jet': 'linear-gradient(to bottom right, hsla(230, 25%, 30%, 0.5) 0%, hsla(230, 22%, 20%, 0) 100%), hsl(230, 20%, 20%)',
+        'gradient-yellow': 'linear-gradient(to right, hsl(185, 85%, 55%), hsl(200, 80%, 50%))',
+        'border-gradient-onyx': 'linear-gradient(to bottom right, hsl(185, 60%, 45%) 0%, hsla(230, 22%, 24%, 0) 50%)',
       },
       boxShadow: {
-        'shadow-1': '-4px 8px 24px hsla(260, 40%, 10%, 0.35)',
-        'shadow-2': '0 16px 30px hsla(260, 40%, 10%, 0.35)',
-        'shadow-3': '0 16px 40px hsla(260, 40%, 10%, 0.4)',
-        'shadow-4': '0 25px 50px hsla(260, 40%, 10%, 0.25)',
-        'shadow-5': '0 24px 80px hsla(260, 40%, 10%, 0.35)',
+        'shadow-1': '-4px 8px 24px hsla(230, 40%, 6%, 0.45)',
+        'shadow-2': '0 16px 30px hsla(230, 40%, 6%, 0.45)',
+        'shadow-3': '0 16px 40px hsla(230, 40%, 6%, 0.5)',
+        'shadow-4': '0 25px 50px hsla(230, 40%, 6%, 0.35)',
+        'shadow-5': '0 24px 80px hsla(230, 40%, 6%, 0.45)',
       },
       fontSize: {
         'fs-1': '24px',

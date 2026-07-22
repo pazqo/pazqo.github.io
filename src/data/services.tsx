@@ -13,7 +13,7 @@ export const services = [
     title: 'Coding Puzzles',
     description: (
       <>
-        I'm always active on <a href="https://projecteuler.net/" className="text-orange-yellow-crayola hover:underline" target="_blank" rel="noopener noreferrer">Project Euler</a> (140+ and counting) and on <a href="https://adventofcode.com/" className="text-orange-yellow-crayola hover:underline" target="_blank" rel="noopener noreferrer">AdventOfCode</a> (currently completed all challenges since 2015).
+        I'm always active on <a href="https://projecteuler.net/" className="text-orange-yellow-crayola hover:underline" target="_blank" rel="noopener noreferrer">Project Euler</a> (170+ and counting) and on <a href="https://adventofcode.com/" className="text-orange-yellow-crayola hover:underline" target="_blank" rel="noopener noreferrer">AdventOfCode</a> (currently completed all challenges since 2015).
       </>
     ),
   },
@@ -27,7 +27,7 @@ export const services = [
     title: 'Everything Puzzles',
     description: (
       <>
-        I love puzzles, from sudoku variations to mechanical puzzles. I even designed <a href="/ouroboros" className="text-orange-yellow-crayola hover:underline">Ouroboros</a>, which I presented at IPP26.
+        I love puzzles, from sudoku variations to mechanical puzzles. I even designed <a href="/ouroboros" className="text-orange-yellow-crayola hover:underline">Ouroboros</a>, which I presented at IPP 2026.
       </>
     ),
   },

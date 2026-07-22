@@ -21,6 +21,8 @@ export default function LinkedInGamesTable() {
     'Pinpoint': 'https://www.linkedin.com/games/pinpoint/',
     'Zip': 'https://www.linkedin.com/games/zip/',
     'Mini Sudoku': 'https://www.linkedin.com/games/mini-crossword/',
+    'Patches': 'https://www.linkedin.com/games/patches/',
+    'Wend': 'https://www.linkedin.com/games/wend/',
   }
 
   return (

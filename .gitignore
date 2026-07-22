@@ -32,6 +32,9 @@ lerna-debug.log*
 # Testing
 coverage
 
+# Python venv (recreate: python3 -m venv scripts/.venv && scripts/.venv/bin/pip install -r scripts/requirements.txt)
+scripts/.venv
+
 # Old files
 /old
 ctc_puzzles.json

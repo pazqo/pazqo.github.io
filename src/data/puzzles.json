@@ -1,10 +1,730 @@
 [
   {
+    "name": "Dissonance",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TZ6",
+    "author": "vitray",
+    "difficulty": 1,
+    "solve_date": "22. Juli 2026",
+    "solve_time": "08:29",
+    "solver_count": 0,
+    "rating_percent": 94
+  },
+  {
+    "name": "Knights of the Round Times Table",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SS5",
+    "author": "AaronH",
+    "difficulty": 3,
+    "solve_date": "21. Juli 2026",
+    "solve_time": "21:14",
+    "solver_count": 0,
+    "rating_percent": 94
+  },
+  {
+    "name": "A few rubbers",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TSG",
+    "author": "Sartor",
+    "difficulty": 2,
+    "solve_date": "21. Juli 2026",
+    "solve_time": "00:33",
+    "solver_count": 0,
+    "rating_percent": 91
+  },
+  {
+    "name": "Unusually Hot",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SUN",
+    "author": "marty_sears",
+    "difficulty": 2,
+    "solve_date": "18. Juli 2026",
+    "solve_time": "15:23",
+    "solver_count": 0,
+    "rating_percent": 98
+  },
+  {
+    "name": "Entrothermia 6",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TOX",
+    "author": "fractalminding",
+    "difficulty": 4,
+    "solve_date": "17. Juli 2026",
+    "solve_time": "22:22",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Quiet Sums",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TO4",
+    "author": "Sneppix",
+    "difficulty": 2,
+    "solve_date": "14. Juli 2026",
+    "solve_time": "00:30",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Auspicious",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TNC",
+    "author": "NicoD",
+    "difficulty": 3,
+    "solve_date": "12. Juli 2026",
+    "solve_time": "19:35",
+    "solver_count": 0,
+    "rating_percent": 99
+  },
+  {
+    "name": "Algae",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TM5",
+    "author": "Evan",
+    "difficulty": 2,
+    "solve_date": "12. Juli 2026",
+    "solve_time": "12:02",
+    "solver_count": 0,
+    "rating_percent": 94
+  },
+  {
+    "name": "Color Me Surprised",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SOQ",
+    "author": "Sotehr",
+    "difficulty": 3,
+    "solve_date": "4. Juli 2026",
+    "solve_time": "23:39",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Killer Squares",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TIU",
+    "author": "Md88keys",
+    "difficulty": 3,
+    "solve_date": "3. Juli 2026",
+    "solve_time": "00:22",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Dots Before Digits II",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TEY",
+    "author": "addie",
+    "difficulty": 1,
+    "solve_date": "30. Juni 2026",
+    "solve_time": "00:06",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Little House on the Gridrie",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TH2",
+    "author": "chrisjnap",
+    "difficulty": 3,
+    "solve_date": "29. Juni 2026",
+    "solve_time": "15:40",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Thermo Killer",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TFM",
+    "author": "TheScrasse",
+    "difficulty": 3,
+    "solve_date": "27. Juni 2026",
+    "solve_time": "14:31",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Xs and Arrows",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TB0",
+    "author": "addie",
+    "difficulty": 1,
+    "solve_date": "22. Juni 2026",
+    "solve_time": "21:26",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Even Bishops",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TC8",
+    "author": "Morphy",
+    "difficulty": 2,
+    "solve_date": "22. Juni 2026",
+    "solve_time": "13:27",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "German Caterpillars",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000T9N",
+    "author": "juggler",
+    "difficulty": 2,
+    "solve_date": "19. Juni 2026",
+    "solve_time": "21:24",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Arduous work",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000T7F",
+    "author": "Lithium-Ion",
+    "difficulty": 2,
+    "solve_date": "9. Juni 2026",
+    "solve_time": "23:13",
+    "solver_count": 0,
+    "rating_percent": 94
+  },
+  {
+    "name": "Robin Hood (arrow miracle)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000T67",
+    "author": "Lizzy01",
+    "difficulty": 2,
+    "solve_date": "7. Juni 2026",
+    "solve_time": "23:01",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Fugue",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000T55",
+    "author": "RockyRoer",
+    "difficulty": 2,
+    "solve_date": "6. Juni 2026",
+    "solve_time": "09:43",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "The one and only sum",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000T58",
+    "author": "Lithium-Ion",
+    "difficulty": 1,
+    "solve_date": "5. Juni 2026",
+    "solve_time": "07:23",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "Back In My Day (Arrows, Kropki)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000T2R",
+    "author": "Chefofdeath",
+    "difficulty": 2,
+    "solve_date": "4. Juni 2026",
+    "solve_time": "20:51",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Decimation",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SVR",
+    "author": "NicoD",
+    "difficulty": 1,
+    "solve_date": "1. Juni 2026",
+    "solve_time": "16:21",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "Tables for The Knights",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000T2S",
+    "author": "Ridhwan",
+    "difficulty": 3,
+    "solve_date": "1. Juni 2026",
+    "solve_time": "11:18",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "Eye of the Storm",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000T1F",
+    "author": "DocLogic",
+    "difficulty": 1,
+    "solve_date": "1. Juni 2026",
+    "solve_time": "08:10",
+    "solver_count": 0,
+    "rating_percent": 92
+  },
+  {
+    "name": "Reborn hooligan ghost",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000T02",
+    "author": "Lithium-Ion",
+    "difficulty": 3,
+    "solve_date": "29. Mai 2026",
+    "solve_time": "22:44",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Rigmarole",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000STS",
+    "author": "NicoD",
+    "difficulty": 3,
+    "solve_date": "29. Mai 2026",
+    "solve_time": "00:08",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "a little circling back :O",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SVI",
+    "author": "AaronH",
+    "difficulty": 1,
+    "solve_date": "27. Mai 2026",
+    "solve_time": "22:04",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Colorado 17",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000T0H",
+    "author": "Florian Wortmann",
+    "difficulty": 2,
+    "solve_date": "27. Mai 2026",
+    "solve_time": "21:45",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "Colorful Squares",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SWD",
+    "author": "Rab3aron",
+    "difficulty": 4,
+    "solve_date": "24. Mai 2026",
+    "solve_time": "09:22",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Pernicious",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SNA",
+    "author": "NicoD",
+    "difficulty": 2,
+    "solve_date": "16. Mai 2026",
+    "solve_time": "23:25",
+    "solver_count": 0,
+    "rating_percent": 98
+  },
+  {
+    "name": "Equal Sum Shuriken",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SHQ",
+    "author": "Blobz",
+    "difficulty": 2,
+    "solve_date": "16. Mai 2026",
+    "solve_time": "17:22",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Out Of Bounds",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SPO",
+    "author": "sujoyku",
+    "difficulty": 3,
+    "solve_date": "10. Mai 2026",
+    "solve_time": "00:50",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Gold rectangularity",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SL3",
+    "author": "NicoD",
+    "difficulty": 2,
+    "solve_date": "8. Mai 2026",
+    "solve_time": "21:49",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Renban Riot",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SGM",
+    "author": "Blobz",
+    "difficulty": 2,
+    "solve_date": "7. Mai 2026",
+    "solve_time": "06:55",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Teal rectangularity",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SL1",
+    "author": "NicoD",
+    "difficulty": 3,
+    "solve_date": "6. Mai 2026",
+    "solve_time": "21:39",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Pink rectangularity",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SKY",
+    "author": "NicoD",
+    "difficulty": 2,
+    "solve_date": "4. Mai 2026",
+    "solve_time": "09:48",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Dual Wielding Crayons",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SE6",
+    "author": "Scojo",
+    "difficulty": 3,
+    "solve_date": "26. April 2026",
+    "solve_time": "08:47",
+    "solver_count": 0,
+    "rating_percent": 98
+  },
+  {
+    "name": "Propagation",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SCV",
+    "author": "Fool on Hill",
+    "difficulty": 3,
+    "solve_date": "23. April 2026",
+    "solve_time": "07:38",
+    "solver_count": 0,
+    "rating_percent": 94
+  },
+  {
+    "name": "Simple as AB",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000S9K",
+    "author": "NicoD",
+    "difficulty": 3,
+    "solve_date": "17. April 2026",
+    "solve_time": "06:37",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "Moving Day?",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000KBL",
+    "author": "ThePedallingPianist",
+    "difficulty": 3,
+    "solve_date": "16. April 2026",
+    "solve_time": "21:18",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Guadalquivir",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000SA3",
+    "author": "Xenonetix",
+    "difficulty": 3,
+    "solve_date": "15. April 2026",
+    "solve_time": "08:01",
+    "solver_count": 0,
+    "rating_percent": 93
+  },
+  {
+    "name": "Ascension (Antiknight Arrows)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000KCS",
+    "author": "Florian Wortmann",
+    "difficulty": 2,
+    "solve_date": "3. Februar 2026",
+    "solve_time": "09:07",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "Paperclip (4x4)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000R2C",
+    "author": "Mr Toffee",
+    "difficulty": 1,
+    "solve_date": "18. Januar 2026",
+    "solve_time": "21:37",
+    "solver_count": 0,
+    "rating_percent": 75
+  },
+  {
+    "name": "XV*4.4",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000R1O",
+    "author": "NurglesGift",
+    "difficulty": 2,
+    "solve_date": "18. Januar 2026",
+    "solve_time": "09:44",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "Schubladen",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000R0L",
+    "author": "Myxo",
+    "difficulty": 3,
+    "solve_date": "17. Januar 2026",
+    "solve_time": "23:08",
+    "solver_count": 0,
+    "rating_percent": 98
+  },
+  {
+    "name": "Quality Street",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QYN",
+    "author": "Jay Dyer",
+    "difficulty": 3,
+    "solve_date": "16. Januar 2026",
+    "solve_time": "21:38",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Coleoptera (Arrow Entropic X)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QVT",
+    "author": "tallcat",
+    "difficulty": 3,
+    "solve_date": "14. Januar 2026",
+    "solve_time": "09:35",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Waves",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QXV",
+    "author": "RandyDan",
+    "difficulty": 4,
+    "solve_date": "13. Januar 2026",
+    "solve_time": "23:49",
+    "solver_count": 0,
+    "rating_percent": 94
+  },
+  {
+    "name": "You Can't Park Here (Double Arrow)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QQ0",
+    "author": "damo_89",
+    "difficulty": 2,
+    "solve_date": "11. Januar 2026",
+    "solve_time": "23:37",
+    "solver_count": 0,
+    "rating_percent": 98
+  },
+  {
+    "name": "Hammerhead",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QV8",
+    "author": "cygne",
+    "difficulty": 4,
+    "solve_date": "10. Januar 2026",
+    "solve_time": "08:36",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Reflections",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QW1",
+    "author": "Wuschel",
+    "difficulty": 2,
+    "solve_date": "9. Januar 2026",
+    "solve_time": "20:31",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "Color Wheel",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QWI",
+    "author": "idanz",
+    "difficulty": 2,
+    "solve_date": "9. Januar 2026",
+    "solve_time": "00:12",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "Colours in the (k)night XXI",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000Q26",
+    "author": "Villse",
+    "difficulty": 3,
+    "solve_date": "8. Januar 2026",
+    "solve_time": "17:32",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "The adventure begins",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QWJ",
+    "author": "isajo4002",
+    "difficulty": 3,
+    "solve_date": "8. Januar 2026",
+    "solve_time": "14:58",
+    "solver_count": 0,
+    "rating_percent": 94
+  },
+  {
+    "name": "Generic Claritin (Killer, Region Sum Lines)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QVD",
+    "author": "Chefofdeath",
+    "difficulty": 3,
+    "solve_date": "8. Januar 2026",
+    "solve_time": "08:54",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Hooked On Fun-ics (Arrow, Killer & Quads)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QUG",
+    "author": "99%Sneaky",
+    "difficulty": 2,
+    "solve_date": "5. Januar 2026",
+    "solve_time": "08:54",
+    "solver_count": 0,
+    "rating_percent": 93
+  },
+  {
+    "name": "Heavy Fog",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QVF",
+    "author": "juggler",
+    "difficulty": 1,
+    "solve_date": "5. Januar 2026",
+    "solve_time": "07:26",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Tolling (Nala‘s Adventures #25",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QTE",
+    "author": "SandraNala",
+    "difficulty": 2,
+    "solve_date": "5. Januar 2026",
+    "solve_time": "06:20",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Cloud Connected",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QTK",
+    "author": "DarthSillious72",
+    "difficulty": 2,
+    "solve_date": "4. Januar 2026",
+    "solve_time": "21:16",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "2026 Killer",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QUE",
+    "author": "Florian Wortmann",
+    "difficulty": 3,
+    "solve_date": "4. Januar 2026",
+    "solve_time": "11:27",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Disjoint Bowling in the Fog",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QR2",
+    "author": "meggen033",
+    "difficulty": 1,
+    "solve_date": "29. Dezember 2025",
+    "solve_time": "16:22",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Sprinkles (Region Sum Lines)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QO8",
+    "author": "sujoyku",
+    "difficulty": 2,
+    "solve_date": "29. Dezember 2025",
+    "solve_time": "13:18",
+    "solver_count": 0,
+    "rating_percent": 98
+  },
+  {
+    "name": "Green Tinsel and Baubles",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QO9",
+    "author": "marty_sears",
+    "difficulty": 2,
+    "solve_date": "26. Dezember 2025",
+    "solve_time": "22:06",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Little Pythagoras",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QPN",
+    "author": "sandini",
+    "difficulty": 1,
+    "solve_date": "26. Dezember 2025",
+    "solve_time": "17:07",
+    "solver_count": 0,
+    "rating_percent": 89
+  },
+  {
+    "name": "4 Line Theorem",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QMF",
+    "author": "Manta-Ray",
+    "difficulty": 5,
+    "solve_date": "26. Dezember 2025",
+    "solve_time": "00:25",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "Clockwork (Sum-Product Frame Sudoku)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QKW",
+    "author": "Qodec",
+    "difficulty": 5,
+    "solve_date": "21. Dezember 2025",
+    "solve_time": "23:49",
+    "solver_count": 0,
+    "rating_percent": 98
+  },
+  {
+    "name": "Kindergarten Class",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QLV",
+    "author": "Hiyou167",
+    "difficulty": 2,
+    "solve_date": "19. Dezember 2025",
+    "solve_time": "23:54",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Easy Peasy Sudoku Advent (19) - Little Palindromes",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QLO",
+    "author": "Richard",
+    "difficulty": 2,
+    "solve_date": "19. Dezember 2025",
+    "solve_time": "19:18",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Colorado 16",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QL8",
+    "author": "Florian Wortmann",
+    "difficulty": 3,
+    "solve_date": "19. Dezember 2025",
+    "solve_time": "00:46",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "HSSC Appetizer (1) - Sudoku Mathrax",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QK7",
+    "author": "Richard",
+    "difficulty": 3,
+    "solve_date": "18. Dezember 2025",
+    "solve_time": "22:45",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Easy Peasy Sudoku Advent (16) - Y-Sums",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QK5",
+    "author": "Richard",
+    "difficulty": 2,
+    "solve_date": "17. Dezember 2025",
+    "solve_time": "08:04",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "Minesweeper",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QKT",
+    "author": "juggler",
+    "difficulty": 2,
+    "solve_date": "16. Dezember 2025",
+    "solve_time": "22:06",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
     "name": "Easy Peasy Sudoku Advent (14) - Consecutive Sums",
     "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000QJI",
     "author": "Richard",
     "difficulty": 2,
-    "solve_date": "Gestern",
+    "solve_date": "14. Dezember 2025",
     "solve_time": "00:33",
     "solver_count": 122,
     "rating_percent": 98

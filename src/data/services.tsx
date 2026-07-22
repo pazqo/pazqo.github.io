@@ -5,8 +5,8 @@ const iconClass = "w-10 h-10"
 export const services = [
   {
     icon: <FlaskConical className={iconClass} strokeWidth={1.5} />,
-    title: 'Research Engineer | inait',
-    description: 'Building testing frameworks for timeseries forecasting experiments at inait, a Lausanne-based neuroscience and AI company.',
+    title: 'Principal ML Engineer | RedHat',
+    description: 'Working on vLLM and Inference Engineering with the llm-d team at RedHat.',
   },
   {
     icon: <Code className={iconClass} strokeWidth={1.5} />,
@@ -25,7 +25,11 @@ export const services = [
   {
     icon: <Puzzle className={iconClass} strokeWidth={1.5} />,
     title: 'Everything Puzzles',
-    description: 'I love puzzles, from sudoku variations to mechanical puzzles.',
+    description: (
+      <>
+        I love puzzles, from sudoku variations to mechanical puzzles. I even designed <a href="/ouroboros" className="text-orange-yellow-crayola hover:underline">Ouroboros</a>, which I presented at IPP26.
+      </>
+    ),
   },
   {
     icon: <Sparkles className={iconClass} strokeWidth={1.5} />,

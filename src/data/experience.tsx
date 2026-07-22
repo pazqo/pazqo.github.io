@@ -1,7 +1,16 @@
 export const workExperience = [
   {
+    title: 'Principal Machine Learning Engineer @ RedHat',
+    dateRange: 'Jul 2026 — Present',
+    description: (
+      <>
+        llm-d team, vLLM, Inference Engineering.
+      </>
+    ),
+  },
+  {
     title: 'Senior Research Engineer @ inait',
-    dateRange: 'Jun 2025 — Present',
+    dateRange: 'Jun 2025 — Jun 2026',
     description: (
       <>
         Refactored legacy components to lower technical debt and streamline model integration.
@@ -74,6 +83,7 @@ export const publications = [
 
 export const achievements = [
   { icon: '🥇', text: "Gold Medal ARC AGI '24 (11th place)", url: 'https://www.kaggle.com/competitions/arc-prize-2024/leaderboard' },
+  { icon: '🧩', text: 'Presented Ouroboros at IPP26 (International Puzzle Party 2026)', url: '/ouroboros' },
   { icon: '⭐', text: 'Advent of Code: 524 stars (2015-2025)', url: 'https://adventofcode.com' },
   { icon: '🧮', text: 'Project Euler: 165+ problems solved', url: 'https://projecteuler.net/profile/pazqo.png' },
   { icon: '🧩', text: 'Logic Masters: 840+ Sudoku Variations solved', url: 'https://logic-masters.de/Raetselportal/Benutzer/geloest.php?name=pazqo' },

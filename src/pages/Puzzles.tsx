@@ -130,19 +130,25 @@ export default function Puzzles() {
             <a href="https://www.janestreet.com/puzzles/some-ones-somewhere-index/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
               June 25 - Some Ones, Somewhere
             </a>
-            {' '}- Visual puzzle, perfect for last year.
+            {' '}- Visual puzzle, perfect for 2025.
           </li>
           <li>
             <a href="https://www.janestreet.com/puzzles/subtiles-2-index/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
-              February 26 - Subtiles 2 (Current)
+              February 26 - Subtiles 2
             </a>
             {' '}- Diophantine formulas and subtiles
           </li>
           <li>
-            <a href="https://www.janestreet.com/puzzles/current-puzzle/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
-              May 26 - Arch Madness (Current)
+            <a href="https://www.janestreet.com/puzzles/arch-madness-index/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              May 26 - Arch Madness
             </a>
-            {' '}- Diophantine formulas and subtiles
+            {' '}- Arcs and regions and numbers, oh my!
+          </li>
+          <li>
+            <a href="https://www.janestreet.com/puzzles/current-puzzle/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              July 26 - ‘Pent-Up’ Frustration 3 / Knight Moves 7
+            </a>
+            {' '}- 3d knight's tour and pentominoes.
           </li>
           {/* Add solved puzzles here */}
         </ul>

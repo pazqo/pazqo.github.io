@@ -1,5 +1,145 @@
 [
   {
+    "name": "Roommates",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U4Y",
+    "author": "vitray",
+    "difficulty": 1,
+    "solve_date": "1. August 2026",
+    "solve_time": "10:25",
+    "solver_count": 0,
+    "rating_percent": 93
+  },
+  {
+    "name": "N's Neighbour Sums",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U4I",
+    "author": "Flinty",
+    "difficulty": 3,
+    "solve_date": "1. August 2026",
+    "solve_time": "09:53",
+    "solver_count": 0,
+    "rating_percent": 98
+  },
+  {
+    "name": "Renbarrows: Consecutive Consequences",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U3R",
+    "author": "logzmort",
+    "difficulty": 2,
+    "solve_date": "31. Juli 2026",
+    "solve_time": "23:00",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Secret Windmill",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U3J",
+    "author": "marty_sears",
+    "difficulty": 1,
+    "solve_date": "30. Juli 2026",
+    "solve_time": "15:02",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Stay Cool!",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U2S",
+    "author": "The Pi Guy",
+    "difficulty": 2,
+    "solve_date": "30. Juli 2026",
+    "solve_time": "12:48",
+    "solver_count": 0,
+    "rating_percent": 93
+  },
+  {
+    "name": "Tactful (Killer Sudoku)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U2P",
+    "author": "Ambrose",
+    "difficulty": 2,
+    "solve_date": "29. Juli 2026",
+    "solve_time": "00:38",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Pairing Order and Chaos",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U21",
+    "author": "sujoyku",
+    "difficulty": 3,
+    "solve_date": "28. Juli 2026",
+    "solve_time": "18:16",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "Hitcount Arrows",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U1P",
+    "author": "juggler",
+    "difficulty": 3,
+    "solve_date": "27. Juli 2026",
+    "solve_time": "13:03",
+    "solver_count": 0,
+    "rating_percent": 93
+  },
+  {
+    "name": "Tucumcari",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U1H",
+    "author": "jwsinclair",
+    "difficulty": 3,
+    "solve_date": "26. Juli 2026",
+    "solve_time": "15:34",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "The Eigenvalue Problem",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TWZ",
+    "author": "Tobias Brixner",
+    "difficulty": 3,
+    "solve_date": "25. Juli 2026",
+    "solve_time": "19:29",
+    "solver_count": 0,
+    "rating_percent": 0
+  },
+  {
+    "name": "Circumdifference",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U02",
+    "author": "Kaktuslav",
+    "difficulty": 2,
+    "solve_date": "24. Juli 2026",
+    "solve_time": "17:53",
+    "solver_count": 0,
+    "rating_percent": 98
+  },
+  {
+    "name": "Firing Across Borders",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U0F",
+    "author": "marty_sears",
+    "difficulty": 2,
+    "solve_date": "24. Juli 2026",
+    "solve_time": "00:30",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "Ascending From Chaos",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TXA",
+    "author": "sujoyku",
+    "difficulty": 3,
+    "solve_date": "23. Juli 2026",
+    "solve_time": "22:12",
+    "solver_count": 0,
+    "rating_percent": 98
+  },
+  {
+    "name": "German whisper 1976 (50mathSWU)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TXE",
+    "author": "ivaylagergova",
+    "difficulty": 2,
+    "solve_date": "22. Juli 2026",
+    "solve_time": "12:43",
+    "solver_count": 0,
+    "rating_percent": 93
+  },
+  {
     "name": "Dissonance",
     "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000TZ6",
     "author": "vitray",

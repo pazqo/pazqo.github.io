@@ -145,10 +145,16 @@ export default function Puzzles() {
             {' '}- Arcs and regions and numbers, oh my!
           </li>
           <li>
-            <a href="https://www.janestreet.com/puzzles/current-puzzle/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+            <a href="https://www.janestreet.com/puzzles/pent-up-frustration-3-knight-moves-7-index/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
               July 26 - ‘Pent-Up’ Frustration 3 / Knight Moves 7
             </a>
             {' '}- 3d knight's tour and pentominoes.
+          </li>
+          <li>
+            <a href="https://www.janestreet.com/puzzles/current-puzzle/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              August 26 - Andy's Afternoon Amble
+            </a>
+            {' '}- Local topology vs random walks.
           </li>
           {/* Add solved puzzles here */}
         </ul>

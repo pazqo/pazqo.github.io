@@ -1,5 +1,85 @@
 [
   {
+    "name": "cave painting",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U7T",
+    "author": "DocLogic",
+    "difficulty": 1,
+    "solve_date": "9. August 2026",
+    "solve_time": "14:32",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Yggdrasil (Circled X-Sums)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U7X",
+    "author": "Crusader175",
+    "difficulty": 4,
+    "solve_date": "9. August 2026",
+    "solve_time": "12:15",
+    "solver_count": 0,
+    "rating_percent": 98
+  },
+  {
+    "name": "Queen Of Spades",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U8D",
+    "author": "Tingo",
+    "difficulty": 1,
+    "solve_date": "7. August 2026",
+    "solve_time": "23:39",
+    "solver_count": 0,
+    "rating_percent": 93
+  },
+  {
+    "name": "This Way Up",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U74",
+    "author": "99%Sneaky",
+    "difficulty": 3,
+    "solve_date": "7. August 2026",
+    "solve_time": "16:03",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Santa Clara",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U3O",
+    "author": "Blobz",
+    "difficulty": 2,
+    "solve_date": "4. August 2026",
+    "solve_time": "12:49",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Whispers of Omega",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U4V",
+    "author": "starchacer",
+    "difficulty": 2,
+    "solve_date": "3. August 2026",
+    "solve_time": "08:35",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Stop Sign",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U3N",
+    "author": "Blobz",
+    "difficulty": 2,
+    "solve_date": "2. August 2026",
+    "solve_time": "18:46",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "The Great Escape",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U5C",
+    "author": "vitray",
+    "difficulty": 1,
+    "solve_date": "2. August 2026",
+    "solve_time": "12:06",
+    "solver_count": 0,
+    "rating_percent": 87
+  },
+  {
     "name": "Roommates",
     "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U4Y",
     "author": "vitray",

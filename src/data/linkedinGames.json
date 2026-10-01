@@ -1,10 +1,10 @@
 [
-  { "name": "Queens", "plays": 730, "winPct": 100, "best": "0:07", "streak": 615 },
-  { "name": "Tango", "plays": 651, "winPct": 100, "best": "0:15", "streak": 635 },
-  { "name": "Crossclimb", "plays": 701, "winPct": 98, "best": "0:21", "streak": 635 },
-  { "name": "Pinpoint", "plays": 702, "winPct": 94, "best": "1", "streak": 339 },
-  { "name": "Zip", "plays": 492, "winPct": 100, "best": "0:04", "streak": 492 },
-  { "name": "Mini Sudoku", "plays": 345, "winPct": 100, "best": "0:33", "streak": 345 },
-  { "name": "Patches", "plays": 127, "winPct": 100, "best": "0:05", "streak": 127 },
-  { "name": "Wend", "plays": 44, "winPct": 100, "best": "0:12", "streak": 44 }
+  { "name": "Queens", "plays": 801, "winPct": 100, "best": "0:07", "streak": 686 },
+  { "name": "Tango", "plays": 722, "winPct": 100, "best": "0:15", "streak": 706 },
+  { "name": "Crossclimb", "plays": 772, "winPct": 99, "best": "0:21", "streak": 706 },
+  { "name": "Pinpoint", "plays": 773, "winPct": 94, "best": "1", "streak": 410 },
+  { "name": "Zip", "plays": 563, "winPct": 100, "best": "0:04", "streak": 563 },
+  { "name": "Mini Sudoku", "plays": 416, "winPct": 100, "best": "0:33", "streak": 416 },
+  { "name": "Patches", "plays": 198, "winPct": 100, "best": "0:05", "streak": 198 },
+  { "name": "Wend", "plays": 115, "winPct": 100, "best": "0:09", "streak": 115 }
 ]

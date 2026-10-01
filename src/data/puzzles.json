@@ -1,5 +1,415 @@
 [
   {
+    "name": "Easy as 1, 2, 4",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000V79",
+    "author": "billybeth",
+    "difficulty": 1,
+    "solve_date": "29. September 2026",
+    "solve_time": "15:55",
+    "solver_count": 0,
+    "rating_percent": 90
+  },
+  {
+    "name": "Intertwined (Region Sum German Whispers Sudoku)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000V3S",
+    "author": "Agent",
+    "difficulty": 2,
+    "solve_date": "29. September 2026",
+    "solve_time": "08:13",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Detachment (Anti-King Killer)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000V4W",
+    "author": "waxwax",
+    "difficulty": 2,
+    "solve_date": "28. September 2026",
+    "solve_time": "00:43",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Sudoku Variants Series (486) - Hitpoints",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000V4H",
+    "author": "Richard",
+    "difficulty": 3,
+    "solve_date": "26. September 2026",
+    "solve_time": "08:16",
+    "solver_count": 0,
+    "rating_percent": 99
+  },
+  {
+    "name": "Al Hedison Couldn't Be This Fly",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000V1P",
+    "author": "lgastako",
+    "difficulty": 1,
+    "solve_date": "25. September 2026",
+    "solve_time": "16:44",
+    "solver_count": 0,
+    "rating_percent": 92
+  },
+  {
+    "name": "Right Turn Only (Arrows)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000V3Z",
+    "author": "Chilly",
+    "difficulty": 2,
+    "solve_date": "25. September 2026",
+    "solve_time": "11:38",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Fog of War 42",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000V3H",
+    "author": "Sudonym",
+    "difficulty": 1,
+    "solve_date": "24. September 2026",
+    "solve_time": "00:27",
+    "solver_count": 0,
+    "rating_percent": 84
+  },
+  {
+    "name": "Modular Miracle",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000V2C",
+    "author": "masetab",
+    "difficulty": 1,
+    "solve_date": "23. September 2026",
+    "solve_time": "21:14",
+    "solver_count": 0,
+    "rating_percent": 92
+  },
+  {
+    "name": "Emergence",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000V2X",
+    "author": "vitray",
+    "difficulty": 1,
+    "solve_date": "23. September 2026",
+    "solve_time": "18:39",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Canon",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000V2F",
+    "author": "Tessarin",
+    "difficulty": 1,
+    "solve_date": "23. September 2026",
+    "solve_time": "12:33",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "The Grass is Always Greener in the Other Corners",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000V1O",
+    "author": "sujoyku",
+    "difficulty": 2,
+    "solve_date": "23. September 2026",
+    "solve_time": "08:59",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Sssss",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000V0O",
+    "author": "StrandofIvy",
+    "difficulty": 2,
+    "solve_date": "20. September 2026",
+    "solve_time": "21:12",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Kingpot",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000V0R",
+    "author": "gwai77",
+    "difficulty": 2,
+    "solve_date": "20. September 2026",
+    "solve_time": "10:07",
+    "solver_count": 0,
+    "rating_percent": 76
+  },
+  {
+    "name": "Furrowed (Renban Between Lines)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UYS",
+    "author": "tallcat",
+    "difficulty": 3,
+    "solve_date": "20. September 2026",
+    "solve_time": "00:31",
+    "solver_count": 0,
+    "rating_percent": 98
+  },
+  {
+    "name": "Fog of war #41",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UZF",
+    "author": "Sudonym",
+    "difficulty": 1,
+    "solve_date": "19. September 2026",
+    "solve_time": "14:59",
+    "solver_count": 0,
+    "rating_percent": 87
+  },
+  {
+    "name": "The Sky is the Index",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UZO",
+    "author": "PrissyP",
+    "difficulty": 2,
+    "solve_date": "18. September 2026",
+    "solve_time": "23:26",
+    "solver_count": 0,
+    "rating_percent": 94
+  },
+  {
+    "name": "Boost",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U27",
+    "author": "AllesUgo",
+    "difficulty": 1,
+    "solve_date": "18. September 2026",
+    "solve_time": "18:28",
+    "solver_count": 0,
+    "rating_percent": 93
+  },
+  {
+    "name": "Bubbles",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UX5",
+    "author": "Nelyn",
+    "difficulty": 1,
+    "solve_date": "17. September 2026",
+    "solve_time": "14:52",
+    "solver_count": 0,
+    "rating_percent": 94
+  },
+  {
+    "name": "Dude, Where Are My Dots?",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UVP",
+    "author": "j0bs",
+    "difficulty": 1,
+    "solve_date": "14. September 2026",
+    "solve_time": "20:59",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Coin",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UVR",
+    "author": "iEtsh",
+    "difficulty": 1,
+    "solve_date": "14. September 2026",
+    "solve_time": "17:53",
+    "solver_count": 0,
+    "rating_percent": 94
+  },
+  {
+    "name": "Crust",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UU8",
+    "author": "fuxia",
+    "difficulty": 1,
+    "solve_date": "14. September 2026",
+    "solve_time": "08:26",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Wekiera",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UQM",
+    "author": "Kaktuslav",
+    "difficulty": 4,
+    "solve_date": "14. September 2026",
+    "solve_time": "00:33",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Zebra",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UST",
+    "author": "Evan",
+    "difficulty": 1,
+    "solve_date": "11. September 2026",
+    "solve_time": "18:09",
+    "solver_count": 0,
+    "rating_percent": 92
+  },
+  {
+    "name": "German Uni-parity lines",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000USF",
+    "author": "Ollos",
+    "difficulty": 1,
+    "solve_date": "9. September 2026",
+    "solve_time": "17:20",
+    "solver_count": 0,
+    "rating_percent": 92
+  },
+  {
+    "name": "Nebulous Instructions",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000URD",
+    "author": "sujoyku",
+    "difficulty": 2,
+    "solve_date": "7. September 2026",
+    "solve_time": "22:57",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "See?",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UO1",
+    "author": "barnacle",
+    "difficulty": 2,
+    "solve_date": "3. September 2026",
+    "solve_time": "12:51",
+    "solver_count": 0,
+    "rating_percent": 94
+  },
+  {
+    "name": "Sadseven",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UNA",
+    "author": "gwai77",
+    "difficulty": 2,
+    "solve_date": "2. September 2026",
+    "solve_time": "11:05",
+    "solver_count": 0,
+    "rating_percent": 88
+  },
+  {
+    "name": "Twirled",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UM6",
+    "author": "sujoyku",
+    "difficulty": 2,
+    "solve_date": "31. August 2026",
+    "solve_time": "21:06",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Whispering Kettles",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UMA",
+    "author": "vitray",
+    "difficulty": 1,
+    "solve_date": "30. August 2026",
+    "solve_time": "22:34",
+    "solver_count": 0,
+    "rating_percent": 94
+  },
+  {
+    "name": "Questionably",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UMK",
+    "author": "TrivialHomology",
+    "difficulty": 1,
+    "solve_date": "30. August 2026",
+    "solve_time": "20:42",
+    "solver_count": 0,
+    "rating_percent": 92
+  },
+  {
+    "name": "Atomic Chaos",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UMH",
+    "author": "Zinker",
+    "difficulty": 1,
+    "solve_date": "30. August 2026",
+    "solve_time": "14:35",
+    "solver_count": 0,
+    "rating_percent": 92
+  },
+  {
+    "name": "Heat Thingy Of The Universe",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000ULB",
+    "author": "gdc",
+    "difficulty": 2,
+    "solve_date": "29. August 2026",
+    "solve_time": "10:59",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Severely Limited",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UJR",
+    "author": "sujoyku",
+    "difficulty": 1,
+    "solve_date": "27. August 2026",
+    "solve_time": "21:04",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Double Counting",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UIU",
+    "author": "jwsinclair",
+    "difficulty": 3,
+    "solve_date": "27. August 2026",
+    "solve_time": "00:47",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Accuracy",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UIL",
+    "author": "sujoyku",
+    "difficulty": 3,
+    "solve_date": "25. August 2026",
+    "solve_time": "22:12",
+    "solver_count": 0,
+    "rating_percent": 94
+  },
+  {
+    "name": "Born on the GAS of July",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UIG",
+    "author": "lgastako",
+    "difficulty": 1,
+    "solve_date": "24. August 2026",
+    "solve_time": "16:47",
+    "solver_count": 0,
+    "rating_percent": 93
+  },
+  {
+    "name": "Clueless Sudoku 16",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UBR",
+    "author": "AlfSmith",
+    "difficulty": 2,
+    "solve_date": "17. August 2026",
+    "solve_time": "20:34",
+    "solver_count": 0,
+    "rating_percent": 91
+  },
+  {
+    "name": "Hitbox",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UCP",
+    "author": "Killer Joe",
+    "difficulty": 1,
+    "solve_date": "15. August 2026",
+    "solve_time": "00:43",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Wiggles",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000UB3",
+    "author": "zetamath",
+    "difficulty": 2,
+    "solve_date": "14. August 2026",
+    "solve_time": "01:13",
+    "solver_count": 0,
+    "rating_percent": 98
+  },
+  {
+    "name": "Glob (Global Entropy, Kropki Pairs)",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U9U",
+    "author": "Chefofdeath",
+    "difficulty": 3,
+    "solve_date": "11. August 2026",
+    "solve_time": "21:20",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "159 Whispers",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000FHJ",
+    "author": "Blobz",
+    "difficulty": 2,
+    "solve_date": "10. August 2026",
+    "solve_time": "21:51",
+    "solver_count": 0,
+    "rating_percent": 92
+  },
+  {
     "name": "cave painting",
     "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000U7T",
     "author": "DocLogic",

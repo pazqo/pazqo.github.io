@@ -151,10 +151,16 @@ export default function Puzzles() {
             {' '}- 3d knight's tour and pentominoes.
           </li>
           <li>
-            <a href="https://www.janestreet.com/puzzles/current-puzzle/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+            <a href="https://www.janestreet.com/puzzles/andys-afternoon-amble-index/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
               August 26 - Andy's Afternoon Amble
             </a>
             {' '}- Local topology vs random walks.
+          </li>
+          <li>
+            <a href="https://www.janestreet.com/puzzles/current-puzzle/" target="_blank" rel="noopener noreferrer" className={primaryLinkClass}>
+              September 26 - Hint Singles
+            </a>
+            {' '}- Slongs with some extra, and unknown brands.
           </li>
           {/* Add solved puzzles here */}
         </ul>

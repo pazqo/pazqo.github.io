@@ -114,9 +114,12 @@ function readSavedConfigurations(puzzle: NationPuzzleDefinition): SavedConfigura
     return parsed.flatMap(item => {
       if (!item || typeof item !== 'object') return []
       const config = item as Partial<SavedConfiguration>
-      if (typeof config.id !== 'string' || typeof config.name !== 'string'
-        || typeof config.savedAt !== 'number' || !isGameSnapshot(config, puzzle.size)) return []
-      return [{ ...normalizeSnapshot(config), id: config.id, name: config.name, savedAt: config.savedAt }]
+      const id = config.id
+      const name = config.name
+      const savedAt = config.savedAt
+      if (typeof id !== 'string' || typeof name !== 'string'
+        || typeof savedAt !== 'number' || !isGameSnapshot(config, puzzle.size)) return []
+      return [{ ...normalizeSnapshot(config), id, name, savedAt }]
     })
   } catch {
     return []

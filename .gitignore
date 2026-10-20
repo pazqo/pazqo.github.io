@@ -40,3 +40,6 @@ scripts/.venv
 ctc_puzzles.json
 nikoli_100_puzzles.json
 src/data/sudoku_bench_puzzles.json
+
+# tmp
+janestreet_playground/

@@ -25,11 +25,9 @@ export default function NationPuzzle() {
         <h1 className={`text-fs-2 font-bold mb-2 ${
           theme === 'dark' ? 'text-white-2' : 'text-light-text'
         }`}>
-          Nation Puzzle
+          It's a Metric, Too
         </h1>
-        <p className={`text-fs-6 ${textClass}`}>
-          Partition the grid into connected, symmetric states with a capitol.
-        </p>
+        <h3>by JaneStreet</h3>
         <a
           href="https://www.janestreet.com/puzzles/current-puzzle/"
           target="_blank"

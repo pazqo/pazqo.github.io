@@ -10,6 +10,7 @@ import Sudoku from './pages/Sudoku'
 import Games from './pages/Games'
 import ConnectWords from './pages/ConnectWords'
 import BlackWhite from './pages/BlackWhite'
+import NationPuzzle from './pages/NationPuzzle'
 import Blog from './pages/Blog'
 import BlogPost from './pages/BlogPost'
 import Ouroboros from './pages/Ouroboros'
@@ -46,6 +47,7 @@ function App() {
             <Route path="/games" element={<Games />} />
             <Route path="/games/connect-words" element={<ConnectWords />} />
             <Route path="/games/black-white" element={<BlackWhite />} />
+            <Route path="/games/nation-puzzle" element={<NationPuzzle />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
           </Routes>

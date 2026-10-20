@@ -1,0 +1,156 @@
+{
+  "dailyPuzzles": [
+    {
+      "id": "linkedin-games",
+      "title": "LinkedIn Games",
+      "url": "https://www.linkedin.com/games/",
+      "description": "A variety of daily puzzles including 6x6 Sudoku, Queens and more.",
+      "relatedLink": {
+        "before": "If you want to challenge me, connect on ",
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/pazqo/",
+        "after": "! My stats:"
+      },
+      "showLinkedInStats": true
+    },
+    {
+      "id": "stars-fields",
+      "title": "Stars + Fields by Inkwell Games",
+      "url": "https://inkwellgames.com/",
+      "description": "Classic Startbattle daily puzzle, plus Fields (probably more to come)"
+    },
+    {
+      "id": "replicube",
+      "title": "Replicube",
+      "url": "https://replicube.xyz/staging/",
+      "description": "Use Lua code to generate the picture/animation of the day (actually, Mon + Wed + Fri)"
+    },
+    {
+      "id": "enclose-horse",
+      "title": "Enclose Horse",
+      "url": "https://enclose.horse/",
+      "description": "Create the largest enclosed area with limited blockers. Tricky to get the optimal score!"
+    },
+    {
+      "id": "clues-by-sam",
+      "title": "Clues by Sam",
+      "url": "https://cluesbysam.com/",
+      "description": "Solve the mistery by unveiling Innocents and Criminals."
+    },
+    {
+      "id": "raddle-quest",
+      "title": "Raddle Quest",
+      "url": "https://raddle.quest/",
+      "description": "A word-transformation game."
+    },
+    {
+      "id": "syllo",
+      "title": "Syllo",
+      "url": "https://www.reddit.com/r/syllo/",
+      "description": "A reddit-hosted syllable arrangement game."
+    },
+    {
+      "id": "thinky-games",
+      "title": "Thinky Games",
+      "url": "https://thinkygames.com/dailies/",
+      "description": "A new puzzle every day, differnt varieties, and story based too!"
+    },
+    {
+      "id": "minute-cryptic",
+      "title": "Minute Cryptic",
+      "url": "https://www.minutecryptic.com/",
+      "description": "Daily cryptic crossword puzzles - 1 clue only, but tricky!"
+    }
+  ],
+  "interestingPuzzleResources": [
+    {
+      "id": "maze-generation",
+      "title": "Maze generation algorithms",
+      "url": "https://www.jamisbuck.org/mazes/",
+      "description": "A collection of visualizations of different maze generation algorithms."
+    }
+  ],
+  "janeStreetPuzzlesPageLink": {
+    "title": "Jane Street",
+    "url": "https://www.janestreet.com/puzzles/"
+  },
+  "janeStreetPuzzles": [
+    {
+      "id": "altered-states-2",
+      "title": "June 24 - Altered States 2",
+      "url": "https://www.janestreet.com/puzzles/altered-states-2-index/",
+      "description": "Grid exploration with edit distance."
+    },
+    {
+      "id": "hall-of-mirrors-3",
+      "title": "March 25 - Hall of Mirrors 3",
+      "url": "https://www.janestreet.com/puzzles/hall-of-mirrors-3-index/",
+      "description": "Maximizing laser reflections."
+    },
+    {
+      "id": "sum-one-somewhere",
+      "title": "April 25 - Sum One, Somewhere",
+      "url": "https://www.janestreet.com/puzzles/sum-one-somewhere-index/",
+      "description": "Probabily in infinite trees."
+    },
+    {
+      "id": "some-ones-somewhere",
+      "title": "June 25 - Some Ones, Somewhere",
+      "url": "https://www.janestreet.com/puzzles/some-ones-somewhere-index/",
+      "description": "Visual puzzle, perfect for 2025."
+    },
+    {
+      "id": "subtiles-2",
+      "title": "February 26 - Subtiles 2",
+      "url": "https://www.janestreet.com/puzzles/subtiles-2-index/",
+      "description": "Diophantine formulas and subtiles"
+    },
+    {
+      "id": "arch-madness",
+      "title": "May 26 - Arch Madness",
+      "url": "https://www.janestreet.com/puzzles/arch-madness-index/",
+      "description": "Arcs and regions and numbers, oh my!"
+    },
+    {
+      "id": "pent-up-frustration-3",
+      "title": "July 26 - ‘Pent-Up’ Frustration 3 / Knight Moves 7",
+      "url": "https://www.janestreet.com/puzzles/pent-up-frustration-3-knight-moves-7-index/",
+      "description": "3d knight's tour and pentominoes."
+    },
+    {
+      "id": "andys-afternoon-amble",
+      "title": "August 26 - Andy's Afternoon Amble",
+      "url": "https://www.janestreet.com/puzzles/andys-afternoon-amble-index/",
+      "description": "Local topology vs random walks."
+    },
+    {
+      "id": "hint-singles",
+      "title": "September 26 - Hint Singles",
+      "url": "https://www.janestreet.com/puzzles/hint-singles-index/",
+      "description": "Slongs with some extra, and unknown brands."
+    },
+    {
+      "id": "october-26",
+      "title": "October 26 - It's a Metric, Too",
+      "url": "https://www.janestreet.com/puzzles/current-puzzle/",
+      "description": "Metrics, sometimes with detours.",
+      "widget": "/games/nation-puzzle"
+    }
+  ],
+  "mechanicalPuzzles": [
+    {
+      "id": "ouroboros",
+      "title": "Ouroboros",
+      "url": "/ouroboros",
+      "description": "My first mechanical puzzle design",
+      "internal": true
+    },
+    {
+      "id": "puzzle-collection",
+      "title": "My Collection",
+      "url": "/puzzle-collection",
+      "description": "Browse my personal puzzle collection with photos",
+      "internal": true
+    }
+  ]
+}

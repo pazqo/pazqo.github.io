@@ -1,0 +1,488 @@
+.np-game {
+  --np-accent: hsl(185, 85%, 55%);
+  --np-line: hsl(230, 15%, 78%);
+  --np-border-strong: hsl(230, 20%, 20%);
+  --np-surface: #fff;
+  --np-text: hsl(230, 30%, 18%);
+  --np-muted: hsl(220, 15%, 43%);
+  --np-ok: hsl(145, 60%, 34%);
+  --np-bad: hsl(0, 68%, 47%);
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  flex-wrap: wrap;
+  color: var(--np-text);
+}
+
+.np-game.dark {
+  --np-line: hsl(230, 15%, 31%);
+  --np-border-strong: hsl(210, 15%, 91%);
+  --np-surface: hsl(230, 22%, 16%);
+  --np-text: hsl(210, 15%, 95%);
+  --np-muted: hsl(220, 12%, 72%);
+  --np-ok: hsl(145, 55%, 58%);
+  --np-bad: hsl(0, 85%, 72%);
+}
+
+.np-tabs {
+  --np-tab-accent: hsl(185, 75%, 40%);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid hsl(230, 15%, 78%);
+}
+
+.dark .np-tabs {
+  --np-tab-accent: hsl(185, 85%, 55%);
+  border-bottom-color: hsl(230, 15%, 31%);
+}
+
+.np-tab {
+  padding: 9px 13px;
+  color: hsl(220, 15%, 43%);
+  font-size: 13px;
+  font-weight: 500;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  border-radius: 6px 6px 0 0;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.dark .np-tab {
+  color: hsl(220, 12%, 72%);
+}
+
+.np-tab:hover {
+  color: var(--np-tab-accent);
+  background: rgba(128, 128, 128, 0.08);
+}
+
+.np-tab.is-active {
+  color: var(--np-tab-accent);
+  border-bottom-color: var(--np-tab-accent);
+}
+
+.np-tab:focus-visible {
+  outline: 2px solid var(--np-tab-accent);
+  outline-offset: -2px;
+}
+
+.np-board-section {
+  flex: 1 1 440px;
+  min-width: 0;
+}
+
+.np-board {
+  display: grid;
+  grid-template-columns: repeat(11, minmax(0, 1fr));
+  grid-template-rows: repeat(11, minmax(0, 1fr));
+  width: min(100%, 506px);
+  margin: 0 auto;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: var(--np-surface);
+  border: 3px solid var(--np-border-strong);
+  touch-action: none;
+  user-select: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.14);
+}
+
+.np-cell {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+  color: var(--np-text);
+  border-radius: 0;
+  cursor: crosshair;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.np-clue {
+  position: absolute;
+  top: 1px;
+  left: 3px;
+  z-index: 1;
+  font-family: Georgia, serif;
+  font-size: clamp(10px, 2.3vw, 16px);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.np-capital {
+  position: absolute;
+  top: 1px;
+  right: 2px;
+  font-size: clamp(9px, 1.9vw, 12px);
+  line-height: 1;
+}
+
+.np-cell-lock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: var(--np-text);
+  opacity: 0.8;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.6));
+}
+
+.np-cost {
+  position: absolute;
+  right: 2px;
+  bottom: 1px;
+  font-size: clamp(7px, 1.55vw, 10px);
+  line-height: 1;
+  color: var(--np-muted);
+}
+
+.np-cost.is-match,
+.np-cost.is-mismatch {
+  font-weight: 700;
+}
+
+.np-cost.is-match {
+  color: var(--np-ok);
+}
+
+.np-cost.is-mismatch {
+  color: var(--np-bad);
+}
+
+.np-size {
+  position: absolute;
+  bottom: 1px;
+  left: 2px;
+  font-size: clamp(7px, 1.55vw, 10px);
+  line-height: 1;
+  color: var(--np-muted);
+}
+
+.np-board-note {
+  margin: 9px 0 0;
+  color: var(--np-muted);
+  font-size: 12px;
+  text-align: center;
+}
+
+.np-controls {
+  flex: 1 1 260px;
+  min-width: min(250px, 100%);
+}
+
+.np-state-list {
+  display: grid;
+  gap: 4px;
+  margin-top: 12px;
+}
+
+.np-state-row {
+  display: flex;
+  min-width: 0;
+  gap: 4px;
+}
+
+.np-no-configs {
+  margin: 0;
+  padding: 8px 2px;
+  color: var(--np-muted);
+  font-size: 11px;
+}
+
+.np-state {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 42px;
+  padding: 6px 8px;
+  color: var(--np-text);
+  text-align: left;
+  background: var(--np-surface);
+  border: 2px solid transparent;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+  flex: 1;
+  min-width: 0;
+}
+
+.np-state:hover {
+  transform: translateX(2px);
+}
+
+.np-state.is-selected {
+  border-color: var(--np-accent);
+}
+
+.np-state-lock {
+  display: grid;
+  flex: 0 0 38px;
+  place-items: center;
+  color: var(--np-muted);
+  background: var(--np-surface);
+  border: 1px solid var(--np-line);
+  border-radius: 7px;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.np-state-lock:hover,
+.np-state-lock.is-locked {
+  color: var(--np-accent);
+  border-color: var(--np-accent);
+}
+
+.np-swatch {
+  flex: 0 0 19px;
+  width: 19px;
+  height: 19px;
+  border: 1px solid var(--np-line);
+  border-radius: 5px;
+}
+
+.np-eraser-swatch {
+  background: transparent;
+}
+
+.np-state-copy {
+  display: grid;
+  min-width: 0;
+  gap: 1px;
+}
+
+.np-state-copy strong {
+  overflow: hidden;
+  font-size: 12px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.np-state-copy small {
+  overflow: hidden;
+  color: var(--np-muted);
+  font-size: 11px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.np-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.np-actions button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 6px 10px;
+  color: var(--np-text);
+  font-size: 12px;
+  background: var(--np-surface);
+  border: 1px solid var(--np-line);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.np-actions button:hover {
+  color: var(--np-accent);
+  border-color: var(--np-accent);
+}
+
+.np-actions button:disabled,
+.np-save-form button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.np-display-toggles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 14px;
+  margin-top: 10px;
+}
+
+.np-cost-toggle {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--np-muted);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.np-cost-toggle input {
+  accent-color: var(--np-accent);
+}
+
+.np-message {
+  margin-top: 10px;
+  padding: 9px 10px;
+  color: var(--np-text);
+  font-size: 12px;
+  line-height: 1.5;
+  background: var(--np-surface);
+  border: 1px solid var(--np-line);
+  border-radius: 7px;
+}
+
+.np-message.is-solved {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  color: hsl(145, 62%, 30%);
+  background: hsl(145, 55%, 93%);
+  border-color: hsl(145, 42%, 70%);
+  font-weight: 600;
+}
+
+.np-progress-score {
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.dark .np-message.is-solved {
+  color: hsl(145, 55%, 72%);
+  background: hsl(150, 30%, 17%);
+  border-color: hsl(145, 35%, 35%);
+}
+
+.np-configurations {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--np-line);
+}
+
+.np-configurations h2 {
+  margin: 0 0 8px;
+  color: var(--np-text);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.np-save-form {
+  display: flex;
+  gap: 6px;
+}
+
+.np-save-form input {
+  flex: 1;
+  min-width: 0;
+  padding: 7px 8px;
+  color: var(--np-text);
+  font: inherit;
+  font-size: 12px;
+  background: var(--np-surface);
+  border: 1px solid var(--np-line);
+  border-radius: 6px;
+}
+
+.np-save-form input:focus {
+  border-color: var(--np-accent);
+  outline: 1px solid var(--np-accent);
+}
+
+.np-save-form button {
+  padding: 6px 11px;
+  color: hsl(230, 25%, 14%);
+  font-size: 12px;
+  font-weight: 600;
+  background: var(--np-accent);
+  border: 1px solid var(--np-accent);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.np-config-list {
+  display: grid;
+  gap: 5px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.np-config-list li {
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+  background: var(--np-surface);
+  border: 1px solid var(--np-line);
+  border-radius: 6px;
+}
+
+.np-config-load {
+  display: grid;
+  flex: 1;
+  min-width: 0;
+  gap: 2px;
+  padding: 7px 9px;
+  color: var(--np-text);
+  text-align: left;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.np-config-load:hover strong {
+  color: var(--np-accent);
+}
+
+.np-config-load strong {
+  overflow: hidden;
+  font-size: 11px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.np-config-load small {
+  color: var(--np-muted);
+  font-size: 10px;
+}
+
+.np-config-delete {
+  display: grid;
+  flex: 0 0 34px;
+  place-items: center;
+  color: var(--np-muted);
+  background: transparent;
+  border: 0;
+  border-left: 1px solid var(--np-line);
+  cursor: pointer;
+}
+
+.np-config-delete:hover {
+  color: var(--np-bad);
+}
+
+.np-help {
+  margin: 10px 0 0;
+  color: var(--np-muted);
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+@media (max-width: 520px) {
+  .np-game {
+    gap: 14px;
+  }
+
+  .np-board-section {
+    flex-basis: 100%;
+  }
+
+  .np-controls {
+    flex-basis: 100%;
+  }
+}

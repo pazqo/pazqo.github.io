@@ -50,6 +50,16 @@ export default function NationPuzzle() {
         </p>
       </blockquote>
 
+      <aside className={`mb-6 rounded-r-md border-l-4 border-orange-yellow-crayola px-4 py-3 text-fs-7 ${
+        theme === 'dark' ? 'bg-jet/40 text-light-gray' : 'bg-light-gray/40 text-light-muted'
+      }`}>
+        If you’re interested in puzzles, check out my very own mechanical puzzle creation,{' '}
+        <Link to="/ouroboros" className="font-semibold text-orange-yellow-crayola hover:underline">
+          Ouroboros
+        </Link>
+        .
+      </aside>
+
       <div className="np-tabs" role="tablist" aria-label="Choose a Nation puzzle">
         {(Object.values(NATION_PUZZLES)).map(puzzle => (
           <button

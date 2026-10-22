@@ -116,6 +116,31 @@ export default function Games() {
               </span>
             </div>
           </Link>
+          <Link
+            to="/games/hall-of-mirrors"
+            className={`block p-5 rounded-lg border-2 transition-all ${cardClass}`}
+          >
+            <h3 className={`text-fs-5 font-semibold mb-2 ${
+              theme === 'dark' ? 'text-white-2' : 'text-light-text'
+            }`}>
+              Hall of Mirrors 3
+            </h3>
+            <p className={`text-fs-7 ${textClass}`}>
+              Place diagonal mirrors, trace the lasers, and match the segment products to the clues.
+            </p>
+            <div className="mt-3 flex gap-2">
+              <span className={`text-fs-8 px-2 py-1 rounded ${
+                theme === 'dark' ? 'bg-jet text-light-gray' : 'bg-gray-100 text-gray-600'
+              }`}>
+                Logic Puzzle
+              </span>
+              <span className={`text-fs-8 px-2 py-1 rounded ${
+                theme === 'dark' ? 'bg-jet text-light-gray' : 'bg-gray-100 text-gray-600'
+              }`}>
+                Grid
+              </span>
+            </div>
+          </Link>
         </div>
       </section>
     </>

@@ -354,9 +354,9 @@ export default function HallOfMirrorsGame({ puzzle }: HallOfMirrorsGameProps) {
                 <button
                   key={laser.id}
                   type="button"
-                  aria-label={`${laser.side} laser ${laser.index + 1}${laser.clue ? `, clue ${laser.clue.target}` : ''}`}
+                  aria-label={`${laser.side} laser ${laser.index + 1}`}
                   aria-pressed={selected}
-                  className={`hm-laser-dot${active ? ' is-active' : ''}${laser.clue && pathById.get(laser.id)?.product === BigInt(laser.clue.target) ? ' is-matched' : ''}`}
+                  className={`hm-laser-dot${active ? ' is-active' : ''}`}
                   style={position}
                   onMouseEnter={() => hoverLaser(laser.id)}
                   onMouseLeave={() => clearHover(laser.id)}

@@ -108,7 +108,8 @@ export default function Puzzles() {
         <SectionTitle>Jane Street Puzzles</SectionTitle>
         <p className={`text-fs-7 mb-3 ${textClass}`}>
           Monthly puzzles from <a href={puzzlePageData.janeStreetPuzzlesPageLink.url} target="_blank" rel="noopener noreferrer" className={linkClass}>{puzzlePageData.janeStreetPuzzlesPageLink.title}</a> - challenging math and logic problems.{' '}
-          You can find me as <b>pazqo</b> in the list of submissions, usually in the solution page.
+          You can find me as <b>pazqo</b> in the list of submissions, usually in the solution page.{' '}
+          You can also find me on the <a href="https://jspuzzle-lb.vercel.app/" target="_blank" rel="noopener noreferrer" className={linkClass}>global leaderboard</a> (not official!).
         </p>
         <ul className={`text-fs-6 space-y-2 ${textClass}`}>
           {renderPuzzleItems(janeStreetPuzzles)}

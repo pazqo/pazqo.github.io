@@ -1,5 +1,135 @@
 [
   {
+    "name": "Royalty",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000VIK",
+    "author": "jwsinclair",
+    "difficulty": 2,
+    "solve_date": "18. Oktober 2026",
+    "solve_time": "00:48",
+    "solver_count": 0,
+    "rating_percent": 97
+  },
+  {
+    "name": "Brain Waves",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000VHO",
+    "author": "Nemefish",
+    "difficulty": 3,
+    "solve_date": "16. Oktober 2026",
+    "solve_time": "21:48",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Febrile STEMI",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000VFZ",
+    "author": "Ambivalent",
+    "difficulty": 3,
+    "solve_date": "14. Oktober 2026",
+    "solve_time": "22:30",
+    "solver_count": 0,
+    "rating_percent": 94
+  },
+  {
+    "name": "Shade",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000VDV",
+    "author": "mathpesto",
+    "difficulty": 3,
+    "solve_date": "12. Oktober 2026",
+    "solve_time": "22:33",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Some X-Sums",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000VD3",
+    "author": "GiAnMMV",
+    "difficulty": 1,
+    "solve_date": "9. Oktober 2026",
+    "solve_time": "17:06",
+    "solver_count": 0,
+    "rating_percent": 88
+  },
+  {
+    "name": "ソ",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000VDY",
+    "author": "juggler",
+    "difficulty": 1,
+    "solve_date": "9. Oktober 2026",
+    "solve_time": "13:03",
+    "solver_count": 0,
+    "rating_percent": 94
+  },
+  {
+    "name": "post scriptum",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000VAM",
+    "author": "aqjhs",
+    "difficulty": 2,
+    "solve_date": "9. Oktober 2026",
+    "solve_time": "00:34",
+    "solver_count": 0,
+    "rating_percent": 96
+  },
+  {
+    "name": "Fifteen Minutes of Fame",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000VCQ",
+    "author": "billybeth",
+    "difficulty": 2,
+    "solve_date": "8. Oktober 2026",
+    "solve_time": "16:02",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Pointing Out Whispers",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000VDC",
+    "author": "yttrio",
+    "difficulty": 2,
+    "solve_date": "7. Oktober 2026",
+    "solve_time": "11:57",
+    "solver_count": 0,
+    "rating_percent": 98
+  },
+  {
+    "name": "Off The Record",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000VCM",
+    "author": "Ambivalent",
+    "difficulty": 2,
+    "solve_date": "6. Oktober 2026",
+    "solve_time": "22:30",
+    "solver_count": 0,
+    "rating_percent": 95
+  },
+  {
+    "name": "Staples",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000VBQ",
+    "author": "Jay Dyer",
+    "difficulty": 3,
+    "solve_date": "5. Oktober 2026",
+    "solve_time": "08:35",
+    "solver_count": 0,
+    "rating_percent": 98
+  },
+  {
+    "name": "The killing kind",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000VAC",
+    "author": "isajo4002",
+    "difficulty": 3,
+    "solve_date": "3. Oktober 2026",
+    "solve_time": "08:19",
+    "solver_count": 0,
+    "rating_percent": 86
+  },
+  {
+    "name": "Palindromeda",
+    "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000V7S",
+    "author": "lgastako",
+    "difficulty": 1,
+    "solve_date": "2. Oktober 2026",
+    "solve_time": "08:01",
+    "solver_count": 0,
+    "rating_percent": 93
+  },
+  {
     "name": "Easy as 1, 2, 4",
     "link": "https://logic-masters.de/Raetselportal/Raetsel/zeigen.php?id=000V79",
     "author": "billybeth",

@@ -14,11 +14,11 @@ export default function Games() {
   return (
     <>
       <header>
-        <ArticleTitle>Games</ArticleTitle>
+        <ArticleTitle>Games/Apps</ArticleTitle>
       </header>
 
       <p className={`text-fs-6 mb-4 ${textClass}`}>
-        A collection of word and logic games I've created to challenge your brain.
+        Word and logic games to challenge your brain, and small apps to explore.
       </p>
       <p className={`text-fs-7 mb-8 ${textClass}`}>
         Have feedback or ideas? Drop me a line at{' '}
@@ -142,6 +142,18 @@ export default function Games() {
             </div>
           </Link>
         </div>
+      </section>
+      <section className="mt-8">
+        <SectionTitle>Apps</SectionTitle>
+        <Link to="/apps/circle-map" className={`block p-5 rounded-lg border-2 transition-all ${cardClass}`}>
+          <h3 className={`text-fs-5 font-semibold mb-2 ${theme === 'dark' ? 'text-white-2' : 'text-light-text'}`}>Circle Map</h3>
+          <p className={`text-fs-7 ${textClass}`}>
+            What's a circle away? Choose cities and distances, then discover the largest cities along their circles.
+          </p>
+          <div className="mt-3 flex gap-2">
+            {['Geography', 'Interactive Map'].map(tag => <span key={tag} className={`text-fs-8 px-2 py-1 rounded ${theme === 'dark' ? 'bg-jet text-light-gray' : 'bg-gray-100 text-gray-600'}`}>{tag}</span>)}
+          </div>
+        </Link>
       </section>
     </>
   )

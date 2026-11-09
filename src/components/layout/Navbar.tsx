@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import { useTheme } from '../../context/ThemeContext'
 
 const navItems = [
@@ -7,12 +7,13 @@ const navItems = [
   // { path: '/misc', label: 'Misc' },
   { path: '/puzzles', label: 'Puzzles' },
   { path: '/sudoku', label: 'Sudoku' },
-  { path: '/games', label: 'Games' },
+  { path: '/games', label: 'Games/Apps' },
   { path: '/blog', label: 'Blog' },
 ]
 
 export default function Navbar() {
   const { theme } = useTheme()
+  const { pathname } = useLocation()
 
   return (
     <nav className={`fixed bottom-0 left-0 right-0 lg:absolute lg:bottom-auto lg:top-0 lg:left-auto lg:right-0 lg:w-auto rounded-t-xl lg:rounded-bl-20 lg:rounded-tr-20 shadow-shadow-2 lg:shadow-none backdrop-blur-md z-10 ${
@@ -20,15 +21,15 @@ export default function Navbar() {
         ? 'bg-onyx/75 border border-jet'
         : 'bg-white/75 border border-gray-200'
     }`}>
-      <ul className="flex justify-center items-center gap-2 md:gap-5 lg:gap-8 px-3 lg:px-5">
+      <ul className="flex justify-center items-center gap-0 md:gap-3 lg:gap-4 px-1 lg:px-4">
         {navItems.map(({ path, label }) => (
           <li key={path}>
             <NavLink
               to={path}
               className={({ isActive }) => `
-                block py-4 lg:py-5 px-2 text-fs-8 md:text-fs-7 lg:text-fs-6 font-medium transition-colors
+                block py-4 lg:py-5 px-1.5 text-fs-8 md:text-fs-7 lg:text-fs-6 font-medium transition-colors
                 border-b-2 -mb-[2px]
-                ${isActive
+                ${(isActive || (path === '/games' && pathname.startsWith('/apps/')))
                   ? 'text-orange-yellow-crayola border-orange-yellow-crayola'
                   : theme === 'dark'
                     ? 'text-light-gray hover:text-light-gray-70 border-transparent'

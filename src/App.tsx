@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { lazy, Suspense, useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import usePageTracking from './hooks/usePageTracking'
 import Layout from './components/layout/Layout'
@@ -15,6 +15,8 @@ import HallOfMirrors from './pages/HallOfMirrors'
 import Blog from './pages/Blog'
 import BlogPost from './pages/BlogPost'
 import Ouroboros from './pages/Ouroboros'
+
+const CircleMap = lazy(() => import('./pages/CircleMap'))
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -46,6 +48,7 @@ function App() {
             <Route path="/puzzle-collection" element={<PuzzleCollection />} />
             <Route path="/sudoku" element={<Sudoku />} />
             <Route path="/games" element={<Games />} />
+            <Route path="/apps/circle-map" element={<Suspense fallback={<p>Loading Circle Map…</p>}><CircleMap /></Suspense>} />
             <Route path="/games/connect-words" element={<ConnectWords />} />
             <Route path="/games/black-white" element={<BlackWhite />} />
             <Route path="/games/nation-puzzle" element={<NationPuzzle />} />

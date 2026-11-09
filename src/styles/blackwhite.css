@@ -1,9 +1,9 @@
 /* Black & White Path Game Styles */
 
 .bw-game {
-  --bw-accent: hsl(185, 85%, 55%);
+  --bw-accent: var(--accent);
   --bw-accent-hover: hsl(185, 75%, 45%);
-  --bw-path-color: hsl(185, 85%, 55%);
+  --bw-path-color: var(--accent);
 }
 
 /* Cell base styles */

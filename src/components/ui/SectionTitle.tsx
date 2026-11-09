@@ -9,7 +9,7 @@ export default function SectionTitle({ children, className = '' }: SectionTitleP
   const { theme } = useTheme()
 
   return (
-    <h3 className={`text-fs-2 md:text-xl font-medium mb-5 ${
+    <h3 className={`section-title text-fs-2 md:text-xl font-medium mb-5 ${
       theme === 'dark' ? 'text-white-2' : 'text-light-text'
     } ${className}`}>
       {children}

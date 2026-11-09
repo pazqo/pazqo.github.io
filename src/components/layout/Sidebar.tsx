@@ -8,7 +8,7 @@ export default function Sidebar() {
   const { theme } = useTheme()
 
   return (
-    <aside className={`rounded-20 p-4 md:p-8 shadow-shadow-1 border mb-4 lg:mb-0 lg:sticky lg:top-4 lg:w-72 lg:self-start transition-all duration-500 overflow-hidden ${
+    <aside className={`site-panel site-profile rounded-20 p-4 md:p-8 shadow-shadow-1 border mb-4 lg:mb-0 lg:sticky lg:top-4 lg:w-72 lg:self-start transition-all duration-500 overflow-hidden ${
       theme === 'dark'
         ? 'bg-eerie-black-2 border-jet'
         : 'bg-light-card border-gray-200'
@@ -16,7 +16,7 @@ export default function Sidebar() {
 
       {/* Basic Info */}
       <div className="flex items-center gap-4 lg:flex-col lg:text-center relative">
-        <figure className="w-20 h-20 md:w-32 md:h-32 rounded-full overflow-hidden bg-gradient-onyx flex-shrink-0">
+        <figure className="neon-portrait w-20 h-20 md:w-32 md:h-32 rounded-full overflow-hidden bg-gradient-onyx flex-shrink-0">
           <img
             src="/images/pazqog.jpg"
             alt="Stefano Pascolutti"

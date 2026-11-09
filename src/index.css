@@ -2,22 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Base styles - Refn aesthetic (deep blue-purple, cyan accent) */
+/* Neon noir palette. HSL channels also power Tailwind opacity modifiers. */
 :root {
-  --bg-primary: hsl(230, 22%, 16%);
-  --bg-card: hsl(230, 20%, 20%);
-  --text-primary: hsl(210, 15%, 95%);
-  --text-secondary: hsl(220, 12%, 72%);
-  --accent: hsl(185, 85%, 55%);
+  color-scheme: dark;
+  --color-accent: 185 100% 60%;
+  --color-secondary: 326 100% 68%;
+  --bg-primary: hsl(250, 30%, 5%);
+  --bg-card: hsl(250, 22%, 11%);
+  --text-primary: hsl(260, 30%, 96%);
+  --text-secondary: hsl(250, 15%, 73%);
+  --accent: hsl(var(--color-accent));
+  --accent-secondary: hsl(var(--color-secondary));
 }
 
-/* Light theme overrides */
 .light {
-  --bg-primary: hsl(220, 30%, 96%);
+  color-scheme: light;
+  --color-accent: 185 100% 27%;
+  --color-secondary: 326 80% 42%;
+  --bg-primary: hsl(265, 35%, 97%);
   --bg-card: hsl(0, 0%, 100%);
-  --text-primary: hsl(230, 40%, 22%);
-  --text-secondary: hsl(220, 20%, 45%);
-  --accent: hsl(185, 75%, 40%);
+  --text-primary: hsl(255, 30%, 17%);
+  --text-secondary: hsl(255, 15%, 42%);
 }
 
 * {
@@ -39,8 +44,8 @@ body {
 
 /* Selection styling */
 ::selection {
-  background: hsl(185, 85%, 40%);
-  color: white;
+  background: hsl(var(--color-secondary) / .35);
+  color: var(--text-primary);
 }
 
 /* Custom scrollbar */
@@ -50,21 +55,21 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: hsl(230, 25%, 12%);
+  background: var(--bg-primary);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(185, 60%, 40%);
+  background: hsl(var(--color-secondary) / .55);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(185, 85%, 55%);
+  background: var(--accent-secondary);
 }
 
 /* Focus styles */
 :focus {
-  outline-color: hsl(185, 85%, 50%);
+  outline-color: var(--accent);
 }
 
 /* Link visited color */
@@ -97,4 +102,184 @@ details summary::-webkit-details-marker {
 
 details summary {
   list-style: none;
+}
+
+/* Neon light spills onto an ink-black architectural grid. */
+.site-shell {
+  position: relative;
+  isolation: isolate;
+}
+
+/* Viewport-sized layers keep the lighting identical on short and long pages. */
+.site-shell::before,
+.site-shell::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.site-shell::before {
+  background-image:
+    radial-gradient(ellipse at 0% 5%, hsl(var(--color-secondary) / .2), transparent 44%),
+    radial-gradient(ellipse at 100% 75%, hsl(var(--color-accent) / .14), transparent 42%);
+}
+
+.site-shell::after {
+  background-image:
+    linear-gradient(hsl(var(--color-accent) / .045) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(var(--color-accent) / .045) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: linear-gradient(to bottom, black, transparent 85%);
+}
+
+.dark .site-panel {
+  border-color: hsl(265 18% 20%);
+  background: linear-gradient(145deg, hsl(270 27% 11%), hsl(250 25% 8%) 60%);
+  box-shadow: 0 20px 60px #0005;
+}
+
+.dark .site-profile {
+  background: radial-gradient(ellipse at 50% 0%, hsl(300 55% 17% / .5), transparent 65%),
+    linear-gradient(hsl(250 25% 10%), hsl(250 25% 8%));
+}
+
+.neon-portrait {
+  border: 3px solid var(--bg-card);
+  box-shadow: 0 0 0 2px var(--accent-secondary), 0 0 24px hsl(var(--color-secondary) / .35), 12px 5px 35px hsl(var(--color-accent) / .15);
+}
+
+.dark .site-profile h1 {
+  text-shadow: 0 0 22px hsl(var(--color-secondary) / .3);
+}
+
+.site-navbar {
+  border-top-color: var(--accent-secondary);
+}
+
+.dark .site-navbar {
+  background: hsl(250 30% 7% / .94);
+  border-color: hsl(265 18% 20%);
+  box-shadow: 0 0 24px hsl(var(--color-secondary) / .08);
+}
+
+/* One continuous purple-to-blue progression across the menu. */
+.site-navbar li:nth-child(1) { --menu-hue: 280; }
+.site-navbar li:nth-child(2) { --menu-hue: 266; }
+.site-navbar li:nth-child(3) { --menu-hue: 252; }
+.site-navbar li:nth-child(4) { --menu-hue: 238; }
+.site-navbar li:nth-child(5) { --menu-hue: 224; }
+.site-navbar li:nth-child(6) { --menu-hue: 210; }
+
+.site-navbar a {
+  --menu-color: hsl(var(--menu-hue) 100% 78%);
+  position: relative;
+}
+
+.light .site-navbar a { --menu-color: hsl(var(--menu-hue) 70% 42%); }
+
+.site-navbar a:hover,
+.site-navbar a:focus-visible {
+  background: hsl(var(--menu-hue) 100% 65% / .08);
+}
+
+.site-navbar a.is-active {
+  color: var(--menu-color);
+  border-color: var(--menu-color);
+  background: linear-gradient(to top, hsl(var(--menu-hue) 100% 65% / .15), transparent 75%);
+}
+
+.dark .site-navbar a.is-active {
+  text-shadow: 0 0 14px hsl(var(--menu-hue) 100% 70% / .6);
+}
+
+.article-title {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -.04em;
+  padding-bottom: 16px;
+}
+
+.dark .article-title {
+  color: var(--accent);
+  text-shadow: 0 0 24px hsl(var(--color-accent) / .35);
+}
+
+.article-title::after {
+  width: 76px;
+  height: 3px;
+  box-shadow: 0 0 18px hsl(var(--color-secondary) / .65);
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section-title::before {
+  content: '';
+  width: 4px;
+  height: 18px;
+  border-radius: 2px;
+  background: var(--accent-secondary);
+  box-shadow: 0 0 14px hsl(var(--color-secondary) / .45);
+}
+
+.neon-service {
+  --service-accent: var(--color-accent);
+  border: 1px solid hsl(var(--service-accent) / .12);
+  overflow: hidden;
+  transition: border-color .2s, box-shadow .2s, transform .2s;
+}
+
+.neon-service:nth-child(even) {
+  --service-accent: var(--color-secondary);
+}
+
+.dark .neon-service {
+  background: radial-gradient(ellipse at 0% 0%, hsl(var(--service-accent) / .15), transparent 75%), hsl(250 25% 9%);
+  box-shadow: inset 0 1px 20px hsl(var(--service-accent) / .035), 0 8px 28px #0004;
+}
+
+.neon-service > div:first-child { display: none; }
+
+.neon-service > div:nth-child(2) {
+  color: hsl(var(--service-accent));
+  filter: drop-shadow(0 0 8px hsl(var(--service-accent) / .35));
+}
+
+.neon-service:hover {
+  border-color: hsl(var(--service-accent) / .3);
+  box-shadow: 0 0 28px hsl(var(--service-accent) / .15), inset 0 0 24px hsl(var(--service-accent) / .04);
+  transform: translateY(-3px);
+}
+
+.dark .neon-service h4 { color: hsl(var(--service-accent)); }
+
+.dark .site-panel a:not(.site-navbar a):hover {
+  text-shadow: 0 0 12px hsl(var(--color-accent) / .4);
+}
+
+.light .site-shell::before {
+  background-image: radial-gradient(ellipse at 0% 0%, hsl(var(--color-secondary) / .09), transparent 50%), radial-gradient(ellipse at 100% 80%, hsl(var(--color-accent) / .07), transparent 50%);
+}
+
+.light .neon-service { box-shadow: 0 6px 22px hsl(var(--service-accent) / .08); }
+
+@media (max-width: 540px) {
+  .article-title { font-size: 27px; }
+  .site-shell::after { background-size: 40px 40px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade { animation: none; }
+  .neon-service { transition: none; }
+  .neon-service:hover { transform: none; }
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }

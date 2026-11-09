@@ -1,5 +1,5 @@
 .np-game {
-  --np-accent: hsl(185, 85%, 55%);
+  --np-accent: var(--accent);
   --np-line: hsl(230, 15%, 78%);
   --np-border-strong: hsl(230, 20%, 20%);
   --np-surface: #fff;
@@ -17,15 +17,15 @@
 .np-game.dark {
   --np-line: hsl(230, 15%, 31%);
   --np-border-strong: hsl(210, 15%, 91%);
-  --np-surface: hsl(230, 22%, 16%);
-  --np-text: hsl(210, 15%, 95%);
-  --np-muted: hsl(220, 12%, 72%);
+  --np-surface: hsl(250, 24%, 9%);
+  --np-text: var(--text-primary);
+  --np-muted: var(--text-secondary);
   --np-ok: hsl(145, 55%, 58%);
   --np-bad: hsl(0, 85%, 72%);
 }
 
 .np-tabs {
-  --np-tab-accent: hsl(185, 75%, 40%);
+  --np-tab-accent: var(--accent);
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
@@ -34,7 +34,7 @@
 }
 
 .dark .np-tabs {
-  --np-tab-accent: hsl(185, 85%, 55%);
+  --np-tab-accent: var(--accent);
   border-bottom-color: hsl(230, 15%, 31%);
 }
 
@@ -52,7 +52,7 @@
 }
 
 .dark .np-tab {
-  color: hsl(220, 12%, 72%);
+  color: var(--text-secondary);
 }
 
 .np-tab:hover {

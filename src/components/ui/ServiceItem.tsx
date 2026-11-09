@@ -10,7 +10,7 @@ export default function ServiceItem({ icon, title, description }: ServiceItemPro
   const { theme } = useTheme()
 
   return (
-    <li className={`relative rounded-14 p-5 shadow-shadow-2 md:flex md:items-start md:gap-5 ${
+    <li className={`neon-service relative rounded-14 p-5 shadow-shadow-2 md:flex md:items-start md:gap-5 ${
       theme === 'dark'
         ? 'bg-border-gradient-onyx'
         : 'bg-white border border-gray-100'

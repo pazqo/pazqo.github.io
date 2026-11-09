@@ -9,27 +9,27 @@ const config: Config = {
         poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
-        // Refn aesthetic - deep blue-purple with electric cyan accent
-        jet: 'hsl(230, 20%, 20%)',            // cards
-        onyx: 'hsl(230, 22%, 16%)',           // background
+        // Neon noir: ink-black surfaces, cyan light, and hot pink accents
+        jet: 'hsl(252, 20%, 15%)',            // raised surfaces
+        onyx: 'hsl(250, 24%, 9%)',           // recessed surfaces
         'eerie-black': {
-          1: 'hsl(230, 18%, 24%)',            // borders
-          2: 'hsl(230, 16%, 28%)',            // hover states
+          1: 'hsl(252, 19%, 22%)',            // borders
+          2: 'hsl(250, 22%, 11%)',            // card surfaces
         },
-        'smoky-black': 'hsl(230, 25%, 12%)', // deeper bg
+        'smoky-black': 'hsl(250, 30%, 5%)', // deeper bg
         'white-1': 'hsl(0, 0%, 100%)',
-        'white-2': 'hsl(210, 15%, 95%)',     // main text (cool white)
-        'orange-yellow-crayola': 'hsl(185, 85%, 55%)', // electric cyan accent
-        'vegas-gold': 'hsl(195, 75%, 50%)',  // secondary cyan
-        'light-gray': 'hsl(220, 12%, 72%)',  // muted text
-        'light-gray-70': 'hsla(220, 12%, 72%, 0.7)',
-        'bittersweet-shimmer': 'hsl(320, 70%, 60%)',
+        'white-2': 'hsl(260, 30%, 96%)',     // main text (cool white)
+        'orange-yellow-crayola': 'hsl(var(--color-accent) / <alpha-value>)', // primary accent
+        'vegas-gold': 'hsl(var(--color-secondary) / <alpha-value>)',  // pink secondary accent
+        'light-gray': 'hsl(250, 15%, 73%)',  // muted text
+        'light-gray-70': 'hsla(250, 15%, 73%, 0.7)',
+        'bittersweet-shimmer': 'hsl(326, 100%, 68%)',
         light: {
-          bg: 'hsl(220, 30%, 96%)',
+          bg: 'hsl(265, 35%, 97%)',
           card: 'hsl(0, 0%, 100%)',
-          text: 'hsl(230, 40%, 22%)',
-          muted: 'hsl(220, 20%, 45%)',
-          accent: 'hsl(185, 75%, 40%)',
+          text: 'hsl(255, 30%, 17%)',
+          muted: 'hsl(255, 15%, 42%)',
+          accent: 'hsl(185, 100%, 27%)',
         },
         // Green theme for Ouroboros
         ouroboros: {
@@ -48,18 +48,18 @@ const config: Config = {
         },
       },
       backgroundImage: {
-        // Refn gradients - deep blue-purple with cyan accents
-        'gradient-onyx': 'linear-gradient(to bottom right, hsl(230, 22%, 18%) 3%, hsl(230, 25%, 12%) 97%)',
-        'gradient-jet': 'linear-gradient(to bottom right, hsla(230, 25%, 30%, 0.5) 0%, hsla(230, 22%, 20%, 0) 100%), hsl(230, 20%, 20%)',
-        'gradient-yellow': 'linear-gradient(to right, hsl(185, 85%, 55%), hsl(200, 80%, 50%))',
-        'border-gradient-onyx': 'linear-gradient(to bottom right, hsl(185, 60%, 45%) 0%, hsla(230, 22%, 24%, 0) 50%)',
+        // Neon accents stay concentrated around edges and small details.
+        'gradient-onyx': 'linear-gradient(145deg, hsl(265, 26%, 15%), hsl(250, 30%, 7%))',
+        'gradient-jet': 'linear-gradient(135deg, hsla(326, 100%, 65%, 0.07), transparent 65%), hsl(250, 22%, 11%)',
+        'gradient-yellow': 'linear-gradient(90deg, var(--accent), var(--accent-secondary))',
+        'border-gradient-onyx': 'linear-gradient(135deg, hsla(185, 100%, 60%, 0.18), hsla(326, 100%, 65%, 0.08) 55%, transparent)',
       },
       boxShadow: {
-        'shadow-1': '-4px 8px 24px hsla(230, 40%, 6%, 0.45)',
-        'shadow-2': '0 16px 30px hsla(230, 40%, 6%, 0.45)',
-        'shadow-3': '0 16px 40px hsla(230, 40%, 6%, 0.5)',
-        'shadow-4': '0 25px 50px hsla(230, 40%, 6%, 0.35)',
-        'shadow-5': '0 24px 80px hsla(230, 40%, 6%, 0.45)',
+        'shadow-1': '0 12px 36px hsla(250, 50%, 2%, 0.32), 0 0 0 1px hsla(270, 70%, 75%, 0.025)',
+        'shadow-2': '0 12px 30px hsla(250, 50%, 2%, 0.4)',
+        'shadow-3': '0 16px 40px hsla(250, 50%, 2%, 0.4)',
+        'shadow-4': '0 25px 50px hsla(250, 50%, 2%, 0.3)',
+        'shadow-5': '0 24px 80px hsla(250, 50%, 2%, 0.4)',
       },
       fontSize: {
         'fs-1': '24px',

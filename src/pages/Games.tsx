@@ -145,6 +145,15 @@ export default function Games() {
       </section>
       <section className="mt-8">
         <SectionTitle>Apps</SectionTitle>
+        <Link to="/apps/rectangle-lab" className={`block p-5 mb-4 rounded-lg border-2 transition-all ${cardClass}`}>
+          <h3 className={`text-fs-5 font-semibold mb-2 ${theme === 'dark' ? 'text-white-2' : 'text-light-text'}`}>Rectangle Lab</h3>
+          <p className={`text-fs-7 ${textClass}`}>
+            Pack a square with rectangles anchored at random points. Explore maximal choices and measure how much area you can cover.
+          </p>
+          <div className="mt-3 flex gap-2">
+            {['Experimental', 'Geometry'].map(tag => <span key={tag} className={`text-fs-8 px-2 py-1 rounded ${theme === 'dark' ? 'bg-jet text-light-gray' : 'bg-gray-100 text-gray-600'}`}>{tag}</span>)}
+          </div>
+        </Link>
         <Link to="/apps/circle-map" className={`block p-5 rounded-lg border-2 transition-all ${cardClass}`}>
           <h3 className={`text-fs-5 font-semibold mb-2 ${theme === 'dark' ? 'text-white-2' : 'text-light-text'}`}>Circle Map</h3>
           <p className={`text-fs-7 ${textClass}`}>

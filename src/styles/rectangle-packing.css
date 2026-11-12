@@ -1,0 +1,78 @@
+.rp-page { color: var(--text-primary); font-size: 13px; }
+.rp-back { display: inline-flex; align-items: center; gap: 8px; color: var(--text-secondary); margin-bottom: 24px; }
+.rp-intro { color: var(--text-secondary); line-height: 1.8; margin-bottom: 24px; }
+.rp-toolbar { display: flex; gap: 10px; align-items: end; flex-wrap: wrap; margin-bottom: 24px; }
+.rp-toolbar label { color: var(--text-secondary); font-size: 11px; }
+.rp-toolbar input, .rp-toolbar select { display: block; margin-top: 5px; width: 100px; padding: 9px; background: var(--bg-primary); color: var(--text-primary); border: 1px solid color-mix(in srgb, var(--text-secondary) 25%, transparent); border-radius: 8px; font: inherit; }
+.rp-page button { border: 1px solid color-mix(in srgb, var(--text-secondary) 25%, transparent); border-radius: 8px; padding: 9px 12px; display: inline-flex; justify-content: center; align-items: center; gap: 6px; transition: background .15s; }
+.rp-page button:hover:not(:disabled) { background: color-mix(in srgb, var(--accent) 8%, transparent); }
+.rp-page button:disabled { opacity: .35; cursor: default; }
+.rp-page button.is-selected { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.rp-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.rp-stats strong { display: block; font-size: clamp(18px, 3vw, 27px); font-weight: 600; color: var(--accent); }
+.rp-stats span { color: var(--text-secondary); font-size: 11px; }
+.rp-progress { height: 5px; background: color-mix(in srgb, var(--text-secondary) 15%, transparent); border-radius: 5px; margin: 14px 0 24px; overflow: hidden; }
+.rp-progress > span { display: block; height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-secondary)); }
+.rp-workspace { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(190px, 1fr); gap: 20px; }
+.rp-board-wrap { min-width: 0; }
+.rp-board { width: 100%; aspect-ratio: 1; display: block; overflow: visible; }
+.rp-square { fill: var(--bg-primary); stroke: var(--text-secondary); stroke-width: .3; }
+.rp-grid { color: var(--text-secondary); opacity: .35; pointer-events: none; }
+.rp-rectangle { fill-opacity: .2; stroke-width: .3; pointer-events: none; }
+.rp-area-label { fill: var(--text-primary); font-size: 2.2px; text-anchor: middle; dominant-baseline: middle; pointer-events: none; }
+.rp-preview { fill: var(--accent); fill-opacity: .14; stroke: var(--accent); stroke-width: .5; stroke-dasharray: 1.5 1; pointer-events: none; }
+.rp-point { cursor: pointer; outline: none; }
+.rp-hit { fill: transparent; }
+.rp-dot { fill: var(--text-primary); stroke: var(--bg-primary); stroke-width: .3; }
+.rp-point.is-placed .rp-dot { fill: var(--accent-secondary); }
+.rp-point.is-selected .rp-dot, .rp-point:hover .rp-dot, .rp-point:focus-visible .rp-dot { fill: var(--accent); stroke: var(--accent); }
+.rp-point.is-selected .rp-hit, .rp-point:focus-visible .rp-hit { fill: var(--accent); fill-opacity: .15; stroke: var(--accent); stroke-width: .2; }
+.rp-point text { font-size: 2.6px; fill: var(--text-primary); paint-order: stroke; stroke: var(--bg-primary); stroke-width: .65px; stroke-linejoin: round; pointer-events: none; }
+.rp-axis { fill: var(--text-secondary); font-size: 2.3px; }
+.rp-caption { color: var(--text-secondary); font-size: 10px; line-height: 1.8; margin: 6px 0 16px; }
+.rp-legend-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--text-primary); margin-right: 4px; }
+.rp-legend-preview { display: inline-block; width: 12px; height: 8px; border: 1px dashed var(--accent); margin: 0 4px 0 12px; }
+.rp-options { padding: 16px; border: 1px solid color-mix(in srgb, var(--text-secondary) 18%, transparent); border-radius: 12px; align-self: start; }
+.rp-page h3 { font-size: 15px; font-weight: 600; margin-bottom: 10px; }
+.rp-options p { font-size: 12px; line-height: 1.8; color: var(--text-secondary); margin-bottom: 12px; }
+.rp-candidates { display: grid; gap: 8px; max-height: 320px; overflow-y: auto; margin-bottom: 12px; }
+.rp-candidates button { width: 100%; justify-content: space-between; text-align: left; padding: 10px; flex-wrap: wrap; }
+.rp-candidates strong { font-weight: 500; }
+.rp-candidates small { display: block; font-size: 10px; color: var(--text-secondary); }
+.rp-page .rp-primary { width: 100%; background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--accent); border-color: var(--accent); }
+.rp-point-list { display: flex; gap: 6px; flex-wrap: wrap; margin: 10px 0 20px; }
+.rp-point-list button { font-size: 11px; padding: 6px 9px; }
+.rp-notice { padding: 12px; border-left: 2px solid var(--accent-secondary); color: var(--text-secondary); line-height: 1.8; margin-bottom: 20px; }
+.rp-placed { margin-top: 24px; }
+.rp-placed > div { display: flex; align-items: center; gap: 14px; padding: 8px 0; border-top: 1px solid color-mix(in srgb, var(--text-secondary) 15%, transparent); font-size: 12px; }
+.rp-placed > div > span:first-child { flex: 1; }
+.rp-placed i { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 8px; }
+.rp-placed button { font-size: 11px; padding: 5px 8px; }
+.rp-rules { color: var(--text-secondary); font-size: 12px; line-height: 1.8; margin-top: 28px; }
+.rp-rules summary { cursor: pointer; color: var(--accent); }
+.rp-rules p { margin-top: 12px; }
+@media (max-width: 640px) { .rp-workspace { grid-template-columns: 1fr; } .rp-toolbar { gap: 8px; } .rp-toolbar button { padding: 9px; font-size: 11px; } }
+
+.rp-toolbar select { width: auto; max-width: 100%; }
+.rp-layout-note { color: var(--text-secondary); font-size: 11px; line-height: 1.8; margin: -10px 0 20px; }
+.rp-experiments { margin-top: 28px; padding-top: 20px; border-top: 1px solid color-mix(in srgb, var(--text-secondary) 18%, transparent); }
+.rp-muted { color: var(--text-secondary); font-size: 12px; line-height: 1.8; margin-bottom: 12px; }
+.rp-save-controls { display: flex; align-items: end; gap: 10px; flex-wrap: wrap; margin: 12px 0; }
+.rp-save-controls input, .rp-save-controls select { background: var(--bg-primary); color: var(--text-primary); border: 1px solid color-mix(in srgb, var(--text-secondary) 25%, transparent); padding: 9px; border-radius: 8px; max-width: 100%; }
+.rp-save-controls input { min-width: 0; flex: 1; }
+.rp-save-controls label { color: var(--text-secondary); font-size: 11px; }
+.rp-save-controls select { display: block; margin-top: 5px; }
+.rp-saved-list { max-height: 360px; overflow-y: auto; }
+.rp-saved-list > div { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; padding: 12px 0; border-top: 1px solid color-mix(in srgb, var(--text-secondary) 12%, transparent); }
+.rp-saved-list > div > span { flex: 1; min-width: 120px; overflow-wrap: anywhere; }
+.rp-saved-list small { display: block; font-size: 10px; color: var(--text-secondary); margin-top: 4px; }
+.rp-saved-list button { font-size: 11px; padding: 6px 9px; }
+.rp-search-result { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; line-height: 1.8; }
+.rp-search-result strong { color: var(--accent); }
+.rp-search-result small { color: var(--text-secondary); }
+
+.rp-toolbar input:disabled { opacity: .55; }
+.rp-challenge { margin: 0 0 24px; padding: 16px; border-left: 2px solid var(--accent-secondary); background: color-mix(in srgb, var(--accent-secondary) 5%, transparent); border-radius: 0 10px 10px 0; }
+.rp-challenge p { color: var(--text-secondary); font-size: 12px; line-height: 1.8; margin-top: 10px; }
+.rp-challenge strong { color: var(--accent-secondary); }
+.rp-challenge a { color: var(--accent); text-decoration: underline; }

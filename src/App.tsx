@@ -16,6 +16,7 @@ import Blog from './pages/Blog'
 import BlogPost from './pages/BlogPost'
 import Ouroboros from './pages/Ouroboros'
 
+const RectanglePacking = lazy(() => import('./pages/RectanglePacking'))
 const CircleMap = lazy(() => import('./pages/CircleMap'))
 
 function ScrollToTop() {
@@ -48,6 +49,7 @@ function App() {
             <Route path="/puzzle-collection" element={<PuzzleCollection />} />
             <Route path="/sudoku" element={<Sudoku />} />
             <Route path="/games" element={<Games />} />
+            <Route path="/apps/rectangle-lab" element={<Suspense fallback={<p>Loading Rectangle Lab…</p>}><RectanglePacking /></Suspense>} />
             <Route path="/apps/circle-map" element={<Suspense fallback={<p>Loading Circle Map…</p>}><CircleMap /></Suspense>} />
             <Route path="/games/connect-words" element={<ConnectWords />} />
             <Route path="/games/black-white" element={<BlackWhite />} />

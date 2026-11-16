@@ -93,7 +93,13 @@ export default function CircleMap() {
       marker.bindTooltip(textNode(city.name)).bindPopup(textNode(`${city.name}, ${country(city)} · ${fmt(city.population)} people · ${city.hits.map(h => `${h.circle.origin.name}: ${fmt(h.distance)} km`).join(' / ')}`))
       markers.current.set(city.id, marker)
     }
-    return () => { instance.stop(); layer.remove() }
+    return () => {
+      // Map teardown runs first on unmount and already removes every layer.
+      // Calling stop() afterwards tries to reposition a destroyed map pane.
+      if (map.current !== instance) return
+      instance.stop()
+      layer.remove()
+    }
   }, [circles, matches, activeId])
 
   useEffect(() => {

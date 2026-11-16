@@ -109,6 +109,7 @@ export default function RectanglePacking() {
   return <div className="rp-page">
     <Link className="rp-back" to="/games"><ArrowLeft size={16} /> Back to Games/Apps</Link>
     <ArticleTitle>Rectangle Lab</ArticleTitle>
+    <p className="rp-notice">This is a work in progress. If something looks wrong or doesn't work as expected, please <a className="underline" href="mailto:pazqop@gmail.com?subject=Rectangle%20Lab%20feedback">contact me</a>.</p>
     <p className="rp-intro">How much of a square can you cover? The origin (0, 0) is always included, plus n−1 interior points in your chosen layout. Choose an anchor and explore its maximal rectangles.</p>
     <div className="rp-toolbar">
       <label>Number of points<input aria-label="Number of points" disabled={layout === 'staircase'} type="number" min="1" max="40" value={count} onChange={e => setCount(Math.max(1, Math.min(40, Number(e.target.value) || 1)))} /></label>

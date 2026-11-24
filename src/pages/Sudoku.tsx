@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import ArticleTitle from '../components/ui/ArticleTitle'
 import SectionTitle from '../components/ui/SectionTitle'
 import { useTheme } from '../context/ThemeContext'
@@ -171,6 +172,10 @@ export default function Sudoku() {
       <section className="mb-8">
         <SectionTitle>Sudoku Variant Resources</SectionTitle>
         <ul className={`text-fs-6 space-y-2 mb-4 ${textClass}`}>
+          <li>
+            <Link to="/sudoku/tips-and-tricks" className={linkClass}>Tips and Tricks</Link>
+            {' '}- Solving techniques for Sudoku variants
+          </li>
           <li>
             <a href="https://logic-masters.de/Raetselportal/Suche/spezial.php?listname=sudokus" target="_blank" rel="noopener noreferrer" className={linkClass}>
               Logic Masters - Sudokus

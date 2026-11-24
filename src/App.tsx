@@ -7,6 +7,7 @@ import Resume from './pages/Resume'
 import Puzzles from './pages/Puzzles'
 import PuzzleCollection from './pages/PuzzleCollection'
 import Sudoku from './pages/Sudoku'
+import SudokuTips from './pages/SudokuTips'
 import Games from './pages/Games'
 import ConnectWords from './pages/ConnectWords'
 import BlackWhite from './pages/BlackWhite'
@@ -48,6 +49,7 @@ function App() {
             <Route path="/puzzles" element={<Puzzles />} />
             <Route path="/puzzle-collection" element={<PuzzleCollection />} />
             <Route path="/sudoku" element={<Sudoku />} />
+            <Route path="/sudoku/tips-and-tricks" element={<SudokuTips />} />
             <Route path="/games" element={<Games />} />
             <Route path="/apps/rectangle-lab" element={<Suspense fallback={<p>Loading Rectangle Lab…</p>}><RectanglePacking /></Suspense>} />
             <Route path="/apps/circle-map" element={<Suspense fallback={<p>Loading Circle Map…</p>}><CircleMap /></Suspense>} />

@@ -148,6 +148,11 @@ details summary {
 .neon-portrait {
   border: 3px solid var(--bg-card);
   box-shadow: 0 0 0 2px var(--accent-secondary), 0 0 24px hsl(var(--color-secondary) / .35), 12px 5px 35px hsl(var(--color-accent) / .15);
+  transition: transform 220ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .neon-portrait:hover { transform: rotate(-4deg); }
 }
 
 .dark .site-profile h1 {
@@ -279,6 +284,8 @@ details summary {
   .animate-fade { animation: none; }
   .neon-service { transition: none; }
   .neon-service:hover { transform: none; }
+  .neon-portrait { transition: none; }
+  .neon-portrait:hover { transform: none; }
 }
 
 :focus-visible {

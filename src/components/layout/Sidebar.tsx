@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { Mail, MapPin, Linkedin, ChevronDown } from 'lucide-react'
 import { useTheme } from '../../context/ThemeContext'
 import ThemeToggle from './ThemeToggle'
@@ -16,13 +17,13 @@ export default function Sidebar() {
 
       {/* Basic Info */}
       <div className="flex items-center gap-4 lg:flex-col lg:text-center relative">
-        <figure className="neon-portrait w-20 h-20 md:w-32 md:h-32 rounded-full overflow-hidden bg-gradient-onyx flex-shrink-0">
+        <Link to="/" aria-label="About me" className="neon-portrait block w-20 h-20 md:w-32 md:h-32 rounded-full overflow-hidden bg-gradient-onyx flex-shrink-0">
           <img
             src="/images/pazqog.jpg"
             alt="Stefano Pascolutti"
             className="w-full h-full object-cover rounded-full"
           />
-        </figure>
+        </Link>
 
         <div className="flex-1 lg:w-full">
           <h1 className={`text-fs-3 md:text-lg font-medium mb-2 ${
